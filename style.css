@@ -264,7 +264,7 @@ text-decoration: none;
 
 
 /*----------- HOME MEDIA QUERIES -------------*/
-@media (min-width: 320px) and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .menu-category-list {
     display: none;
   }
@@ -326,7 +326,7 @@ text-decoration: none;
 
 }
 
-@media (min-width: 375px) and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 425px) {
   .menu-category-list {
     display: none;
   }
@@ -388,7 +388,7 @@ text-decoration: none;
 
 }
 
-@media (min-width: 425px) and (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 575px) {
   .menu-category-list {
     display: none;
   }

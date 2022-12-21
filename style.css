@@ -451,7 +451,14 @@ text-decoration: none;
 }
 
 
-@media (max-width: 426px) and (max-width: 768px){
+@media (min-width: 426px) and (max-width: 575px) {
+
+
+}
+
+
+
+@media (max-width: 425px) and (max-width: 768px){
   .menu-category-list {
     display: none;
   }

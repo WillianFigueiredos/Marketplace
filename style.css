@@ -243,13 +243,9 @@
     width: 90%;
   }
 
-
   .translate-middle{
-    transform: translate(4%, -60%) !important;
+    transform: translate(4%, -100%) !important;
   }
-
-
-
 
 }
 
@@ -302,7 +298,7 @@
   }
 
   .translate-middle{
-    transform: translate(4%, -60%) !important;
+    transform: translate(4%, -100%) !important;
   }
 
   #pic3 img{
@@ -362,12 +358,12 @@
   }
 
   .translate-middle{
-    transform: translate(4%, -60%) !important;
+    transform: translate(4%, -100%) !important;
   }
 
 
   .row img{
-    padding-left: 3.8rem !important;
+    padding-left: 3.7rem !important;
     width: auto;
   }
 

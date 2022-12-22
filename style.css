@@ -171,8 +171,6 @@
  color: var(--dylans-Blue);
  font-weight: 600;
  text-decoration: none;
-
-
 }
 
 .menu-category .menu-outline-btn{
@@ -233,7 +231,7 @@
     display: block; 
     position:absolute;
     right: 0.8rem; 
-    bottom: 6rem;
+    bottom: 5.8rem;
     font-size: 2.3rem;
   }
 
@@ -250,9 +248,7 @@
     transform: translate(4%, -60%) !important;
   }
 
-  .navbar{
-    --bs-navbar-toggler-padding-y: 0 !important;
-  }
+
 
 
 }
@@ -293,7 +289,7 @@
     display: block; 
     position:absolute;
     right: 0.8rem; 
-    bottom: 6rem;
+    bottom: 5.8rem;
     font-size: 2.3rem;
   }
 
@@ -352,8 +348,8 @@
   #cart{
     display: block; 
     position:absolute;
+    bottom: 5.8rem;
     right: 0.8rem; 
-    bottom: 6rem;
     font-size: 2.3rem;
   }
 
@@ -369,12 +365,9 @@
     transform: translate(4%, -60%) !important;
   }
 
-  .navbar{
-    --bs-navbar-toggler-padding-y: 0 !important;
-  }
 
   .row img{
-    padding-left: 4rem !important;
+    padding-left: 3.8rem !important;
     width: auto;
   }
 

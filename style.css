@@ -195,7 +195,7 @@
 
 /*----------- HOME MEDIA QUERIES -------------*/
 
-@media (max-width: 320px) {
+@media (max-width: 320px){
 
   .menu-category-list {
     display: none;
@@ -216,10 +216,10 @@
     color: var(--white);
   }
 
-  .navbar-toggler-icon ion-icon{
+  .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom: 7.24rem;
+    bottom:8.5rem !important;
     left: 0.5rem;
   }
 
@@ -228,11 +228,18 @@
   }
 
   #cart{
-    display: block; 
-    position:absolute;
-    right: 0.8rem; 
-    bottom: 5.8rem;
+    display: flex !important;
+    width:auto !important;
+    position: relative !important;
+    bottom:7.4rem  ;
+    right: 0.8rem !important; 
     font-size: 2.3rem;
+  }
+
+
+  .row {
+    padding-left: 0.4rem !important;
+    width: auto;
   }
 
   .d-flex span{
@@ -244,13 +251,15 @@
   }
 
   .translate-middle{
-    transform: translate(4%, -100%) !important;
+    transform: translate(4%, -60%) !important;
   }
+
 
 }
 
-@media (max-width: 375px) {
+@media (min-width: 321px ) and (max-width: 375px)  {
 
+  
   .menu-category-list {
     display: none;
   }
@@ -270,47 +279,51 @@
     color: var(--white);
   }
 
-  .navbar-toggler-icon ion-icon{
+  .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom: 7.24rem;
+    bottom:8.5rem !important;
     left: 0.5rem;
   }
+
 
   .shop-bag{
     display: none;
   }
 
   #cart{
-    display: block; 
-    position:absolute;
-    right: 0.8rem; 
-    bottom: 5.8rem;
+    display: flex !important;
+    width:auto !important;
+    position: relative !important;
+    bottom:7.4rem  ;
+    right: 0.8rem !important; 
     font-size: 2.3rem;
   }
 
-  .d-flex span{
-    display: none;
-  }
-
-  .form-control{
-    width: 90%;
-  }
-
-  .translate-middle{
-    transform: translate(4%, -100%) !important;
-  }
-
-  #pic3 img{
+  .row img{
     padding-left: 2rem !important;
     width: auto;
   }
 
+  .d-flex span{
+    display: none;
+  }
+
+  .form-control{
+    width: 90%;
+  }
+
+  .translate-middle{
+    transform: translate(4%, -60%) !important;
+  }
+
+
 }
 
 
-@media (max-width: 425px) {
+@media (min-width: 376px ) and (max-width: 425px) {
 
+ 
   .menu-category-list {
     display: none;
   }
@@ -330,23 +343,31 @@
     color: var(--white);
   }
 
-  .navbar-toggler-icon ion-icon{
+  .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom: 7.24rem;
+    bottom:8.5rem !important;
     left: 0.5rem;
   }
+
 
   .shop-bag{
     display: none;
   }
 
   #cart{
-    display: block; 
-    position:absolute;
-    bottom: 5.8rem;
-    right: 0.8rem; 
+    display: flex !important;
+    width:auto !important;
+    position: relative !important;
+    bottom:7.4rem  ;
+    right: 0.8rem !important; 
     font-size: 2.3rem;
+  }
+
+
+  .row img{
+    padding-left: 3.8rem !important;
+    width: auto;
   }
 
   .d-flex span{
@@ -358,15 +379,76 @@
   }
 
   .translate-middle{
-    transform: translate(4%, -100%) !important;
-  }
-
-
-  .row img{
-    padding-left: 3.6rem !important;
-    width: auto;
+    transform: translate(4%, -60%) !important;
   }
 
 }
+
+@media (min-width: 426px ) and (max-width: 768px){
+
+ 
+  .menu-category-list {
+    display: none;
+  }
+
+  .alert {
+    font-size: 0.8rem;
+  }
+
+  .navbar-toggler{
+    border: none;
+    color: transparent;
+  }
+
+  .navbar-toggler-icon{
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white);
+  }
+
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
+    position:absolute;
+    bottom:8.5rem !important;
+    left: 0.5rem;
+  }
+
+
+  .shop-bag{
+    display: none;
+  }
+
+  #cart{
+    display: flex !important;
+    width:auto !important;
+    position: relative !important;
+    bottom:7.4rem  ;
+    right: 0.8rem !important; 
+    font-size: 2.3rem;
+  }
+
+  .row img{
+    padding-left: 3.8rem !important;
+    width: auto;
+  }
+
+
+  .d-flex span{
+    display: none;
+  }
+
+  .form-control{
+    width: 90%;
+  }
+
+  .translate-middle{
+    transform: translate(4%, -60%) !important;
+  }
+
+
+}
+
+
+
 
 /*----------- END MEDIA QUERIES -------------*/

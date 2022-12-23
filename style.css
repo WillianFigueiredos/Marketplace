@@ -202,8 +202,8 @@
   }
 
   .alert {
-    top:0.4rem;
     font-size: 0.8rem;
+    margin: 0;
   }
 
   .navbar-toggler{
@@ -267,7 +267,9 @@
 
   .alert {
     font-size: 0.8rem;
+    margin: 0;
   }
+  
 
   .navbar-toggler{
     border: none;
@@ -330,8 +332,9 @@
 
   .alert {
     font-size: 0.8rem;
+    margin: 0;
   }
-
+  
   .navbar-toggler{
     border: none;
     color: transparent;
@@ -393,7 +396,9 @@
 
   .alert {
     font-size: 0.8rem;
+    margin: 0;
   }
+  
 
   .navbar-toggler{
     border: none;

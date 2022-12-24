@@ -52,7 +52,7 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: var(--cultured);
   overflow-x: hidden;
   transition: 0.5s;

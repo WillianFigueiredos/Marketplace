@@ -208,6 +208,7 @@
 
   .navbar{
     --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
   }
 
   .navbar-toggler{
@@ -259,9 +260,7 @@
     transform: translate(4%, -100%) !important;
   }
 
-  .mt-2{
-    margin-top: 0 !important;
-  }
+
 
 }
 
@@ -279,8 +278,8 @@
   
   .navbar{
     --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
   }
-
   .navbar-toggler{
     border: none;
     color: transparent;
@@ -336,9 +335,6 @@
   }
 
 
-  .mt-2{
-    margin-top: 0 !important;
-  }
 
 }
 
@@ -357,6 +353,7 @@
   
   .navbar{
     --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
   }
 
   .navbar-toggler{
@@ -415,13 +412,9 @@
   }
 
 
-  .mt-2{
-    margin-top: 0 !important;
-  }
-
 }
 
-@media (min-width: 426px ) and (max-width: 768px){
+@media (min-width: 426px ) and (max-width: 767px){
 
 
   .menu-category-list {
@@ -435,6 +428,7 @@
 
   .navbar{
     --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
   }
   
   .navbar-toggler{
@@ -488,12 +482,72 @@
   }
 
 
-  .mt-2{
-    margin-top: 0 !important;
-  }
-
 }
 
+@media (min-width: 768px ) and (max-width: 1024px) {
+
+
+  .navbar{
+    --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
+  }
+  #Automotivo{
+    display: none;
+  }
+  #menu-category-menu-title-offers{
+    display: none;
+  }
+  
+  #menu-category-automotivo{
+    display: none;
+  }
+  
+  .chevron{
+    display: none;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+
+  .form-control{
+    width: 35%;
+  }
+
+  .translate-middle{
+    transform: translate(80%, -30%) !important;
+    bottom: 3.6rem;
+  }
+
+  .row>*{
+    padding-left: 1rem !important;
+  }
+
+  .row img{
+    padding-left: 0rem !important; 
+    width: auto !important;
+    margin-top: 1.5rem!important;
+  }
+
+
+  .shop-bag{
+    ;
+  }
+
+
+  .navbar-toggler .container-fluid{
+    --bs-gutter-x: 0rem !important;
+  }
+
+  .d-flex span{
+    display: flex !important;
+    width:auto !important;
+    position: relative !important;
+    bottom:4rem;
+  }
+
+  
+}
 
 
 

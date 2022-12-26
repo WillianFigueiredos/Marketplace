@@ -60,12 +60,12 @@
 }
 
 .sidenav a {
-  padding: 10px 8px 25px 40px;
+  padding: 1px 8px 10px 10px;
   text-decoration: none;
   font-size: 25px;
   color: var(--davys-gray);
   display: block;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .nav-link {
@@ -92,7 +92,22 @@
 
 #search{
   color: var(--dylans-Blue);
+  
 }
+
+.dropdown-menu{
+  --bs-dropdown-bg: var(--cultured);
+  --bs-dropdown-border-radius:0rem;
+  --bs-dropdown-spacer:0rem !important;
+}
+
+.btn-secondary{
+  --bs-btn-bg: var(--cultured);
+
+
+}
+
+
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -105,21 +120,23 @@
   background-color: var(--dylans-Blue )!important;
 }
 
+
 .menu-category-list {
   position: relative;
   display: flex;
   gap: 2.5rem;
-  margin: 1.3rem;
+  margin: 1rem;
   text-transform: uppercase;
-  list-style:none
+  list-style:none; 
+
 }
 
 .dropdown-list {
   position: absolute;
-  width: 20rem;
+  width: 17rem;
   line-height: 2;
   background: var(--white);
-  padding: 2rem 0;
+  padding: 1rem 0;
   transform: translateY(45px);
   visibility: hidden;
   z-index: 1;
@@ -130,6 +147,7 @@
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
+  transition: all .4s ease-out
 }
 
 .dropdown-list .dropdown-item a {
@@ -154,30 +172,21 @@
 
 .menu-category ion-icon {
   font-size: 0.8rem;
-  left: 0.1rem;
   color: var(--white);
 }
 
 
 .menu-category-list button{
   background-color: var(--white);
-  border: none;
-  border-radius: 0.3rem;
   cursor: pointer;
-  
-}
-
-.menu-title-btn{
- color: var(--dylans-Blue);
- font-weight: 600;
- text-decoration: none;
-}
-
-.menu-category .menu-outline-btn{
+  font-size: 1rem;
+  border: none;
   color: var(--dylans-Blue);
   font-weight: 600;
-  text-decoration: none;
+  border-radius: 0.2rem !important;
+
 }
+
 /*----------- END MENU TOP NAVIGATION -------------*/
 
 
@@ -484,7 +493,7 @@
 
 }
 
-@media only screen and (min-device-width: 768px ) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px ) and (max-device-width: 1023px) {
 
 
   .navbar{
@@ -511,11 +520,11 @@
   }
 
   .form-control{
-    width: 35%;
+    width: 50%;
   }
 
   .translate-middle{
-    transform: translate(80%, -30%) !important;
+    transform: translate(41%, -30%) !important;
     bottom: 3.6rem;
   }
 
@@ -535,14 +544,17 @@
   }
 
   .d-flex span{
-    display: flex !important;
     width:auto !important;
     position: relative !important;
     bottom:4rem;
+    left: 3.8rem !important;
   }
-
   
+  .d-flex{
+    margin-left: 4rem !important;
+  }
 }
+
 
 @media only screen and (min-width: 1024px ) and (max-width: 1440px) {
   #Automotivo{

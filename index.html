@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>.On Shop Variedades</title>
 
     <!-- Bootstrap CSS -->
@@ -55,11 +55,31 @@
 
           <div class="navbar-collapse sidenav" id="mySidenav">
             <ul class="navbar-nav ml-auto">
+
               <li class="nav-item">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                   <ion-icon name="close-outline"></ion-icon>
                 </a>
               </li>
+
+              <li class="dropdown">
+                
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+
+
 
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#services">Services</a>
@@ -68,12 +88,16 @@
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
               </li>
+
+            </li>
+
             </ul>
+
           </div>
 
           <section class="navbar container-fluid">
 
-            <div class="col-md-8">
+            <div class="col-md-">
               <div class="d-flex form-inputs" id="search">
                 <input class="form-control position-absolute translate-middle mt-2" type="text" placeholder="Search any product..."/>
                 <ion-icon name="search-outline"></ion-icon>
@@ -100,10 +124,6 @@
                   <ion-icon name="cart-outline"></ion-icon>
                 </span>
 
-                <div class="d-flex flex-column">
-                  <span class="qty">1 Product</span>
-                  <span class="fw-bold">$27.90</span>
-                </div>
               </div>
             </div>
 
@@ -218,13 +238,9 @@
                 >
               </li>
 
-              <button class="menu-category">
-                <ion-icon
-                  class="menu-outline-btn"
-                  name="menu-outline"
-                ></ion-icon>
-                <a href="#" class="menu-title-btn" id="6">Outros</a>
-              </button>
+              <li class="menu-category">
+                <button type="button" class="btn btn-secondary">OUTROS</button>
+              </li>
             </ul>
           </div>
         </nav>
@@ -276,7 +292,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
 
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>

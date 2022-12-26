@@ -102,11 +102,23 @@
 }
 
 .btn-secondary{
+  --bs-btn-bg: var(--eerie-black);
+  --bs-btn-color: var(--dylans-Blue);
   --bs-btn-bg: var(--cultured);
-
-
+  --bs-btn-border-color: var(--cultured);
+  --bs-btn-hover-color: var(--dylans-Blue);
+  --bs-btn-hover-bg: var(--cultured);
+  --bs-btn-hover-border-color:var(--cultured); 
+  --bs-btn-active-color: var(--cultured);
+  --bs-btn-active-border-color: var(--cultured);
+  --bs-btn-disabled-bg: var(--cultured);
+  --bs-btn-disabled-border-color: var(--cultured);
 }
 
+.btn.show{
+  background-color: var(--cultured);
+  color: var(--dylans-Blue);
+}
 
 /*----------- END NAVBAR HEADER -------------*/
 

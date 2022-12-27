@@ -35,8 +35,7 @@ function startCarousel() {
     nextButton.dispatchEvent(new Event("click"));
     }, 5000);
 }
-
-  startCarousel(); 
+startCarousel(); 
 
 
 

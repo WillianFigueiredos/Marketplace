@@ -33,7 +33,7 @@
       <!-- START ALERT TOP BAR -->
       <div class="alert alert-primary" role="alert">
         <img src="Fotos/logo-pix-icone-256.png" width="20" height="20" />
-        <span>Pague no PIX e tenha 20% de desconto!</span>
+        <span id="trocar">Pague no PIX e tenha 20% de desconto!</span>
       </div>
       <!-- END ALERT TOP BAR -->
 
@@ -42,7 +42,7 @@
         <div class="container">
           <div class="row">
               <div class=" col-md-12 text-center" id="pic3">
-                  <img id="trocar" src="Fotos/download__1_-removebg-preview.png" alt="Imagem" width="140" height="80"/>
+                  <img  src="Fotos/download__1_-removebg-preview.png" alt="Imagem" width="140" height="80"/>
               </div>  
             </div>            
           </div>
@@ -54,6 +54,7 @@
           </button>
 
           <div class="navbar-collapse sidenav" id="mySidenav">
+            
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item">
@@ -61,24 +62,6 @@
                   <ion-icon name="close-outline"></ion-icon>
                 </a>
               </li>
-
-              <li class="dropdown">
-                
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-
 
 
               <li class="nav-item">
@@ -89,8 +72,6 @@
                 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
               </li>
 
-            </li>
-
             </ul>
 
           </div>
@@ -98,9 +79,9 @@
           <section class="navbar container-fluid">
 
             <div class="col-md-">
-              <div class="d-flex form-inputs" id="search">
+              <div class="d-flex form-inputs">
                 <input class="form-control position-absolute translate-middle mt-2" type="text" placeholder="Search any product..."/>
-                <ion-icon name="search-outline"></ion-icon>
+                <i class="bi bi-search"></i>
               </div>
             </div>
 
@@ -137,12 +118,19 @@
           <div class="container-navigation-menu">
             <ul class="menu-category-list">
               <li class="menu-category">
-                <a href="#" class="menu-title" id="TVs">TVs e Vídeo</a>
+                <span>
+                  <i class="bi bi-list"></i>
+                  <a href="#" class="menu-title" id="TVs">Todos departamentos </a>
+                  <i class="bi bi-chevron-compact-down"></i>
+                </span> 
               </li>
 
-              <li class="menu-category" id="menu-category-automotivo">
-                <a href="#" class="menu-title" id="Automotivo">Automotivo</a>
-                <ion-icon class="chevron" name="chevron-down-outline"></ion-icon>
+              <li class="menu-category" id="TVseVídeo">
+                <span>
+                  <i class="bi bi-headphones"></i>
+                  <a href="#" class="menu-title">TVs e Vídeo</a>
+                  <i class="bi bi-chevron-compact-down"></i>
+                </span>
 
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
@@ -163,9 +151,13 @@
                 </ul>
               </li>
 
-              <li class="menu-category">
-                <a href="#" class="menu-title" id="Celulares">Celulares</a>
-                <ion-icon class="chevron" name="chevron-down-outline"></ion-icon>
+              <li class="menu-category" id="Celulares">
+                <span>
+                  <i class="bi bi-phone"></i>
+                  <a href="#" class="menu-title">Celulares</a>
+                  <i class="bi bi-chevron-compact-down"></i>
+                </span>
+
 
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
@@ -186,9 +178,38 @@
                 </ul>
               </li>
 
-              <li class="menu-category">
-                <a href="#" class="menu-title" id="Eletroportáteis">Eletroportáteis</a>
-                <ion-icon class="chevron" name="chevron-down-outline"></ion-icon>
+              <li class="menu-category" id="Eletroportáteis">
+                <span>
+                  <i class="bi bi-smartwatch"></i>
+                  <a href="#" class="menu-title">Eletroportáteis</a>
+                  <i class="bi bi-chevron-compact-down"></i>
+                </span>
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="#">Subcategoria Informática 01</a>
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a href="#">Subcategoria Informática 01</a>
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a href="#">Subcategoria Informática 01</a>
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a href="#">Subcategoria Informática 01</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-category" id="Informática">
+                
+                <span>
+                  <i class="bi bi-pc-display-horizontal" id="teste2"></i>
+                  <a href="#" class="menu-title">Informática</a>
+                  <i class="bi bi-chevron-compact-down" id="teste1"></i>
+                </span>
 
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
@@ -209,37 +230,11 @@
                 </ul>
               </li>
 
-              <li class="menu-category">
-                <a href="#" class="menu-title" id="Informática" >Informática</a>
-                <ion-icon  class="chevron" name="chevron-down-outline"></ion-icon>
-
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-category" id="menu-category-menu-title-offers" >
-                <a href="#" class="menu-ti tle" id="menu-title-offers"
-                  >Super ofertas</a
-                >
-              </li>
-
-              <li class="menu-category">
-                <button type="button" class="btn btn-secondary">OUTROS</button>
+              <li class="menu-category" id="Ofertas">
+                <button type="button" class="btn btn-primary">
+                  <i class="bi bi-list"></i>
+                  <span>OFERTAS</span> 
+                </button>
               </li>
             </ul>
           </div>
@@ -248,7 +243,7 @@
       <!-- END MENU TOP NAVIGATION -->
 
       <!-- HOME BANNER -->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-slide="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" ></button>

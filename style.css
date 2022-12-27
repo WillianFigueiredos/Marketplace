@@ -84,42 +84,6 @@
   font-size: 1.8rem;
   color: var(--white);
 }
-
-.d-flex{
-  margin-left: 0.3rem;
-  color: var(--white);
-}
-
-#search{
-  color: var(--dylans-Blue);
-  
-}
-
-.dropdown-menu{
-  --bs-dropdown-bg: var(--cultured);
-  --bs-dropdown-border-radius:0rem;
-  --bs-dropdown-spacer:0rem !important;
-}
-
-.btn-secondary{
-  --bs-btn-bg: var(--eerie-black);
-  --bs-btn-color: var(--dylans-Blue);
-  --bs-btn-bg: var(--cultured);
-  --bs-btn-border-color: var(--cultured);
-  --bs-btn-hover-color: var(--dylans-Blue);
-  --bs-btn-hover-bg: var(--cultured);
-  --bs-btn-hover-border-color:var(--cultured); 
-  --bs-btn-active-color: var(--cultured);
-  --bs-btn-active-border-color: var(--cultured);
-  --bs-btn-disabled-bg: var(--cultured);
-  --bs-btn-disabled-border-color: var(--cultured);
-}
-
-.btn.show{
-  background-color: var(--cultured);
-  color: var(--dylans-Blue);
-}
-
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -136,11 +100,26 @@
 .menu-category-list {
   position: relative;
   display: flex;
-  gap: 2.5rem;
-  margin: 1rem;
-  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  margin: 0.8rem;
   list-style:none; 
 
+}
+
+#teste2{
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+#teste1{
+  color: var(--white);
+  margin: 0rem;
+}
+.menu-category a{
+  margin: 0.3rem;
+  color: var(--white);
 }
 
 .dropdown-list {
@@ -152,14 +131,13 @@
   transform: translateY(45px);
   visibility: hidden;
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .menu-category-list .menu-category:hover>.dropdown-list {
-  transform: translateY(0);
+  transform: translateY(15%);
   opacity: 1;
   visibility: visible;
-  transition: all .4s ease-out
 }
 
 .dropdown-list .dropdown-item a {
@@ -512,17 +490,15 @@
     --bs-navbar-padding-y:0rem !important;
     --bs-navbar-toggler-padding-y:0rem !important;
   }
-  #Automotivo{
+
+  #Eletroportáteis{
     display: none;
   }
-  #menu-category-menu-title-offers{
+
+  #TVseVídeo{
     display: none;
   }
-  
-  #menu-category-automotivo{
-    display: none;
-  }
-  
+
   .chevron{
     display: none;
   }
@@ -565,18 +541,11 @@
   .d-flex{
     margin-left: 4rem !important;
   }
+  
 }
 
 
-@media only screen and (min-width: 1024px ) and (max-width: 1440px) {
-  #Automotivo{
-    display: none;
-  }
-  
-  #menu-category-automotivo{
-    display: none;
-  }
-
+@media only screen and (min-width: 1024px ) and (max-width: 1439px) {
 
   .navbar-toggler{
     display: none;

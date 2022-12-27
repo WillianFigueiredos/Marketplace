@@ -42,7 +42,7 @@
         <div class="container">
           <div class="row">
               <div class=" col-md-12 text-center" id="pic3">
-                  <img  src="Fotos/download__1_-removebg-preview.png" alt="Imagem" width="140" height="80"/>
+                  <img  src="Fotos/Logo/ON_SHOP__11111_-removebg-preview.png" alt="Imagem" width="140" height="65"/>
               </div>  
             </div>            
           </div>
@@ -78,7 +78,7 @@
 
           <section class="navbar container-fluid">
 
-            <div class="col-md-">
+            <div class="col-md-2">
               <div class="d-flex form-inputs">
                 <input class="form-control position-absolute translate-middle mt-2" type="text" placeholder="Search any product..."/>
                 <i class="bi bi-search"></i>
@@ -110,6 +110,7 @@
 
           </section>
       </section>
+
       <!-- END NAVBAR HEADER -->
 
       <!-- HOME MENU TOP NAVIGATION -->
@@ -118,18 +119,19 @@
           <div class="container-navigation-menu">
             <ul class="menu-category-list">
               <li class="menu-category">
+
                 <span>
-                  <i class="bi bi-list"></i>
-                  <a href="#" class="menu-title" id="TVs">Todos departamentos </a>
-                  <i class="bi bi-chevron-compact-down"></i>
+                  <i class="bi bi-list" id="Todosdepartamentos-icon" ></i>
+                  <a href="#" class="menu-title" id="Todosdepartamentos">Todos departamentos </a>
+                  <i class="bi bi-chevron-compact-down" id="departamentosdown"></i>
                 </span> 
               </li>
 
-              <li class="menu-category" id="TVseVídeo">
+              <li class="menu-category">
                 <span>
-                  <i class="bi bi-headphones"></i>
-                  <a href="#" class="menu-title">TVs e Vídeo</a>
-                  <i class="bi bi-chevron-compact-down"></i>
+                  <i class="bi bi-headphones" id="Fones"></i>
+                  <a href="#" class="menu-title">Fones</a>
+                  <i class="bi bi-chevron-compact-down" id="Fonesdown"></i>
                 </span>
 
                 <ul class="dropdown-list">
@@ -153,9 +155,9 @@
 
               <li class="menu-category" id="Celulares">
                 <span>
-                  <i class="bi bi-phone"></i>
-                  <a href="#" class="menu-title">Celulares</a>
-                  <i class="bi bi-chevron-compact-down"></i>
+                  <i class="bi bi-phone" id="Smartphone"></i>
+                  <a href="#" class="menu-title">Smartphones</a>
+                  <i class="bi bi-chevron-compact-down" id="Smartphonesown"></i>
                 </span>
 
 
@@ -178,64 +180,55 @@
                 </ul>
               </li>
 
-              <li class="menu-category" id="Eletroportáteis">
+              <li class="menu-category" id="Eletro">
                 <span>
-                  <i class="bi bi-smartwatch"></i>
-                  <a href="#" class="menu-title">Eletroportáteis</a>
-                  <i class="bi bi-chevron-compact-down"></i>
+                  <i class="bi bi-smartwatch" id="Smartwatch"></i>
+                  <a href="#" class="menu-title">Smartwatch</a>
                 </span>
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-                </ul>
               </li>
 
               <li class="menu-category" id="Informática">
                 
                 <span>
-                  <i class="bi bi-pc-display-horizontal" id="teste2"></i>
+                  <i class="bi bi-pc-display-horizontal" id="iconpc"></i>
                   <a href="#" class="menu-title">Informática</a>
-                  <i class="bi bi-chevron-compact-down" id="teste1"></i>
                 </span>
 
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
+                <li class="menu-category" id="Iphone">
+                  <span>
+                    <i class="bi bi-phone" id="Iphones"></i>
+                    <a href="#" class="menu-title">Iphones</a>
+                    <i class="bi bi-chevron-compact-down" id="Iphonesdown"></i>
+                  </span>
+  
+  
+                  <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                      <a href="#">Subcategoria Informática 01</a>
+                    </li>
+  
+                    <li class="dropdown-item">
+                      <a href="#">Subcategoria Informática 01</a>
+                    </li>
+  
+                    <li class="dropdown-item">
+                      <a href="#">Subcategoria Informática 01</a>
+                    </li>
+  
+                    <li class="dropdown-item">
+                      <a href="#">Subcategoria Informática 01</a>
+                    </li>
+                  </ul>
+                </li>
 
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-category" id="Ofertas">
+              <li class="menu-category-btn" id="Ofertas">
                 <button type="button" class="btn btn-primary">
                   <i class="bi bi-list"></i>
                   <span>OFERTAS</span> 
                 </button>
               </li>
+            </li>
+
             </ul>
           </div>
         </nav>
@@ -247,12 +240,12 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
         </div>
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Fotos/banner3home.jpg" class="d-block w-100" alt="..." />
+            <img src="Fotos/55f410e1d7.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
@@ -262,7 +255,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="Fotos/banner3home.jpg" class="d-block w-100" alt="..." />
+            <img src="Fotos/40e7b74c3e.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -271,15 +264,6 @@
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src="Fotos/banner3home.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

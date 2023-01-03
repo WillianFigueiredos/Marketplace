@@ -12,6 +12,10 @@
       rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"/>
       
+    <!-- splidejs CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/themes/splide-skyblue.min.css">
+
     <!-- css -->
     <link rel="stylesheet" href="style.css"/>
 
@@ -26,6 +30,7 @@
     rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
   </head>
 
   <body>
@@ -113,7 +118,7 @@
       <!-- END NAVBAR HEADER -->
 
       <!-- START MENU TOP NAVIGATION -->
-      <section>
+      <section class="navigationmenu">
         <nav class="navigation-menu">
           <div class="container-navigation-menu">
             <ul class="menu-category-list">
@@ -122,7 +127,7 @@
                 <span>
                   <i class="bi bi-list" id="Todosdepartamentos-icon" ></i>
                   <a href="#" class="menu-title" id="Todosdepartamentos">Todos departamentos </a>
-                  <i class="bi bi-chevron-compact-down" id="departamentosdown"></i>
+                  <i class="bi bi-chevron-down" id="departamentosdown"></i>
                 </span> 
               </li>
 
@@ -130,7 +135,7 @@
                 <span>
                   <i class="bi bi-headphones" id="Fones"></i>
                   <a href="#" class="menu-title">Fones</a>
-                  <i class="bi bi-chevron-compact-down" id="Fonesdown"></i>
+                  <i class="bi bi-chevron-down" id="Fonesdown"></i>
                 </span>
 
                 <ul class="dropdown-list">
@@ -156,7 +161,7 @@
                 <span>
                   <i class="bi bi-phone" id="Smartphone"></i>
                   <a href="#" class="menu-title">Smartphones</a>
-                  <i class="bi bi-chevron-compact-down" id="Smartphonesown"></i>
+                  <i class="bi bi-chevron-down" id="Smartphonesown"></i>
                 </span>
 
 
@@ -197,7 +202,7 @@
                   <span>
                     <i class="bi bi-phone" id="Iphones"></i>
                     <a href="#" class="menu-title">Iphones</a>
-                    <i class="bi bi-chevron-compact-down" id="Iphonesdown"></i>
+                    <i class="bi bi-chevron-down" id="Iphonesdown"></i>
                   </span>
   
   
@@ -239,19 +244,11 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" ></button>
         </div>
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Fotos/55f410e1d7.webp" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
 
           <div class="carousel-item">
             <img src="Fotos/40e7b74c3e.webp" class="d-block w-100" alt="..." />
@@ -263,6 +260,35 @@
             </div>
           </div>
 
+          <div class="carousel-item">
+            <img src="Fotos/d7ea493bbc.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item active">
+            <img src="Fotos/55f410e1d7.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Fotos/32b2c98715.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -278,14 +304,214 @@
       <!-- END BANNER -->
     </header>
 
-    <main></main>
+    <main>
+      <!--START NAV-ITENS-->
+      <div class="container mt-4">
+        <div class="splide">
+          <div class="splide__slider">
+            <div class="splide__track">
+              <ul class="splide__list">
+                
+                <li class="splide__slide">
+                  <div class="category-item">
+                    <div class="category-item-icon">
+                      <i class="bi bi-bag-heart"></i>
+                    </div>
+                      <div class="category-item-title">
+                        <strong>Garantia</strong>
+                        <span >
+                          30 dias de garantia
+                        </span>
+                      </div>
+                  </div>
+                </li>
+      
+                <li class="splide__slide">
+                  <div class="category-item">
+                    <div class="category-item-icon">
+                      <i class="bi bi-shield-fill-check"></i>
+                    </div>
+                      <div class="category-item-title">
+                        <strong>Compra Segura</strong>
+                        <span>
+                          Seus dados estão seguros
+                        </span>
+                      </div>
+                  </div>
+                </li>
+      
+                <li class="splide__slide">
+                  <div class="category-item">
+                    <div class="category-item-icon">
+                      <i class="bi bi-cash-coin"></i>
+                    </div>          
+                      <div class="category-item-title">
+                        <strong>
+                          10% de desconto
+                        </strong>
+                        <span >
+                          Pix e boleto bancário
+                        </span>
+                      </div>
+                  </div>
+                </li>
+                      
+                <li class="splide__slide">
+                  <div class="category-item">
+                    <div class="category-item-icon">
+                      <i class="bi bi-cart-check"></i>
+                    </div>
+                      <div class="category-item-title">
+                        <strong>
+                          Entregamos
+                        </strong>
+                        <span>
+                          Para todo o Brasil
+                        </span>
+                      </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>  
+        </div> 
+      </div>     
+      <!--END NAV-ITENS-->
+
+      <!--START MINI BANNER-->
+      
+      <div class="row-fluid hidden-phone">
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/acessorios (2).svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img  src="Fotos/ico-eletrodom.svg" alt="Mini banner 3">
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/casa-construcao.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img  src="Fotos/ferramentas.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/acessorios.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/ud.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/games.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/telas.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div> 
+            
+        <div class="modulo col-xs-12">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="Fotos/iphone.svg" alt="Mini banner 3" >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+        <!--END MINI BANNER-->
+
+        <!-- START TITLE-SECTION -->
+      <div class="category-tittle">
+        <div class="category-tittle-container">
+          <div class="category-item-tittle">
+            <div class="category-content-flex-tittle">
+              <h3 class="category-item-title-title">
+                <a href="#">Super ofertas</a>
+                <span>
+                  Produtos com preços
+                  imperdíveis
+                </span> 
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END TITLE-SECTION-->
+
+
+
+
+
+
+    </main>
+  
+
+
+
+
+
+
 
     <footer>
       <!-- place footer here -->
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -306,6 +532,9 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"></script>
 
+    <!-- SPLIDE JS LINK-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/js/splide.min.js"></script>
+
     <!-- CUSTOM JS LINK-->
     <script src="index.js"></script>
 
@@ -313,4 +542,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
+
+
 </html>

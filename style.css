@@ -53,7 +53,7 @@
   left: 0;
   background-color: var(--cultured);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   padding-top: 60px;
 }
 
@@ -110,6 +110,27 @@
   display: flex;
   align-items: center;
 }
+
+.menu-category :hover #Fonesdown{
+  rotate: -180deg;
+  transition: 0.4s;
+}
+
+.menu-category :hover #departamentosdown{
+  rotate: -180deg;
+  transition: 0.4s;
+}
+
+.menu-category :hover #Smartphonesown{
+  rotate: -180deg;
+  transition: 0.4s;
+}
+
+.menu-category :hover #Iphonesdown{
+  rotate: -180deg;
+  transition: 0.4s;
+}
+
 
 #iconpc{
   font-size: 1.5rem;
@@ -168,10 +189,13 @@
 }
 
 .menu-category  {
-  margin: 0.1=rem;
+  margin: 0.1rem;
   color: var(--orange);
 }
 
+.menu-category:hover a {
+  color: var(--orange);
+}
 .dropdown-list {
   position: absolute;
   width: 17rem;
@@ -213,25 +237,133 @@
   font-size: 1rem;
   border: none;
   color: var(--white);
-  font-weight: 300;
+  font-weight: 400;
+  height: 3rem;
+  width: 10rem;
   border-radius: 0.2rem !important;
 }
 
 .btn-primary{
   --bs-btn-hover-bg: var(--denim-blue);
-
 }
 /*----------- END MENU TOP NAVIGATION -------------*/
 
 
 
-
-
-
 /*----------- HOME BANNER -------------*/
 
-
 /*----------- END BANNER -------------*/
+
+
+
+/*----------- START NAV-ITENS-------------*/
+.category-item{ 
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.category-item-title{   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category-item-icon{
+  align-items: center;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.category-item-icon{
+  font-size: 3rem;
+  color: var(--denim-blue)
+}
+/*----------- END NAV-ITENS-------------*/
+
+
+
+
+/*----------- START MINI BANNER -------------*/
+.row-fluid{    
+  display: flex !important;
+  margin: 1.5rem;
+  overflow: hidden;
+}
+
+.row-fluid .modulo{
+  background-color: var(--denim-blue);
+  border-radius: 50%;
+  width: 97px;
+  height:97px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.row-fluid .modulo:hover{
+  background-color: var(--orange);
+}
+
+.flexslider{  
+  padding-left: 0 !important;
+}
+
+.flexslider ul{  
+  padding-left: 0 !important;
+}
+
+.modulo img {
+  position: relative;
+  transition: 0.1s all ease-in-out;
+}
+
+.modulo:hover img {
+  transform: scale(1.2);
+}
+/*----------- END MINI BANNER -------------*/
+
+/*--------------- START TITLE-SECTION ------------------*/
+.category-tittle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.category-item-tittle {
+  padding-top: 1rem;
+}
+.category-item-tittle span {
+  font-size: 1.2rem;
+  color: var(--onyx);
+  font-weight: 500;
+}
+
+.category-content-flex-tittle a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--eerie-black);
+  font-weight: 500;
+}
+
+.category-content-flex-tittle h3::after {
+  content: "";
+  display: block;
+  width: 33.7%;
+  height: 0.3rem;
+  margin-top: 0.4rem;
+  background-color: var(--denim-blue);
+  border-radius: 1rem;
+}
+
+.category-item-title-title {
+  color: var(--eerie-black);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/*--------------- END TITLE-SECTION------------------*/
+
+
+
 
 
 
@@ -312,6 +444,29 @@
   .menu-category-list {
     display: none;
   } /*----------- END MENU TOP NAVIGATION --------------*/
+  
+
+  /*----------- START BANNER--------------*/
+  .carousel-indicators [data-bs-target]{
+    display: none;
+  }
+  /*----------- END BANNER--------------*/
+
+
+
+  .splide__slide {
+    width: auto !important;
+  }
+
+
+
+  .modulo {
+    width: 100%;
+  }
+  
+  
+  
+  
   
 
 }
@@ -399,6 +554,19 @@
   /*----------- END MENU TOP NAVIGATION --------------*/
 
 
+  /*----------- START BANNER--------------*/
+  .carousel-indicators [data-bs-target]{
+    display: none;
+  }
+  /*----------- END BANNER--------------*/
+
+
+  .splide__slide {
+    width: auto !important;
+  }
+  
+
+  
 }
 
 
@@ -477,12 +645,23 @@
 
 
 
-
   /*----------- START MENU TOP NAVIGATION --------------*/
     .menu-category-list {
       display: none;
     }
   /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+  /*----------- START BANNER--------------*/
+  .carousel-indicators [data-bs-target]{
+    display: none;
+  }
+  /*----------- END BANNER--------------*/
+
+
+  .splide__slide {
+    width: auto !important;
+  }
 
 }
 
@@ -562,6 +741,10 @@
     }
   /*----------- END MENU TOP NAVIGATION --------------*/
 
+  .splide__slide {
+    width: auto !important;
+  }
+
 }
 
 @media only screen and (min-device-width: 768px ) and (max-device-width: 1023px) {
@@ -612,6 +795,10 @@
   }
   /*----------- END NAVBAR HEADER --------------*/
 
+
+  .splide__slide {
+    width: auto !important;
+  }
 }
 
 

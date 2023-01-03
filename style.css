@@ -40,8 +40,8 @@
   margin-bottom: 1px;
 }
 
-.row>*{
-  padding-left: 8.2rem !important;
+.navbar img {
+  margin-left: 3.5rem;
 }
 
 .sidenav {
@@ -285,42 +285,11 @@
 
 
 /*----------- START MINI BANNER -------------*/
-.row-fluid{    
-  display: flex !important;
-  margin: 1.5rem;
-  overflow: hidden;
+.slides{  
+  list-style: none;
 }
 
-.row-fluid .modulo{
-  background-color: var(--denim-blue);
-  border-radius: 50%;
-  width: 97px;
-  height:97px;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-top: 1.5rem;
-}
 
-.row-fluid .modulo:hover{
-  background-color: var(--orange);
-}
-
-.flexslider{  
-  padding-left: 0 !important;
-}
-
-.flexslider ul{  
-  padding-left: 0 !important;
-}
-
-.modulo img {
-  position: relative;
-  transition: 0.1s all ease-in-out;
-}
-
-.modulo:hover img {
-  transform: scale(1.2);
-}
 /*----------- END MINI BANNER -------------*/
 
 /*--------------- START TITLE-SECTION ------------------*/
@@ -419,8 +388,11 @@
     font-size: 2.3rem;
   }
 
-  .row {
-    position: relative;
+  .navbar img {
+    margin-left: 3.5rem;
+  }
+
+  .row{
     padding-top: 0.5rem !important;
     right: 3.6rem !important;
   }
@@ -454,17 +426,34 @@
 
 
 
+  /*----------- START NAV-ITENS-------------*/
   .splide__slide {
     width: auto !important;
   }
+  .mt-4{
+    margin-top: 0.5rem !important;
+  }
+  /*----------- END NAV-ITENS-------------*/
+  
 
 
-
+  /*----------- START MINI BANNER -------------*/
   .modulo {
     width: 100%;
   }
   
-  
+  .flexslider {
+    width: 100%;
+  }
+
+  .slides{
+    padding-left: 0rem;
+  }
+
+  .slides img {
+    width: 100%;
+  }
+  /*----------- END MINI BANNER -------------*/
   
   
   
@@ -522,15 +511,11 @@
   }
 
   .row {
-    position: relative;
     padding-top: 0.5rem !important;
-    right: 3.6rem !important;
   }
 
-
-  .row img{
-    padding-left: 1.5rem !important;
-    width: auto;
+  .navbar img {
+    margin-left: 4.5rem;
   }
 
   .d-flex span{
@@ -561,10 +546,34 @@
   /*----------- END BANNER--------------*/
 
 
+  /*----------- START NAV-ITENS-------------*/
   .splide__slide {
     width: auto !important;
   }
+  .mt-4{
+    margin-top: 0.5rem !important;
+  }
+  /*----------- END NAV-ITENS-------------*/
   
+
+  /*----------- START MINI BANNER -------------*/
+  .modulo {
+    width: 100%;
+  }
+  
+  .flexslider {
+    width: 100%;
+  }
+
+  .slides{
+    padding-left: 0rem;
+    padding-left: 0rem;
+  }
+
+  .slides img {
+    width: 100%;
+  }
+  /*----------- END MINI BANNER -------------*/
 
   
 }
@@ -619,15 +628,12 @@
   }
 
   .row {
-    position: relative;
     padding-top: 0.5rem !important;
     right: 3.6rem !important;
   }
 
-
-  .row img{
-    padding-left: 3.1rem !important;
-    width: auto !important;
+  .navbar img {
+    margin-left: 6rem;
   }
 
   .d-flex span{
@@ -659,9 +665,34 @@
   /*----------- END BANNER--------------*/
 
 
+  /*----------- START NAV-ITENS-------------*/
   .splide__slide {
     width: auto !important;
   }
+  .mt-4{
+    margin-top: 0.5rem !important;
+  }
+  /*----------- END NAV-ITENS-------------*/
+  
+
+  /*----------- START MINI BANNER -------------*/
+  .modulo {
+    width: 100%;
+  }
+  
+  .flexslider {
+    width: 100%;
+  }
+
+  .slides{
+    padding-left: 0rem;
+    padding-left: 0rem;
+  }
+
+  .slides img {
+    width: 100%;
+  }
+  /*----------- END MINI BANNER -------------*/
 
 }
 
@@ -712,6 +743,10 @@
     bottom:7.4rem  ;
     right: 0.8rem !important; 
     font-size: 2.3rem;
+  }
+
+  .row>*{
+    padding-left: 3.5rem !important;
   }
 
   .row img{
@@ -769,9 +804,6 @@
     bottom: 3.6rem;
   }
 
-  .row>*{
-    padding-left: 1rem !important;
-  }
 
   .row img{
     padding-left: 0rem !important; 
@@ -814,6 +846,7 @@
   }
   /*----------- END NAVBAR HEADER --------------*/
 
+  
 }
 
 

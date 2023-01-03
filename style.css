@@ -335,8 +335,7 @@
 /*--------------- END TITLE-SECTION------------------*/
 
 
-/*---------------INICIO PRODUTOS------------------*/
-
+/*--------------- START PRODUCT ------------------*/
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -379,7 +378,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--fs-9);
   font-weight: var(--fw-500);
   padding: 3px 10px;
   background-color: var(--red);
@@ -391,14 +389,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--fs-9);
-  font-weight: var(--fw-500);
   padding: 3px 10px;
   background-color: var(--sprint-yellow);
   color: var(--eerie-black);
   border-radius: 5px;
 }
-
 
 .card-content{
   margin-left: 1rem;
@@ -422,7 +417,6 @@
   text-decoration: none;
   color: var(--eerie-black);
 }
-
 
 .star span {
   color: var(--eerie-black);
@@ -451,7 +445,7 @@
   font-size: 0.9rem;
 }
 
-.conditions-price  p{
+.conditions-price p { 
   margin-bottom:0rem;
 }
 
@@ -469,7 +463,7 @@
   font-size: 1rem;
   text-decoration: line-through;
 }
-/*---------------FIM PRODUTOS------------------*/
+/*--------------- END PRODUCT ------------------*/
 
 
 
@@ -617,8 +611,7 @@
   /*--------------- END TITLE-SECTION------------------*/
   
 
-
-  /*---------------INICIO PRODUTOS------------------*/
+  /*--------------- START PRODUCT ------------------*/
   .col-3 {
     width: 50%;
   }
@@ -649,12 +642,11 @@
   }
 
   .product-card .card-price {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .product-card .card-price data:not(:last-child) {
     font-size:0.7rem;
-  
   }
 
   .conditions-price {
@@ -676,11 +668,7 @@
   .card-content a {
     justify-content: center;
   }
-
-
-
-  
-  /*---------------FIM PRODUTOS------------------*/
+  /*--------------- END PRODUCT ------------------*/
 
 
 
@@ -792,12 +780,11 @@
   }
 
   .slides{
-    padding-left: 0rem;
-    padding-left: 0rem;
+    padding-left: 1.2rem;
   }
 
   .slides img {
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     border-radius: 5px;
   }
@@ -824,69 +811,64 @@
   }
   /*--------------- END TITLE-SECTION------------------*/
 
-    /*---------------INICIO PRODUTOS------------------*/
-    .col-3 {
-      width: 50%;
-    }
-    
-    .product-list {
-      padding-left: 0rem;
-    }
+  /*--------------- START PRODUCT ------------------*/
+  .col-3 {
+    width: 50%;
+  }
   
-    .w-auto {
-      width: 100% !important;
-    }
-  
-    .product-card .card-banner {
-      position: relative;
-      margin-bottom: 0px;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
-      margin-left: 0.5rem;
-      margin-right: 0rem;
-    }
-  
-    .product-card .card-title a {
-      font-size: 0.9rem;
-    }
-  
-    .product-card  {
-      margin: 0 5px!important;
-    }
-  
-    .product-card .card-price {
-      font-size: 1rem;
-    }
-  
-    .product-card .card-price data:not(:last-child) {
-      font-size:0.7rem;
-    
-    }
-  
-    .conditions-price {
-      font-size: 0.65rem;
-    }
-  
-    .conditions-payment {
-      font-size: 0.65rem;
-    }
-  
-    .star {
-      font-size: 0.65rem;
-    }
-  
-    .card-content {
-      padding-bottom: 5rem;
-    }
-  
-    .card-content a {
-      justify-content: center;
-    }
-  
-  
-  
-    
-    /*---------------FIM PRODUTOS------------------*/
+  .product-list {
+    padding-left: 0rem;
+  }
+
+  .w-auto {
+    width: 100% !important;
+  }
+
+  .product-card .card-banner {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+
+  .product-card .card-title a {
+    font-size: 1rem;
+  }
+
+  .product-card  {
+    margin: 0 5px!important;
+  }
+
+  .product-card .card-price {
+    font-size: 1.1rem;
+  }
+
+  .product-card .card-price data:not(:last-child) {
+    font-size:0.7rem;
+  }
+
+  .conditions-price {
+    font-size: 0.65rem;
+  }
+
+  .conditions-payment {
+    font-size: 0.65rem;
+  }
+
+  .star {
+    font-size: 0.65rem;
+  }
+
+  .card-content {
+    padding-bottom: 5rem;
+  }
+
+  .card-content a {
+    justify-content: center;
+  }
+  /*--------------- END PRODUCT ------------------*/
   
 }
 
@@ -997,12 +979,11 @@
   }
 
   .slides{
-    padding-left: 0rem;
-    padding-left: 0rem;
+    padding-left: 1.2rem;
   }
 
   .slides img {
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     border-radius: 5px;
   }
@@ -1029,69 +1010,64 @@
   }
   /*--------------- END TITLE-SECTION------------------*/
 
-  /*---------------INICIO PRODUTOS------------------*/
-    .col-3 {
-      width: 50%;
-    }
-    
-    .product-list {
-      padding-left: 0rem;
-    }
+  /*--------------- START PRODUCT ------------------*/
+  .col-3 {
+    width: 50%;
+  }
   
-    .w-auto {
-      width: 100% !important;
-    }
-  
-    .product-card .card-banner {
-      position: relative;
-      margin-bottom: 0px;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
-      margin-left: 0.5rem;
-      margin-right: 0rem;
-    }
-  
-    .product-card .card-title a {
-      font-size: 0.9rem;
-    }
-  
-    .product-card  {
-      margin: 0 5px!important;
-    }
-  
-    .product-card .card-price {
-      font-size: 1rem;
-    }
-  
-    .product-card .card-price data:not(:last-child) {
-      font-size:0.7rem;
-    
-    }
-  
-    .conditions-price {
-      font-size: 0.65rem;
-    }
-  
-    .conditions-payment {
-      font-size: 0.65rem;
-    }
-  
-    .star {
-      font-size: 0.65rem;
-    }
-  
-    .card-content {
-      padding-bottom: 5rem;
-    }
-  
-    .card-content a {
-      justify-content: center;
-    }
-  
-  
-  
-    
-  /*---------------FIM PRODUTOS------------------*/
+  .product-list {
+    padding-left: 0rem;
+  }
+
+  .w-auto {
+    width: 100% !important;
+  }
+
+  .product-card .card-banner {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+
+  .product-card .card-title a {
+    font-size: 1rem;
+  }
+
+  .product-card  {
+    margin: 0 5px!important;
+  }
+
+  .product-card .card-price {
+    font-size: 1.1rem;
+  }
+
+  .product-card .card-price data:not(:last-child) {
+    font-size:0.7rem;
+  }
+
+  .conditions-price {
+    font-size: 0.65rem;
+  }
+
+  .conditions-payment {
+    font-size: 0.65rem;
+  }
+
+  .star {
+    font-size: 0.65rem;
+  }
+
+  .card-content {
+    padding-bottom: 5rem;
+  }
+
+  .card-content a {
+    justify-content: center;
+  }
+  /*--------------- END PRODUCT ------------------*/
 
 }
 

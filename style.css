@@ -335,6 +335,133 @@
 /*--------------- END TITLE-SECTION------------------*/
 
 
+/*---------------INICIO PRODUTOS------------------*/
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.product-card .card-banner {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.product-card:hover{
+  box-shadow:rgba(32, 32, 32, 0.12) 0px 2px 10px;
+  border-radius: 1rem;
+  transition: box-shadow 0.6s ease 0.0s;
+}
+
+.product-card .card-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
+  padding: 3px 10px;
+  background-color: var(--kelly-green);
+  border-radius: 5px;
+}
+
+.product-card .card-badge-red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
+  padding: 3px 10px;
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.product-card .card-badge-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
+  padding: 3px 10px;
+  background-color: var(--sprint-yellow);
+  color: var(--eerie-black);
+  border-radius: 5px;
+}
+
+
+.card-content{
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product-card .card-title a {
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: var(--eerie-black);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.star {
+  color: var(--sprint-yellow);
+  margin: 10px 0px;
+  font-size: 0.8rem;
+}
+
+.star span {
+  color: var(--eerie-black);
+}
+
+.card-price data {
+  font-weight: 500;
+}
+
+.conditions-price {
+  font-size: 0.9rem;
+}
+
+.conditions-price a {
+  text-decoration: none;
+  color: var(--eerie-black);
+
+}
+
+.conditions-price span {
+  text-decoration: none;
+  color: var(--kelly-green);
+}
+
+.conditions-payment {
+  font-size: 0.9rem;
+}
+
+.conditions-price  p{
+  margin-bottom:0rem;
+}
+
+.product-card .card-price {
+  color: var(--eerie-black);
+  font-weight: var(--fw-500);
+  font-size: 1.35rem;
+}
+
+.product-card .card-price data:not(:last-child) {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--sonic-silver);
+  margin-left: 0px;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+/*---------------FIM PRODUTOS------------------*/
 
 
 

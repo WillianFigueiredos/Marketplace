@@ -1228,7 +1228,6 @@
   
   .product-card .card-price data:not(:last-child) {
     font-size:0.7rem;
-    
   }
   
   .conditions-price {
@@ -1243,9 +1242,15 @@
     font-size: 0.65rem;
   }
   
+
   .card-content {
     padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
   
   .card-content a {
     justify-content: center;

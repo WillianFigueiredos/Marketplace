@@ -288,6 +288,10 @@
 .slides{  
   list-style: none;
 }
+
+.col-4{
+  padding-top: 1.5rem;
+}
 /*----------- END MINI BANNER -------------*/
 
 
@@ -452,6 +456,10 @@
   .slides img {
     width: 100%;
   }
+
+  .col-4{
+    padding-top: 0rem;
+  }
   /*----------- END MINI BANNER -------------*/
   
   /*--------------- START TITLE-SECTION ------------------*/
@@ -587,6 +595,10 @@
   .slides img {
     width: 100%;
   }
+
+  .col-4{
+    padding-top: 0rem;
+  }
   /*----------- END MINI BANNER -------------*/
 
 
@@ -721,6 +733,10 @@
 
   .slides img {
     width: 100%;
+  }
+
+  .col-4{
+    padding-top: 0rem;
   }
   /*----------- END MINI BANNER -------------*/
 

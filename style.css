@@ -465,6 +465,174 @@
 }
 /*--------------- END PRODUCT ------------------*/
 
+/*---------------INICIO FOOTER------------------*/
+.footer {
+  position: relative;
+  margin-top: 20rem;
+  background: var(--imperial-blue);
+  width: 100%;
+}
+
+.footer .footer-content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content .logo-details {
+  color: var(--white);
+  font-size: 1.6rem;
+  margin-right: -8rem;
+}
+
+.footer-content.logo-details ion-icon {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.logo-details-text {
+  color: var(--white);
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+
+.footer-content .input-box {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: flex-start;
+}
+
+.link_name {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+#Tel,
+#time {
+  border-bottom: 1px solid var(--cultured);
+  padding-bottom: 20px;
+}
+
+.footer-content .input-box input {
+  height: 5rem;
+  outline: none;
+  width: 120%;
+  border: 2px solid var(--sonic-silver);
+  background: var(--imperial-blue);
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 1rem;
+  color: var(--white);
+  margin-top: 5px;
+}
+
+.footer-content .input-box input::placeholder {
+  color: var(--cultured);
+  font-size: 1rem;
+}
+
+.footer-content .input-box input[type="button"] {
+  background: var(--white);
+  color: var(--imperial-blue);
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*
+.box li:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+*/
+
+.box-Newsletter {
+  margin-left: 20px;
+}
+
+.input-box input[type="button"]:hover {
+  opacity: 1;
+}
+
+
+.footer-content .link-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-content .link-boxes .box .link_name {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.footer-content .link-boxes .box li {
+  margin: 6px 0;
+  list-style: none;
+}
+
+.footer-content .link-boxes .box li a {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.media-icons ion-icon {
+  font-size: 1rem;
+}
+
+.bottom-details {
+  width: 100%;
+  background: var(--denim-blue);
+}
+
+.bottom-details .bottom-details-container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-details .bottom-details-container span,
+.bottom-details .bottom-details-container a {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.bottom-details .bottom-details-container a:hover {
+  opacity: 1;
+}
+
+.bottom-details .bottom-details-container a {
+  margin-right: 10px;
+}
+
+
 
   
 

@@ -24,7 +24,7 @@ window.addEventListener("resize", updateImage);
 updateImage();
 */
 
-/*
+
 function startCarousel() {
   const carousel = document.getElementById("carouselExampleCaptions");
   const nextButton = carousel.querySelector(".carousel-control-next");
@@ -34,7 +34,7 @@ function startCarousel() {
   }, 5000);
 }
 startCarousel();
-*/
+
 
 const splide = new Splide(".splide", {
   type: "loop",

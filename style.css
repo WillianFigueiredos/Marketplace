@@ -466,6 +466,7 @@
 /*--------------- END PRODUCT ------------------*/
 
 
+  
 
 
 
@@ -691,8 +692,22 @@
   /*--------------- END PRODUCT ------------------*/
 
 
+  
+
+  .category-banner {
+    display: block;
+  }
+
+  .container-category-banner {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
 
 }
+
+
 
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 

@@ -629,7 +629,7 @@
     margin-bottom: 0px;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   }
 
@@ -642,23 +642,23 @@
   }
 
   .product-card .card-price {
-    font-size: 1.1rem;
+    font-size: 1.19rem;
   }
 
   .product-card .card-price data:not(:last-child) {
-    font-size:0.7rem;
+    font-size:0.75rem;
   }
 
   .conditions-price {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .conditions-payment {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .star {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .card-content {
@@ -667,10 +667,26 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 0.2rem;
   }
 
   .card-content a {
     justify-content: center;
+  }
+
+  .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge-full {
+    padding: 3px 10px;
+    font-size: 0.7rem;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -846,25 +862,24 @@
   }
 
   .product-card .card-price {
-    font-size: 1.1rem;
+    font-size: 1.19rem;
   }
 
   .product-card .card-price data:not(:last-child) {
-    font-size:0.7rem;
+    font-size:0.75rem;
   }
 
   .conditions-price {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .conditions-payment {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .star {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
-
 
   .card-content {
     padding-bottom: 5rem;
@@ -872,10 +887,26 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 0.2rem;
   }
 
   .card-content a {
     justify-content: center;
+  }
+
+  .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge-full {
+    padding: 3px 10px;
+    font-size: 0.7rem;
   }
   /*--------------- END PRODUCT ------------------*/
   
@@ -1049,26 +1080,26 @@
     margin: 0 5px!important;
   }
 
+
   .product-card .card-price {
-    font-size: 1.1rem;
+    font-size: 1.19rem;
   }
 
   .product-card .card-price data:not(:last-child) {
-    font-size:0.7rem;
+    font-size:0.75rem;
   }
 
   .conditions-price {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .conditions-payment {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .star {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
-
 
   .card-content {
     padding-bottom: 5rem;
@@ -1076,10 +1107,26 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 0.2rem;
   }
 
   .card-content a {
     justify-content: center;
+  }
+
+  .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-card .card-badge-full {
+    padding: 3px 10px;
+    font-size: 0.7rem;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -1209,7 +1256,7 @@
     margin-bottom: 0px;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   }
   
@@ -1221,26 +1268,27 @@
   .product-card  {
     margin: 0 5px!important;
   }
-  
+
   .product-card .card-price {
-    font-size: 1rem;
+    font-size: 1.19rem;
   }
-  
+
   .product-card .card-price data:not(:last-child) {
-    font-size:0.7rem;
+    font-size:0.75rem;
   }
-  
+
   .conditions-price {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
-  
+
   .conditions-payment {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
-  
+
   .star {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
+
   
 
   .card-content {

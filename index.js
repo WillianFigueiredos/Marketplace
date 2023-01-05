@@ -95,4 +95,7 @@ function toggleDropdownMenu4() {
   }
 }
 
+$(document).ready(function() {
+    $('#modal2').modal('show');
+});
 

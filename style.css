@@ -126,7 +126,6 @@ a {
 a:hover {
   color: var(--white);
 }
-
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -154,22 +153,22 @@ a:hover {
 
 .menu-category :hover #Fonesdown{
   rotate: -180deg;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .menu-category :hover #departamentosdown{
   rotate: -180deg;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .menu-category :hover #Smartphonesown{
   rotate: -180deg;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .menu-category :hover #Iphonesdown{
   rotate: -180deg;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 #iconpc{
@@ -236,6 +235,7 @@ a:hover {
 .menu-category:hover a {
   color: var(--orange);
 }
+
 .dropdown-list {
   position: absolute;
   width: 17rem;
@@ -573,7 +573,6 @@ a:hover {
   padding-left: 2rem;
   padding-top: 0.5rem;
 }
-
 
 .footer-content .input-box input::placeholder {
   color: var(--cultured);
@@ -1524,5 +1523,7 @@ a:hover {
 
 
 /*----------- END MEDIA QUERIES -------------*/
+
+
 
 

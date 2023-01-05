@@ -586,6 +586,13 @@
 @media only screen and (max-width: 320px){
 
 
+  #teste55{
+    display: none;
+  }
+  #teste45{
+    background-color: var(--white);
+  }
+  
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;
@@ -815,6 +822,12 @@
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
   
+  #teste55{
+    display: none;
+  }
+  #teste45{
+    background-color: var(--white);
+  }
   
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
@@ -1040,6 +1053,14 @@
 
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
 
+
+  #teste55{
+    display: none;
+  }
+  #teste45{
+    background-color: var(--white);
+  }
+
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;
@@ -1263,6 +1284,13 @@
 }
 
 @media only screen and (min-width: 426px ) and (max-width: 768px){
+
+  #teste55{
+    display: none;
+  }
+  #teste45{
+    background-color: var(--white);
+  }
 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {

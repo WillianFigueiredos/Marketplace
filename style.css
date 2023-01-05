@@ -19,7 +19,12 @@
 /*-----------RESET--------------*/
 
 
-
+#teste55{
+  display: none;
+}
+#teste45{
+  background-color: var(--white);
+}
 /*----------- START ALERT TOP BAR --------------*/
 .alert-primary{
   background-color: var(--white);
@@ -119,13 +124,7 @@
   color: var(--white);
 }
 
-a {
-  color: var(--white);
-  text-decoration: none;
-}
-a:hover {
-  color: var(--white);
-}
+
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -1523,7 +1522,6 @@ a:hover {
 
 
 /*----------- END MEDIA QUERIES -------------*/
-
 
 
 

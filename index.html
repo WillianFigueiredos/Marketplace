@@ -37,22 +37,41 @@
   <body>
 
     <button class="btn btn-primary" id="teste55" data-toggle="modal" data-target="#modal2">Abrir modal 2</button>
-    <div class="modal" tabindex="-1" role="dialog" id="modal2">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
+
+      <div class="modal fade"  tabindex="-1" role="dialog" id="modal2">
+
+        <div class="modal-dialog modal-lg" id="teste35" role="document">
+
+          <div class="modal-content">
+
             <div class="modal-header" id="teste45">
               <h5 class="modal-title">Modal 2</h5>
               <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+
             <div class="modal-body">
-              Conteúdo do modal 2
+
+            <div class="row-fluid">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
             </div>
+
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
               <button type="button" class="btn btn-primary">Salvar</button>
             </div>
+          </div>
+            
         </div>
       </div>
   </div>
@@ -86,7 +105,8 @@
             </span>
           </button>
 
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          
+          <div class="modal animated slide-in-right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
 
               <div class="modal-content">

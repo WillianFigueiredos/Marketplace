@@ -21,9 +21,22 @@
 
 #teste55{
   display: none;
+
 }
 #teste45{
   background-color: var(--white);
+}
+
+#modal2{
+  top: 30vh;
+  left: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+}
+
+.row-fluid {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*----------- START ALERT TOP BAR --------------*/
@@ -56,6 +69,19 @@
 
 .modal.fade .modal-dialog {
   transition: transform .4s ease-out !important;
+}
+
+.slide-in-right {
+  animation: slide-in-right 0.5s forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .modal-header{
@@ -327,11 +353,32 @@
 /*----------- START MINI BANNER -------------*/
 .slides{  
   list-style: none;
+  padding-left: 1rem;
+  padding-right: 0rem;
 }
 
 .col-4{
+  width: auto;
+  height: auto;
   padding-top: 1.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
+
+.modulo{
+  overflow: hidden;
+}
+
+.flexslider ul li{
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+img:hover{
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*----------- END MINI BANNER -------------*/
 
 

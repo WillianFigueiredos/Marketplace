@@ -1,32 +1,3 @@
-/*
-function openNav() {
-  document.getElementById("#navbModal").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("#navbModal").style.width = "0";
-}
-*/
-
-
-/* 
-function updateImage() {
-
-    if (window.matchMedia("(min-width: 500px)").matches) {
-        
-    document.getElementById("pic3").src = "Fotos/download__1_-removebg-preview.png";
-
-    
-    } else {
-
-    document.getElementById("pic3").src = "Fotos/download__1_-removebg-preview22.png";
-    }
-}
-
-window.addEventListener("resize", updateImage);
-updateImage();
-*/
-
 
 function startCarousel() {
   const carousel = document.getElementById("carouselExampleCaptions");
@@ -95,7 +66,8 @@ function toggleDropdownMenu4() {
   }
 }
 
-$(document).ready(function() {
-    $('#modal2').modal('show');
-});
+
+setTimeout(function() {
+  $('#modal2').modal('show');
+}, 3500);
 

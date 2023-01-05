@@ -366,16 +366,6 @@
 }
 
 
-.flexslider ul li{
-  overflow: hidden;
-  border-radius: 0.5rem;
-}
-
-img:hover{
-  transition: all 0.8s ease;
-  transform: scale(1.1);
-}
-
 /*----------- END MINI BANNER -------------*/
 
 

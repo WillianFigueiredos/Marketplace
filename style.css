@@ -1312,13 +1312,7 @@ img:hover{
 
 @media only screen and (min-width: 426px ) and (max-width: 768px){
 
-  #teste55{
-    display: none;
-  }
-  #teste45{
-    background-color: var(--white);
-  }
-
+ 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;

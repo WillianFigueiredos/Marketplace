@@ -365,9 +365,6 @@
   padding-right: 0rem;
 }
 
-.modulo{
-  overflow: hidden;
-}
 
 .flexslider ul li{
   overflow: hidden;
@@ -375,7 +372,7 @@
 }
 
 img:hover{
-  transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease;
   transform: scale(1.1);
 }
 
@@ -634,12 +631,7 @@ img:hover{
 @media only screen and (max-width: 320px){
 
 
-  #teste55{
-    display: none;
-  }
-  #teste45{
-    background-color: var(--white);
-  }
+
   
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
@@ -870,12 +862,6 @@ img:hover{
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
   
-  #teste55{
-    display: none;
-  }
-  #teste45{
-    background-color: var(--white);
-  }
   
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
@@ -1101,13 +1087,6 @@ img:hover{
 
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
 
-
-  #teste55{
-    display: none;
-  }
-  #teste45{
-    background-color: var(--white);
-  }
 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {

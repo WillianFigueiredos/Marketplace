@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/themes/splide-skyblue.min.css">
 
+  
     <!-- css -->
     <link rel="stylesheet" href="style.css"/>
 
@@ -34,6 +35,7 @@
   </head>
 
   <body>
+
     <header>
       <!-- START ALERT TOP BAR -->
       <div class="alert alert-primary" role="alert">
@@ -52,135 +54,162 @@
             </div>            
           </div>
 
-          <button class="navbar-toggler collapsed" id="main">
+          <button class="navbar-toggler d-lg-none" id="main">
             <span class="navbar-toggler-icon">
-              <ion-icon name="menu-outline" onclick="openNav()"></ion-icon>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <ion-icon name="menu-outline"></ion-icon>
+            </a>
             </span>
           </button>
 
-          <div class="navbar-collapse sidenav" id="mySidenav">
-            
-            <ul class="navbar-nav ml-auto">
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
 
-              <li class="nav-item">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                  <ion-icon name="close-outline"></ion-icon>
-                </a>
-              </li>
+              <div class="modal-content">
 
+                <div class="modal-header">
+                  <div  class="account-login" >
+                    <span>
+                      <ion-icon name="person-circle-outline"></ion-icon>
+                    </span>
+                  </div>
+                  <div class="text menu-dropdown">
+                    <span class="msg">Bem vindo(a)</span>
+                    <a class="link" href="">Entrar ou Cadastrar</a>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
 
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
-              </li>
+                <div class="modal-body">
 
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
-              </li>
+                  <div class="modal-line">
+                    <i class="fa-solid fa-house"></i><a href="/">Home</a>
+                </div>
 
-              <li class="menu-category">
-                <span>
-                  <i class="bi bi-headphones" id="Fones"></i>
-                  <a href="#" class="menu-title">Fones</a>
-                  <i class="bi bi-chevron-down" id="Fonesdown"></i>
-                </span>
+                <div class="modal-line">
+                  <i class="fa-solid fa-bell-concierge"></i>
+                  <a href="/services">Services</a>
+                </div>
 
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
+                <div class="modal-line">
+                  <i class="fa-solid fa-file-lines"></i>
+                  <a href="/cases">Cases</a>
+                </div>
 
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
+                <div class="modal-line" onclick="toggleDropdownMenu()">
+                  <a href="#" >Fones</a>
+                  <i class="bi bi-chevron-down" id="setmodal"></i>
 
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-category" id="Celulares">
-                <span>
-                  <i class="bi bi-phone" id="Smartphone"></i>
-                  <a href="#" class="menu-title">Smartphones</a>
-                  <i class="bi bi-chevron-down" id="Smartphonesown"></i>
-                </span>
-
-
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-
-                  <li class="dropdown-item">
-                    <a href="#">Subcategoria Informática 01</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="menu-category" id="Eletro">
-                <span>
-                  <i class="bi bi-smartwatch" id="Smartwatch"></i>
-                  <a href="#" class="menu-title">Smartwatch</a>
-                </span>
-              </li>
-
-              <li class="menu-category" id="Informática">
-                
-                <span>
-                  <i class="bi bi-pc-display-horizontal" id="iconpc"></i>
-                  <a href="#" class="menu-title">Informática</a>
-                </span>
-
-                <li class="menu-category" id="Iphone">
-                  <span>
-                    <i class="bi bi-phone" id="Iphones"></i>
-                    <a href="#" class="menu-title">Iphones</a>
-                    <i class="bi bi-chevron-down" id="Iphonesdown"></i>
-                  </span>
-  
-  
-                  <ul class="dropdown-list">
-                    <li class="dropdown-item">
-                      <a href="#">Subcategoria Informática 01</a>
+                  <ul id="dropdown-menu" class="sidebar-dropdown-menu" style="display: none;">
+                    
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 01</a>
                     </li>
-  
-                    <li class="dropdown-item">
-                      <a href="#">Subcategoria Informática 01</a>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 02</a>
                     </li>
-  
-                    <li class="dropdown-item">
-                      <a href="#">Subcategoria Informática 01</a>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 03</a>
                     </li>
-  
-                    <li class="dropdown-item">
-                      <a href="#">Subcategoria Informática 01</a>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 04</a>
                     </li>
                   </ul>
-                </li>
 
-              <li class="menu-category-btn" id="Ofertas">
-                <button type="button" class="btn btn-primary">
-                  <i class="bi bi-list"></i>
-                  <span>OFERTAS</span> 
-                </button>
-              </li>
-            </li>
+                </div>
+                <div class="modal-line" onclick="toggleDropdownMenu2()">
+                  <a href="#" >Smartphones
+                  </a>
+                  <i class="bi bi-chevron-down" id="setmodal2"></i>
 
-            </ul>
+                  <ul id="dropdown-menu2" class="sidebar-dropdown-menu" style="display: none;">
+                    
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 01</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 02</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 03</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 04</a>
+                    </li>
+                  </ul>
 
+                </div>
+
+                <div class="modal-line">
+                  <i class="fa-solid fa-file-lines"></i>
+                  <a href="/cases">Smartwatch</a>
+                </div>
+
+                <div class="modal-line">
+                  <i class="fa-solid fa-file-lines"></i>
+                  <a href="/cases">Informática</a>
+                </div>
+
+                <div class="modal-line" onclick="toggleDropdownMenu3()">
+                  <a href="#" >Iphones</a>
+                  <i class="bi bi-chevron-down" id="setmodal3"></i>
+
+                  <ul id="dropdown-menu3" class="sidebar-dropdown-menu" style="display: none;">
+                    
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 01</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 02</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 03</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 04</a>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="modal-line" onclick="toggleDropdownMenu4()">
+                  <a href="#" >Ofertas</a>
+                  <i class="bi bi-chevron-down" id="setmodal4"></i>
+
+                  <ul id="dropdown-menu4" class="sidebar-dropdown-menu" style="display: none;">
+                    
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 01</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 02</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 03</a>
+                    </li>
+                    <li class="sidebar-dropdown-item">
+                      <a href="">Subcategoria 04</a>
+                    </li>
+                  </ul>
+
+                </div>
+
+                
+
+
+              </div>
+
+                <div class="modal-footer">
+                  <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+              </div>
+
+            </div>
           </div>
 
           <section class="navbar container-fluid">
@@ -1544,6 +1573,9 @@
         </footer>
     <!--FIM FOOTER
 
+      
+
+      
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

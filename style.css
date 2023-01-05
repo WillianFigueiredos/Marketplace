@@ -36,7 +36,13 @@
 
 .row-fluid {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.pic{
+  width: 100%;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 /*----------- START ALERT TOP BAR --------------*/

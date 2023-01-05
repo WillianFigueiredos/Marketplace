@@ -365,6 +365,11 @@
   padding-right: 0rem;
 }
 
+.flexslider ul li{
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
 
 /*----------- END MINI BANNER -------------*/
 

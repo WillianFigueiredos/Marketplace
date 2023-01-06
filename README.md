@@ -15,9 +15,10 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 
 
 ### Home page
-<p align="center">
+
+<div align="center"
 <img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Home.jpg" alt="exemplo imagem">
-</p>
+</div>
 
 
 <!---### Content Description page
@@ -52,8 +53,8 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Responsividade
-- [x] página de produto
+- [x] Responsividade.
+- [x] Página do produto.
 
 <!---
 ## 💻 Pré-requisitos
@@ -154,4 +155,8 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/WillianFigueiredos/Marketplace-project/blob/main/licence) para mais detalhes.
 --->
 [⬆ Voltar ao topo](https://github.com/WillianFigueiredos/Marketplace-project#marketplace-project)<br>
+
+
+
+
 

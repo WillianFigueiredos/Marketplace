@@ -682,17 +682,6 @@
 @media only screen and (max-width: 320px){
 
 
-
-  .modal-dialog {
-    position: relative;
-    width: 95%;
-    height: 95%;
-    margin: 0 auto;
-    pointer-events: none;
-  }
-
-
-
   
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
@@ -945,14 +934,6 @@
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
 
-
-  .modal-dialog {
-    position: relative;
-    width: 95%;
-    height: 95%;
-    margin: 0 auto;
-    pointer-events: none;
-  }
 
 
 
@@ -1209,17 +1190,6 @@
 
 
 
-  .modal-dialog {
-    position: relative;
-    width: 95%;
-    height: 95%;
-    margin: 0 auto;
-    pointer-events: none;
-  }
-
-
-
-
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;
@@ -1464,14 +1434,6 @@
 }
 
 @media only screen and (min-width: 426px ) and (max-width: 768px){
-
-  .modal-dialog {
-    position: relative;
-    width: 95%;
-    height: 95%;
-    margin: 0 auto;
-    pointer-events: none;
-  }
 
 
 

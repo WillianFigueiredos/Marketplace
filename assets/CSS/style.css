@@ -43,18 +43,17 @@
 
 #modal-newsletter .close {
 
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: var(--eerie-black);
-    text-shadow: none;
-    opacity: 0.5;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 20px;
-    font-size: 19px;
-    text-align: center;
-    padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--orange);
+  opacity: 0.8;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0;
 }
 
 #modal-newsletter .close span {
@@ -63,7 +62,7 @@
 }
 
 #modal-newsletter .close:hover {
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 #modal-newsletter .icon-box {
@@ -1322,7 +1321,7 @@
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
 
   #modal-newsletter .icon-box i {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   #modal-newsletter h4 {

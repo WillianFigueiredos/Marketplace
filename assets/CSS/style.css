@@ -23,13 +23,14 @@
 	padding: 1rem;
 	border-radius: 0;		
 	border: none;
+
 }
 
 #modal-newsletter .modal-header {
 	border-bottom: none;   
 	position: relative;
 	text-align: center;
-  background-color: var(--white);
+  background-color:  transparent;
 }
 
 #modal-newsletter h4 {
@@ -41,12 +42,18 @@
 	text-transform: capitalize;
 }
 
+.subnewsletter p{
+	color: var(--eerie-black);
+  opacity: 0.6;
+}
+
 #modal-newsletter .close {
 
   position: absolute;
+  background-color:  rgba(229, 229, 229, 1);
   top: 0;
   right: 0;
-  color: var(--orange);
+  color: var(--eerie-black);
   opacity: 0.8;
   width: 2rem;
   height: 2rem;
@@ -62,21 +69,14 @@
 }
 
 #modal-newsletter .close:hover {
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
-#modal-newsletter .icon-box {
-	color: var(--orange);		
-	display: inline-block;
-	z-index: 9;
-	text-align: center;
-	position: relative;
-	margin-bottom: 1.5rem;
+.modal-header .icon-box {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#modal-newsletter .icon-box i {
-	font-size: 7rem;
-}
 
 #modal-newsletter .form-control, #modal-newsletter .btn {
 	min-height: 46px;
@@ -85,12 +85,13 @@
 
 #modal-newsletter .form-control {
 	box-shadow: none;
-	border-color: var(--davys-gray);
+	border-color: var(--eerie-black);
+
 }
 
 #modal-newsletter .form-control:focus {
 	border-color: var(--denim-blue);
-	box-shadow: 0 0 8px var(--dylans-Blue);
+	box-shadow: 0 0 8px var(--denim-blue);
 }
 
 #modal-newsletter .btn {
@@ -105,10 +106,7 @@
 	border: none;
 }
 
-#modal-newsletter .btn:hover, #modal-newsletter .btn:focus {
-	background: var(--imperial-blue);
-	outline: none;
-}
+
 #modal-newsletter .input-group {
 	margin: 2rem 0 1rem;
 }

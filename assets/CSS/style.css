@@ -18,12 +18,108 @@
 }
 /*-----------RESET--------------*/
 
+
+#modal-newsletter .modal-content {
+	padding: 1rem;
+	border-radius: 0;		
+	border: none;
+}
+
+#modal-newsletter .modal-header {
+	border-bottom: none;   
+	position: relative;
+	text-align: center;
+  background-color: var(--white);
+}
+
+#modal-newsletter h4 {
+	color: var(--eerie-black);
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 0 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#modal-newsletter .close {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--eerie-black);
+    text-shadow: none;
+    opacity: 0.5;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: 19px;
+    text-align: center;
+    padding: 0;
+}
+
+#modal-newsletter .close span {
+	position: relative;
+	top: -0.1rem;
+}
+
+#modal-newsletter .close:hover {
+	opacity: 0.8;
+}
+
+#modal-newsletter .icon-box {
+	color: var(--orange);		
+	display: inline-block;
+	z-index: 9;
+	text-align: center;
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+#modal-newsletter .icon-box i {
+	font-size: 7rem;
+}
+
+#modal-newsletter .form-control, #modal-newsletter .btn {
+	min-height: 46px;
+	border-radius: 3px; 
+}
+
+#modal-newsletter .form-control {
+	box-shadow: none;
+	border-color: var(--davys-gray);
+}
+
+#modal-newsletter .form-control:focus {
+	border-color: var(--denim-blue);
+	box-shadow: 0 0 8px var(--dylans-Blue);
+}
+
+#modal-newsletter .btn {
+	color: #fff;
+	border-radius: 4px;
+	background: var(--denim-blue);
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	padding: 6px 20px;
+	min-width: 150px;
+	border: none;
+}
+
+#modal-newsletter .btn:hover, #modal-newsletter .btn:focus {
+	background: var(--imperial-blue);
+	outline: none;
+}
+#modal-newsletter .input-group {
+	margin: 2rem 0 1rem;
+}
+
 #teste55{
   display: none;
 }
 
 #modal2{
-  top: 10vh;
+  top: 5vh;
   left: 0rem;
   right: 0rem;
   bottom: 0rem;
@@ -1698,6 +1794,8 @@
 
 
 /*----------- END MEDIA QUERIES -------------*/
+
+
 
 
 

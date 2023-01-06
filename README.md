@@ -11,7 +11,7 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 ![GitHub commit](https://img.shields.io/github/commit-activity/w/WillianFigueiredos/Marketplace)
 
 ### Home page
-<img src="https://github.com/WillianFigueiredos/Marketplace-project/blob/main/assets/img/Project/11_pages-to-jpg-0001.jpg" alt="exemplo imagem">
+<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Home.jpg" alt="exemplo imagem">
 
 
 
@@ -31,8 +31,11 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 
 <!---<img src="https://github.com/WillianFigueiredos/Marketplace-project/blob/main/assets/img/Project/33_cropped_page-0001.jpg" alt="exemplo imagem">--->
 
+
+<!---
 ### Login page
 <img src="https://github.com/WillianFigueiredos/Marketplace-project/blob/main/assets/img/Project/44_page-0001.jpg" alt="exemplo imagem">
+--->
 
 
 

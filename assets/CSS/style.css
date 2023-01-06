@@ -23,14 +23,31 @@
 	padding: 1rem;
 	border-radius: 0;		
 	border: none;
-
 }
 
-#modal-newsletter .modal-header {
-	border-bottom: none;   
-	position: relative;
-	text-align: center;
-  background-color:  transparent;
+#headermodal{
+  background-color: var(--white);
+}
+
+.icon-box2{
+  color: var(--denim-blue);		
+  font-size: 5rem;
+  display: inline-block;
+  z-index: 9;
+  text-align: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.modal-header{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#modal-newsletter>.modal-header {
+  background-color:  var(--white);
+  display: flex;
+  height: 100%;
 }
 
 #modal-newsletter h4 {
@@ -39,7 +56,6 @@
 	font-size: 2rem;
 	margin: 0 0 25px;
 	font-weight: bold;
-	text-transform: capitalize;
 }
 
 .subnewsletter p{
@@ -773,6 +789,7 @@
 @media only screen and (max-width: 320px){
 
 
+  
 
   #modal-newsletter .icon-box i {
     font-size: 4rem;
@@ -1044,6 +1061,10 @@
 
 
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
+
+  .icon-box{
+    display: none;
+  } 
 
   #modal-newsletter .icon-box i {
     font-size: 4.5rem;
@@ -1318,6 +1339,10 @@
 
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
 
+  .icon-box{
+    display: none;
+  } 
+
   #modal-newsletter .icon-box i {
     font-size: 5rem;
   }
@@ -1590,7 +1615,9 @@
 
 @media only screen and (min-width: 426px ) and (max-width: 768px){
 
-
+  .icon-box{
+    display: none;
+  } 
 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {

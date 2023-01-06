@@ -140,9 +140,10 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 --->
 
+<!---
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/WillianFigueiredos/Marketplace-project/blob/main/licence) para mais detalhes.
-
+--->
 [⬆ Voltar ao topo](https://github.com/WillianFigueiredos/Marketplace-project#marketplace-project)<br>
 

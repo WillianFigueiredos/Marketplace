@@ -44,42 +44,32 @@
 
           <div class="modal-content">
 
-            <div class="modal-header" id="teste45">
-              <h5 class="modal-title">Modal 2</h5>
-              <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
+            <div class="modal-body text-center py-3">
 
-            <div class="modal-body">
+                <h3 class="modal-title mb-3" id="modalTitleSubscribe">Join our 1.360 subscribers</h3>
+                <p class="mb-4 lead">Get exclusive access to freebies, premium products and news.</p>
+                <div class="form-group px-lg-5">
 
-            <div class="row-fluid">
-              <div class="pic col-4" >
-                <span>
-                  <img src="Fotos/sub-banner-1 (2).jpg" alt="">
-                </span>
-              </div>
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                    <div class="d-flex mb-3 justify-content-center">
+                        <input type="text" id="subscribe" class="me-sm-1 mb-sm-0 form-control form-control-lg border-gray-300" placeholder="example@company.com">
+                        <div>
+                            <button type="submit" class="ms-2 btn large-form-btn btn-primary">Subscribe</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
             </div>
 
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              <button type="button" class="btn btn-primary">Salvar</button>
+            <div class="modal-footer z-2 mx-auto text-center">
+                <p class="text-dark fw-normal font-small">
+                    We’ll never share your details with third parties.
+                    <br class="visible-md">View our <a href="#">Privacy Policy</a> for more info.
+                </p>
             </div>
-          </div>
             
         </div>
-      </div>
-  </div>
+    </div>
+</div>
+            
 
 
 
@@ -134,17 +124,15 @@
                 <div class="modal-body">
 
                   <div class="modal-line">
-                    <i class="fa-solid fa-house"></i><a href="/">Home</a>
+                    <a href="#">Meus Pedidos</a>
                 </div>
 
                 <div class="modal-line">
-                  <i class="fa-solid fa-bell-concierge"></i>
-                  <a href="/services">Services</a>
+                  <a href="#">Minha Conta</a>
                 </div>
 
-                <div class="modal-line">
-                  <i class="fa-solid fa-file-lines"></i>
-                  <a href="/cases">Cases</a>
+                <div class="modal-line" id="titlesub-menu-modal">
+                  <a href="#"> <strong>Compre por departamento</strong></a>
                 </div>
 
                 <div class="modal-line" onclick="toggleDropdownMenu()">
@@ -154,16 +142,16 @@
                   <ul id="dropdown-menu" class="sidebar-dropdown-menu" style="display: none;">
                     
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 01</a>
+                      <a href="#">JBL</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 02</a>
+                      <a href="#">Baseus</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 03</a>
+                      <a href="#">Hyperx Cloud</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 04</a>
+                      <a href="#">Redragon</a>
                     </li>
                   </ul>
 
@@ -176,16 +164,16 @@
                   <ul id="dropdown-menu2" class="sidebar-dropdown-menu" style="display: none;">
                     
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 01</a>
+                      <a href="#">Xiaomi</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 02</a>
+                      <a href="#">Samsung</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 03</a>
+                      <a href="">Huawei</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 04</a>
+                      <a href="#">Realme</a>
                     </li>
                   </ul>
 
@@ -193,12 +181,12 @@
 
                 <div class="modal-line">
                   <i class="fa-solid fa-file-lines"></i>
-                  <a href="/cases">Smartwatch</a>
+                  <a href="#">Smartwatch</a>
                 </div>
 
                 <div class="modal-line">
                   <i class="fa-solid fa-file-lines"></i>
-                  <a href="/cases">Informática</a>
+                  <a href="#">Informática</a>
                 </div>
 
                 <div class="modal-line" onclick="toggleDropdownMenu3()">
@@ -208,16 +196,16 @@
                   <ul id="dropdown-menu3" class="sidebar-dropdown-menu" style="display: none;">
                     
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 01</a>
+                      <a href="#">Iphone 14</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 02</a>
+                      <a href="#">Iphone 13</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 03</a>
+                      <a href="#">Iphone 11</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 04</a>
+                      <a href="#">Acessorios Apple</a>
                     </li>
                   </ul>
 
@@ -230,25 +218,24 @@
                   <ul id="dropdown-menu4" class="sidebar-dropdown-menu" style="display: none;">
                     
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 01</a>
+                      <a href="#">Subcategoria 01</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 02</a>
+                      <a href="#">Subcategoria 02</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 03</a>
+                      <a href="#">Subcategoria 03</a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                      <a href="">Subcategoria 04</a>
+                      <a href="#">Subcategoria 04</a>
                     </li>
                   </ul>
                 </div>
               </div>
                 <div class="modal-footer">
-                  <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                  <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
-                  <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a target="_blank" href="#">
+                    <i class="bi bi-whatsapp" id="whatsmodal"></i></a>
+                    <span>Compre pelo Whatsapp</span>
                 </div>
               </div>
 
@@ -1537,40 +1524,45 @@
           </div>
             <div class="container">
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-6">
                   <ul class="list-unstyled">
-                    <li class="link_name">Atendimento</li>
+                    <li class="link_name">Atendimento</li><br>
                     <li id="Tel"><a href="#">Telefone: (11) 99999-9999</a></li>
-                    <li id="time"><a href="#">Seg. a Sexta 8:00h as 18:00h</a></li>
+                    <li id="time"><a href="#">Seg. a Sexta 8:00h as 18:00h</a></li><br>
                     <li>
                       <a href="#">
-                        Endereço<br/><br/>
-                        Av. Mario Vilas Boas Rodrigues, 00 <br/>
-                        Sao Paulo - SP - CEP 04757-020
+                        <span>
+                          Endereço <br/>
+                          Av. Mario Vilas Boas Rodrigues, 00 <br>
+                          Sao Paulo - SP - CEP 04757-020
+                        </span>
+  
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-7">
-                  <div class="box-Newsletter">
-                    <div class="logo-details">
-                      <p class="link_name">Newsletter</p>
-                      <span class="logo-details-text">
-                        Você pode cancelar a inscrição a qualquer<br/>
-                        momento. Para isso, por favor, encontre <br />
-                        nossas informações de contato no aviso legal.
-                      </span>
+
+                
+                <div class="col-md-4">
+                  <div class="media-icons" id="selos">
+                    <div>
+                      <a href="#"><img src="Fotos/site prote.png" alt=""></a>
                     </div>
-                    <div class="input-box">
-                      <form>
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Enter your email">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Quero assinar</button>
-                      </form>
+
+                    <div>
+                      <a href="#"><img src="Fotos/selo-google-res.png" alt=""></a>
                     </div>
+
+                    <div>
+                      <a href="#"><img src="Fotos/site seguro 2.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="#"><img src="Fotos/siteseguro3.png" alt=""></a>
+                    </div>
+
                   </div>
-                </div>
+                </div> 
               </div>
             </div>
           </div>

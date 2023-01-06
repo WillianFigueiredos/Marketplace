@@ -10,15 +10,10 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 ![GitHub stars](https://img.shields.io/github/stars/WillianFigueiredos/Marketplace?style=social)
 ![GitHub commit](https://img.shields.io/github/commit-activity/w/WillianFigueiredos/Marketplace)
 
-### Home page
-<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/mobile%20(1).gif" alt="exemplo imagem">
-
 
 ### Home page
-
-<div align="center"
 <img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Home.jpg" alt="exemplo imagem">
-</div>
+
 
 
 <!---### Content Description page

@@ -663,13 +663,11 @@
 
 .list-unstyled a{
   color: var(--white);
-  opacity: 0.5;
   text-decoration: none;
 }
 
 .media-icons a{
   color: var(--eerie-black);
-  opacity: 0.5;
   text-decoration: none;
 }
 

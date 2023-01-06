@@ -1,4 +1,6 @@
 
+
+
 function startCarousel() {
   const carousel = document.getElementById("carouselExampleCaptions");
   const nextButton = carousel.querySelector(".carousel-control-next");
@@ -72,4 +74,6 @@ setTimeout(function() {
 }, 1000);
 
 
+
+Cookies.set('cookieName', 'Willian', { expires: 7, path: '' });
 

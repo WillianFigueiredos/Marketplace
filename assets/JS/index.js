@@ -74,6 +74,6 @@ setTimeout(function() {
 }, 1000);
 
 
-
-Cookies.set('cookieName', 'Willian', { expires: 7, path: '' });
-
+function closeItem() {
+  $('#modal2').modal('hide');
+}

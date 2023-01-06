@@ -776,35 +776,26 @@
 @media only screen and (max-width: 320px){
 
 
-  
-  #modal-newsletter .icon-box{
-    margin-bottom: 0rem;
-  }
-
-  .modal-body {
-    margin-top: 2px;
-    padding: 4px;
-  }
 
   #modal-newsletter .icon-box i {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   #modal-newsletter h4 {
-    font-size: 1.5rem;
-    margin: 10px;
-    margin-bottom: 0px;
-
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
   }
 
-  #modal-newsletter .modal-content {
-    padding: 0.5rem;
+  .subnewsletter p{
+    font-size: 0.8rem;
+    margin: 5px;
   }
 
-  #modal-newsletter .input-group {
-    margin: 0.5rem;
-  }
+  #modal-newsletter .btn {
+    min-width: 10px;
 
+  }
   
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
@@ -1057,36 +1048,28 @@
 
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
-
-    
-  #modal-newsletter .icon-box{
-    margin-bottom: 0rem;
-  }
-
-  .modal-body {
-    margin-top: 2px;
-    padding: 4px;
-  }
-
   #modal-newsletter .icon-box i {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   #modal-newsletter h4 {
-    font-size: 1.5rem;
-    margin: 10px;
-    margin-bottom: 0px;
-
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
   }
 
-  #modal-newsletter .modal-content {
-    padding: 0.5rem;
+  .subnewsletter p{
+    font-size: 0.8rem;
+    margin-top: 5px;
   }
 
-  #modal-newsletter .input-group {
-    margin: 0.5rem;
+  #modal-newsletter .btn {
+    min-width: 10px;
   }
 
+  .modal-body {
+    padding: 0rem;
+  }
 
   
   
@@ -1337,6 +1320,31 @@
 
 
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
+
+  #modal-newsletter .icon-box i {
+    font-size: 4rem;
+  }
+
+  #modal-newsletter h4 {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .subnewsletter p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  #modal-newsletter .btn {
+    min-width: 10px;
+  }
+
+  .modal-body {
+    padding: 0rem;
+  }
+
+
 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {

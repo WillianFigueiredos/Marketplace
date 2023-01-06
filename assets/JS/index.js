@@ -77,3 +77,5 @@ setTimeout(function() {
 function closeItem() {
   $('#modal2').modal('hide');
 }
+
+

@@ -777,6 +777,35 @@
 
 
   
+  #modal-newsletter .icon-box{
+    margin-bottom: 0rem;
+  }
+
+  .modal-body {
+    margin-top: 2px;
+    padding: 4px;
+  }
+
+  #modal-newsletter .icon-box i {
+    font-size: 5rem;
+  }
+
+  #modal-newsletter h4 {
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-bottom: 0px;
+
+  }
+
+  #modal-newsletter .modal-content {
+    padding: 0.5rem;
+  }
+
+  #modal-newsletter .input-group {
+    margin: 0.5rem;
+  }
+
+  
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;
@@ -1021,6 +1050,7 @@
   /*--------------- END FOOTER ------------------*/
 
 
+
 }
 
 
@@ -1028,8 +1058,9 @@
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
 
-
-
+  #modal-newsletter .icon-box i {
+    font-size: 5rem;
+  }
 
 
   

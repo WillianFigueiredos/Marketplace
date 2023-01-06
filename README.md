@@ -5,10 +5,10 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/WillianFigueiredos/Marketplace-project)
-![GitHub forks](https://img.shields.io/github/forks/WillianFigueiredos/Marketplace-project?style=social)
-![GitHub stars](https://img.shields.io/github/stars/WillianFigueiredos/Marketplace-project?style=social)
-![GitHub commit](https://img.shields.io/github/commit-activity/w/WillianFigueiredos/Marketplace-project)
+![GitHub repo size](https://img.shields.io/github/repo-size/WillianFigueiredos/Marketplace)
+![GitHub forks](https://img.shields.io/github/forks/WillianFigueiredos/Marketplace?style=social)
+![GitHub stars](https://img.shields.io/github/stars/WillianFigueiredos/Marketplace?style=social)
+![GitHub commit](https://img.shields.io/github/commit-activity/w/WillianFigueiredos/Marketplace)
 
 ### Home page
 <img src="https://github.com/WillianFigueiredos/Marketplace-project/blob/main/assets/img/Project/11_pages-to-jpg-0001.jpg" alt="exemplo imagem">

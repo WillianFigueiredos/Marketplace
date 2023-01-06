@@ -15,7 +15,7 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 <img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Home.jpg" alt="exemplo imagem">
 
 <div> 
-<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Blank_2_Grids_Collage-removebg-preview.png" alt="exemplo imagem">
+<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/mobile__1_-removebg-preview.png" alt="exemplo imagem">
 </div>
 
 

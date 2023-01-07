@@ -81,3 +81,16 @@ function closeItem() {
 }
 
 
+
+const actionbtn = document.querySelector(".action-btn");
+
+function redirectBtnlogin() {
+    window.location.href = "login.html";
+}
+
+const actionproductcard = document.querySelector(".product-card");
+
+function redirectProductpage() {
+    window.location.href = "produto.html";
+    
+}

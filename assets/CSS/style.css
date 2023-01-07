@@ -978,7 +978,9 @@ html {
   }
 
   .slides{
-    padding-left: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  
   }
 
   .slides img {
@@ -1203,8 +1205,8 @@ html {
     display: flex !important;
     width:auto !important;
     position: inherit !important;
-    bottom:6.7rem;
-    left: 19.7rem !important; 
+    bottom:6.9rem;
+    left: 19.3rem !important; 
     font-size: 2.3rem;
   }
 
@@ -1494,8 +1496,8 @@ html {
     display: flex !important;
     width:auto !important;
     position: inherit !important;
-    bottom:6.7rem;
-    left: 21rem !important; 
+    bottom:6.9rem;
+    left: 21.5rem !important; 
     font-size: 2.3rem;
   }
 
@@ -1827,8 +1829,8 @@ html {
   }
 
   .slides{
-    padding-left: 0rem;
-    padding-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .slides img {
@@ -1920,6 +1922,33 @@ html {
     font-weight: 600;
   }
   /*---------------FIM PRODUTOS------------------*/
+
+    /*--------------- START FOOTER ------------------*/
+    .footer {
+      margin-top: 1rem;
+    }
+  
+    #selos{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-bottom: 1.5rem;
+      padding-top: 0rem;
+      padding-right: 0rem;
+      padding-left: 0rem;
+    }
+  
+    .media-icons{
+      padding-left: 0rem;
+    }
+  
+    .policy_terms{
+      padding-left: 3.0rem;
+      padding-bottom: 0.5rem;
+    }
+    /*--------------- END FOOTER ------------------*/
+
+  
 
 }
 

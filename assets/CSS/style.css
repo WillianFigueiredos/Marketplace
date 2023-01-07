@@ -285,6 +285,7 @@ html {
   font-size: 1rem;
   font-weight: 300;
   margin-right: 2.2rem;
+  cursor: pointer;
 }
 
 #iconscart {

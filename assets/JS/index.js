@@ -82,7 +82,7 @@ function closeItem() {
 
 
 
-const actionbtn = document.querySelector(".action-btn");
+const actionbtn = document.querySelector(".text", "#iconsperson");
 
 function redirectBtnlogin() {
     window.location.href = "login.html";
@@ -94,3 +94,5 @@ function redirectProductpage() {
     window.location.href = "produto.html";
     
 }
+
+

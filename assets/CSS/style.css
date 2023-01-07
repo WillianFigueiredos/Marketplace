@@ -1187,7 +1187,7 @@ html {
     font-size: 2.3rem;
     position:relative;
     bottom:3.5rem !important;
-    left: 0.1rem !important;
+    left: 0.4rem !important;
     color: var(--white);
   }
 
@@ -1202,9 +1202,9 @@ html {
   #cart{
     display: flex !important;
     width:auto !important;
-    position: relative !important;
-    bottom:7.9rem;
-    left: 19.5rem !important; 
+    position: inherit !important;
+    bottom:6.7rem;
+    left: 19.7rem !important; 
     font-size: 2.3rem;
   }
 
@@ -1416,7 +1416,7 @@ html {
 }
 
 
-@media only screen and (min-width: 376px ) and (max-width: 425px) {
+@media only screen and (min-width: 376px ) and (max-width: 414px) {
 
   /*----------- START MODAL -------------*/
   .icon-box{
@@ -1478,7 +1478,7 @@ html {
     font-size: 2.3rem;
     position:relative;
     bottom:3.5rem !important;
-    left: 0.8rem !important;
+    left: 0.5rem !important;
     color: var(--white);
   }
 
@@ -1493,11 +1493,12 @@ html {
   #cart{
     display: flex !important;
     width:auto !important;
-    position: relative !important;
-    bottom:7.9rem;
-    left: 22rem !important; 
+    position: inherit !important;
+    bottom:6.7rem;
+    left: 21rem !important; 
     font-size: 2.3rem;
   }
+
 
   .navbar img {
     margin-left: 7rem;
@@ -1707,7 +1708,7 @@ html {
   /*--------------- END FOOTER ------------------*/
 }
 
-@media only screen and (min-width: 426px ) and (max-width: 768px){
+@media only screen and (min-width: 415px ) and (max-width: 768px){
 
   .icon-box{
     display: none;
@@ -1758,9 +1759,9 @@ html {
   #cart{
     display: flex !important;
     width:auto !important;
-    position: relative !important;
-    bottom:7.9rem;
-    left: 23.3rem !important; 
+    position: inherit !important;
+    bottom:6.7rem;
+    left: 23rem !important; 
     font-size: 2.3rem;
   }
 

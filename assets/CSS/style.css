@@ -266,13 +266,39 @@ html {
 }
 
 .shop-bag{
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: var(--white);
 }
 
-.bi-search {
+#iconsoutline{
+  align-items: center;
+  display: flex;
   color: var(--white);
+  font-size: 1rem;
+  margin-right: 4rem;
 }
+
+#iconsperson{
+  align-items: center;
+  display: flex;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 2.5rem;
+}
+
+#iconscart {
+  align-items: center;
+  display: flex;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.text-icon{
+  margin-left: .5rem;
+}
+
+
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -400,6 +426,8 @@ html {
   opacity: 1;
   visibility: visible;
 }
+
+
 
 .dropdown-list .dropdown-item a {
   text-transform: capitalize;
@@ -843,7 +871,7 @@ html {
   .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom:6.4rem !important;
+    bottom:2.8rem !important;
     left: 0.8rem !important;
     color: var(--white);
   }
@@ -856,8 +884,8 @@ html {
     display: flex !important;
     width:auto !important;
     position: relative !important;
-    bottom:6.3rem;
-    right: 0.8rem !important; 
+    bottom:7.7rem;
+    right: -16.8rem !important; 
     font-size: 2.3rem;
   }
 
@@ -866,12 +894,24 @@ html {
     margin-top: 0.5rem;
   }
 
-  .d-flex span{
+  .text-icon{
     display: none;
   }
 
-  .form-control{
-    width: 90%;
+  #mobile{
+    display: flex!important;
+    margin-left: 1.5rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+  #iconscart{
+
+    position: absolute;
+  }
+
+
+  #main{
+    position: absolute;
   }
 
   .translate-middle{
@@ -1109,7 +1149,7 @@ html {
     --bs-navbar-padding-y:0rem !important;
     --bs-navbar-toggler-padding-y:0rem !important;
   }
-
+  
   .navbar-toggler{
     border: none;
     color: transparent;
@@ -1118,13 +1158,13 @@ html {
   .navbar-toggler-icon{
     background-image: none;
     background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-    color: var(--white);
+    color: var(--white)!important;
   }
 
   .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom:6.4rem !important;
+    bottom:2.8rem !important;
     left: 0.8rem !important;
     color: var(--white);
   }
@@ -1137,22 +1177,34 @@ html {
     display: flex !important;
     width:auto !important;
     position: relative !important;
-    bottom:6.3rem;
-    right: 0.8rem !important; 
+    bottom:7.7rem;
+    right: -19rem !important; 
     font-size: 2.3rem;
   }
 
   .navbar img {
-    margin-left: 4.5rem;
+    margin-left: 4.9rem;
     margin-top: 0.5rem;
   }
 
-  .d-flex span{
+  .text-icon{
     display: none;
   }
 
-  .form-control{
-    width: 90%;
+  #mobile{
+    display: flex!important;
+    margin-left: 1.5rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+  #iconscart{
+
+    position: absolute;
+  }
+
+
+  #main{
+    position: absolute;
   }
 
   .translate-middle{
@@ -1385,7 +1437,7 @@ html {
     --bs-navbar-padding-y:0rem !important;
     --bs-navbar-toggler-padding-y:0rem !important;
   }
-
+  
   .navbar-toggler{
     border: none;
     color: transparent;
@@ -1394,13 +1446,13 @@ html {
   .navbar-toggler-icon{
     background-image: none;
     background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-    color: var(--white);
+    color: var(--white)!important;
   }
 
   .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom:6.4rem !important;
+    bottom:2.8rem !important;
     left: 0.8rem !important;
     color: var(--white);
   }
@@ -1413,8 +1465,8 @@ html {
     display: flex !important;
     width:auto !important;
     position: relative !important;
-    bottom:6.3rem;
-    right: 0.8rem !important; 
+    bottom:7.7rem;
+    right: -23rem !important; 
     font-size: 2.3rem;
   }
 
@@ -1423,13 +1475,25 @@ html {
     margin-top: 0.5rem;
   }
 
-
-  .d-flex span{
+  .text-icon{
     display: none;
   }
 
-  .form-control{
-    width: 90%;
+  #mobile{
+    display: flex!important;
+    margin-left: 1.5rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+
+  #iconscart{
+
+    position: absolute;
+  }
+
+
+  #main{
+    position: absolute;
   }
 
   .translate-middle{
@@ -1642,14 +1706,14 @@ html {
   .navbar-toggler-icon{
     background-image: none;
     background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-    color: var(--white);
+    color: var(--white)!important;
   }
 
   .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:absolute;
-    bottom:8.5rem !important;
-    left: 0.5rem;
+    bottom:2.8rem !important;
+    left: 0.8rem !important;
     color: var(--white);
   }
 
@@ -1661,21 +1725,35 @@ html {
     display: flex !important;
     width:auto !important;
     position: relative !important;
-    bottom:7.4rem  ;
-    right: 0.8rem !important; 
+    bottom:7.7rem;
+    right: -23rem !important; 
     font-size: 2.3rem;
   }
 
   .navbar img {
-    margin-left: 5rem;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
   }
 
-  .d-flex span{
+  .text-icon{
     display: none;
   }
 
-  .form-control{
-    width: 90%;
+  #mobile{
+    display: flex!important;
+    margin-left: 1.5rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+
+  #iconscart{
+
+    position: absolute;
+  }
+
+
+  #main{
+    position: absolute;
   }
 
   .translate-middle{

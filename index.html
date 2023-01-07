@@ -88,19 +88,18 @@
       <section class="navbar navbar-expand-lg">
         <div class="container">
           <div class="row">
-              <div class="col-md-12">
-                  <img src="assets/IMG/IMG/Logo/ON_SHOP.png" alt="Imagem" width="" height="75"/>
-              </div>  
-            </div>            
+            <div class="col-md-4">
+              <img src="assets/IMG/IMG/Logo/ON_SHOP.png" alt="Imagem" width="" height="75" />
+            </div>
           </div>
-
-          <button class="navbar-toggler d-lg-none" id="main">
-            <span class="navbar-toggler-icon">
-              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </div>
+        <button class="navbar-toggler d-lg-none" id="main">
+          <span class="navbar-toggler-icon">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <ion-icon name="menu-outline"></ion-icon>
             </a>
-            </span>
-          </button>
+          </span>
+        </button>
 
           
           <div class="modal animated slide-in-right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -244,39 +243,42 @@
             </div>
           </div>
 
-          <section class="navbar container-fluid">
+          <form class="d-lg-flex mb-2 mb-lg-0 mx-auto w-100" id="mobile">
 
-            <div class="col-md-2">
-              <div class="d-flex form-inputs">
-                <input class="form-control position-absolute translate-middle mt-2" type="text" placeholder="O que você procura..."/>
-                <i class="bi bi-search"></i>
-              </div>
-            </div>
+            <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
+            
+            <button type="submit" class="btn btn-outline-success">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
 
-            <div class="col-md-4">
-              <div class="d-flex d-md-flex flex-row align-items-center">
+          </form>
 
-                <div class="col-md-3">
-                <span class="shop-bag">
+          <div class="col-md-3" >
+            <div class="d-flex d-md-flex flex-row align-items-center" id="teste">
+              <div class="col-md-3" id="iconsoutline">
+                <span class="shop-bag" >
                   <ion-icon name="chatbubbles-outline"></ion-icon>
                 </span>
-                </div>
-
-                <div class="col-md-3">
-                  <span class="shop-bag">
-                    <ion-icon name="person-circle-outline"></ion-icon>
-                  </span>
-                </div>
-
-
-                <span class="shop-bag" id="cart">
-                  <ion-icon name="cart-outline"></ion-icon>
-                </span>
-
+                <div class="text-icon">Central de
+                  Atendimento</div>
               </div>
+              
+              <div class="col-md-3" id="iconsperson">
+                <span class="shop-bag">
+                  <ion-icon name="person-circle-outline"></ion-icon>
+                </span>
+                <div class="text-icon">
+                  Entrar ou Cadastrar
+                </div>
+              </div>
+              
+              <div class="col-md-3" id="iconscart">
+              <span class="shop-bag" id="cart">
+                <ion-icon name="cart-outline"></ion-icon>
+              </span>
             </div>
-
-          </section>
+          </div>
+        </div>
       </section>
       <!-- END NAVBAR HEADER -->
 
@@ -721,7 +723,10 @@
                     src="assets/IMG/IMG/Products/BARBEADOR-ELETRICO.jpg" alt="Varsi Leather Bag" class="w-auto"/>
 
 
-                <div class="card-badge-red">50% off</div>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+  
               </div>
 
               <div class="card-content">
@@ -760,8 +765,10 @@
                     src="assets/IMG/IMG/Products/CADEIRA GAMER.jpeg" alt="Varsi Leather Bag" class="w-auto"/>
 
 
-                <div class="card-badge-red">50% off</div>
-              </div>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+  
 
               <div class="card-content">
                 <a class="card-title">
@@ -790,7 +797,7 @@
                 </div>
               </div>
             </div>
-          </li>
+
 
           <li class="col-3">
             <div onclick="redirectProductpage()" class="product-card">
@@ -840,8 +847,10 @@
                     src="assets/IMG/IMG/Products/FONE.jpg" alt="Varsi Leather Bag" class="w-auto"/>
 
 
-                <div class="card-badge-red">50% off</div>
-              </div>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+  
 
               <div class="card-content">
                 <a class="card-title">
@@ -1198,8 +1207,10 @@
                     src="assets/IMG/IMG/Products/TV.jpg" alt="Varsi Leather Bag" class="w-auto"/>
 
 
-                <div class="card-badge-red">50% off</div>
-              </div>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+  
 
               <div class="card-content">
                 <a class="card-title">
@@ -1237,7 +1248,11 @@
                     src="assets/IMG/IMG/Products/GELADEIRA.jpg" alt="Varsi Leather Bag" class="w-auto"/>
 
 
-                <div class="card-badge-full">50% off</div>
+                  <div class="card-badge-full">
+                    Full <ion-icon name="flash"></ion-icon>
+                  </div>
+
+  
               </div>
 
               <div class="card-content">
@@ -1404,6 +1419,7 @@
 
               </div>
 
+
               <div class="card-content">
                 <a class="card-title">
                   <a class="title-text" href="#" >Placa de Vídeo Gigabyte AMD  <div> Radeon RX 6700 XT Eagle 12GB GDDR6</div></a>
@@ -1439,9 +1455,10 @@
                   <img
                     src="assets/IMG/IMG/Products/IMPRESSORA.jpg" alt="Varsi Leather Bag" class="w-auto"/>
 
-
-                <div class="card-badge-red">50% off</div>
-              </div>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+  
 
               <div class="card-content">
                 <a class="card-title">

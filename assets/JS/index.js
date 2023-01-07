@@ -95,7 +95,7 @@ function redirectBtnindex() {
 const actionbtn = document.querySelector(".text", "#iconsperson");
 
 function redirectBtnlogin() {
-    window.location.href = "login.html";
+    window.location.href = "Login.html";
 }
 
 const actionproductcard = document.querySelector(".product-card");

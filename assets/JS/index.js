@@ -1,6 +1,6 @@
 
 
-
+//Bootstrap Carousel
 function startCarousel() {
   const carousel = document.getElementById("carouselExampleCaptions");
   const nextButton = carousel.querySelector(".carousel-control-next");
@@ -12,6 +12,7 @@ function startCarousel() {
 startCarousel();
 
 
+//SplideJs
 const splide = new Splide(".splide", {
   type: "loop",
   padding: { y: 10 },
@@ -32,6 +33,7 @@ const splide = new Splide(".splide", {
 splide.mount();
 
 
+//Menu-Modal
 function toggleDropdownMenu() {
   var menu = document.getElementById("dropdown-menu");
   if (menu.style.display === "block") {
@@ -68,7 +70,7 @@ function toggleDropdownMenu4() {
   }
 }
 
-
+//Modal-Newsletter
 setTimeout(function() {
   $('#modal2').modal('show');
 }, 1000);

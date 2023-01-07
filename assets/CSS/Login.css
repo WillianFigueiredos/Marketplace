@@ -741,11 +741,6 @@
   
   
   
-  
-
-    
-  
-  
     /*--------------- START FOOTER ------------------*/
     .footer {
       margin-top: 1rem;
@@ -771,6 +766,8 @@
     }
     /*--------------- END FOOTER ------------------*/
   }
+
+
   
   @media only screen and (min-width: 426px ) and (max-width: 768px){
   
@@ -850,7 +847,7 @@
   
   
   
-   
+
   
   }
   

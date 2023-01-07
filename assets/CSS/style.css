@@ -16,9 +16,14 @@
   --red: hsl(0, 100%, 50%);
   --orange: rgb(255, 84, 46);
 }
+
+html {
+  font-family: 'Inter', sans-serif !important;
+}
+
 /*-----------RESET--------------*/
 
-
+/*----------- START MODAL -------------*/
 #modal-newsletter .modal-content {
 	padding: 1rem;
 	border-radius: 0;		
@@ -64,28 +69,27 @@
 }
 
 #modal-newsletter .close {
-
   position: absolute;
-  background-color:  rgba(229, 229, 229, 1);
-  top: 0;
-  right: 0;
+  border: none;
+  top: 0.5rem;
+  right: 0.5rem;
   color: var(--eerie-black);
-  opacity: 0.8;
+  opacity: 0.5;
   width: 2rem;
   height: 2rem;
-  border-radius: 20px;
-  font-size: 1rem;
-  text-align: center;
   padding: 0;
 }
 
 #modal-newsletter .close span {
 	position: relative;
-	top: -0.1rem;
+	top: -0.2rem;
+  left: 0.55rem;
+  z-index: 9;
+  font-size: 1.5rem;
 }
 
 #modal-newsletter .close:hover {
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 .modal-header .icon-box {
@@ -122,7 +126,6 @@
 	border: none;
 }
 
-
 #modal-newsletter .input-group {
 	margin: 2rem 0 1rem;
 }
@@ -137,6 +140,8 @@
   right: 0rem;
   bottom: 0rem;
 }
+/*----------- END MODAL -------------*/
+
 
 /*----------- START ALERT TOP BAR --------------*/
 .alert-primary{
@@ -268,8 +273,6 @@
 .bi-search {
   color: var(--white);
 }
-
-
 /*----------- END NAVBAR HEADER -------------*/
 
 
@@ -431,12 +434,6 @@
   --bs-btn-hover-bg: var(--denim-blue);
 }
 /*----------- END MENU TOP NAVIGATION -------------*/
-
-
-
-/*----------- HOME BANNER -------------*/
-
-/*----------- END BANNER -------------*/
 
 
 
@@ -790,6 +787,10 @@
 
 
   
+  /*----------- START MODAL -------------*/
+  .icon-box{
+    display: none;
+  } 
 
   #modal-newsletter .icon-box i {
     font-size: 4rem;
@@ -810,7 +811,9 @@
     min-width: 10px;
 
   }
+  /*----------- END MODAL -------------*/
   
+
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
     font-size: 0.8rem;
@@ -925,9 +928,9 @@
   .col-4{
     padding-top: 0rem;
   }
-
   /*----------- END MINI BANNER -------------*/
   
+
   /*--------------- START TITLE-SECTION ------------------*/
   .category-item-tittle span {
     display: none;
@@ -1062,6 +1065,7 @@
 
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
+  /*----------- START MODAL -------------*/
   .icon-box{
     display: none;
   } 
@@ -1088,7 +1092,7 @@
   .modal-body {
     padding: 0rem;
   }
-
+  /*----------- START MODAL -------------*/
   
   
   /*----------- START ALERT TOP BAR --------------*/
@@ -1203,8 +1207,6 @@
   .col-4{
     padding-top: 0rem;
   }
-
-
   /*----------- END MINI BANNER -------------*/
 
 
@@ -1339,6 +1341,7 @@
 
 @media only screen and (min-width: 376px ) and (max-width: 425px) {
 
+  /*----------- START MODAL -------------*/
   .icon-box{
     display: none;
   } 
@@ -1365,7 +1368,7 @@
   .modal-body {
     padding: 0rem;
   }
-
+  /*----------- START MODAL -------------*/
 
 
   /*----------- START ALERT TOP BAR --------------*/
@@ -1401,8 +1404,6 @@
     left: 0.8rem !important;
     color: var(--white);
   }
-
- 
 
   .shop-bag{
     display: none;
@@ -1722,8 +1723,6 @@
     overflow: hidden;
     border-radius: 5px;
   }
-
-
   /*----------- END MINI BANNER -------------*/
 
   /*---------------INICIO PRODUTOS------------------*/
@@ -1813,6 +1812,9 @@
 
 @media only screen and (min-device-width: 769px ) and (max-device-width: 1023px) {
 
+  .icon-box{
+    display: none;
+  } 
 
   /*----------- START NAVBAR HEADER --------------*/
   .navbar{
@@ -1832,7 +1834,6 @@
     transform: translate(41%, -30%) !important;
     bottom: 3.6rem;
   }
-
 
   .row img{
     padding-left: 0rem !important; 

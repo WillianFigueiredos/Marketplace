@@ -37,3 +37,17 @@
   
   
 
+  // redirect index
+const returnbtn = document.querySelector(".col-md-2");
+
+function redirectBtnindex() {
+    window.location.href = "index.html";
+}
+
+
+// redirect login e produto
+const actionbtn = document.querySelector(".text", "#iconsperson");
+
+function redirectBtnlogin() {
+    window.location.href = "login.html";
+}

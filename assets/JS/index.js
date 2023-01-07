@@ -69,12 +69,12 @@ function toggleDropdownMenu4() {
     menu.style.display = "block";
   }
 }
-/*
+
 //Modal-Newsletter
 setTimeout(function() {
   $('#modal2').modal('show');
 }, 3000);
-*/
+
 
 function closeItem() {
   $('#modal2').modal('hide');

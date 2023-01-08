@@ -39,7 +39,7 @@
     <!-- START MODAL -->
     <button class="btn btn-primary" id="teste55" data-toggle="modal" data-target="#modal2">Abrir modal 2</button>
       <div class="modal fade" tabindex="-1" role="dialog" id="modal2">
-        <div class="modal-dialog  modal-lg" id="modal-newsletter" role="document">
+        <div class="modal-dialog modal-lg" id="modal-newsletter" role="document">
             <div class="modal-content">
                 <div class="row-fluid">
                   <button type="button" onclick="closeItem()" class="close" data-dismiss="modal" aria-hidden="true">
@@ -100,7 +100,7 @@
         </button>
 
           
-          <div class="modal animated slide-in-right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal animated visually-hidden" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
 
               <div class="modal-content">
@@ -243,11 +243,11 @@
 
           <form class="d-lg-flex mb-2 mb-lg-0 mx-auto w-100" id="mobile">
             <div class="busca">
-               <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
-               <i class="bi bi-search" id="formbusca"></i>
+              <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
+              <i class="bi bi-search" id="formbusca"></i>
             </div>
-         </form>
-         
+          </form>
+        
 
           <div class="col-md-3" >
             <div class="d-flex d-md-flex flex-row align-items-center">
@@ -1493,141 +1493,113 @@
     </main>
 
 
+    
+
     <!--INICIO FOOTER-->
     <footer>
-      <div class="container-fluid">
+
+      <div class="container-fluid" id="footerb">
+
+        <div class="text-center text-lg-start mt-xl-5 pt-4">
+      
+        <div class="container p-4">
+      
           <div class="row">
-
-            <div class="newsletterfotter">
-
-            <div class="col-6">
-              <span  class="text-center">
-                <h4>
-                  Assine nossa newsletter
-                </h4>
-              </span>
-              <span  class="text-center">
-                <h4>
-                  Receba nossas ofertas por e-mail
-                </h4>
-              </span>
-              <h2></h2>
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+      
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <a href="#!">About us</a>
+                </li>
+                <li>
+                  <a href="#!">Collections</a>
+                </li>
+                <li>
+                  <a href="#!">Environmental philosophy</a>
+                </li>
+                <li>
+                  <a href="#!">Artist collaborations</a>
+                </li>
+              </ul>
             </div>
-            
-            <div class="col-6">
 
-              <form>
-                <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Assistance</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Contact us</a>
+                </li>
+                <li>
+                  <a href="#!">Size Guide</a>
+                </li>
+                <li>
+                  <a href="#!">Shipping Information</a>
+                </li>
+                <li>
+                  <a href="#!">Returns Exchanges</a>
+                </li>
+                <li>
+                  <a href="#!">Payment</a>
+                </li>
+              </ul>
+            </div>
 
-                  <div class="row">
-
-                    <div class="col-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control my-form" placeholder="Digite seu e-mail">
-                      </div>
-                    </div>
-
-                    <div class="col-6">
-                      <button type="submit" class="btn btn-primary my-button">Assinar</button>
-                    </div>
-
+      
+      
+            <div class="col-lg-3 col-md-3 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Careers</h5>
+      
+              <ul class="list-unstyled">
+                <div class="media-icons" id="selos">
+                  <div>
+                    <a href="#"><img src="assets/IMG/IMG/Icons/site seguro 2.png" alt=""></a>
                   </div>
-              
+      
+                  <div>
+                    <a href="#"><img src="assets/IMG/IMG/Icons/selo-google-res.png" alt=""></a>
+                  </div>
+      
+                  <div>
+                    <a href="#"><img src="assets/IMG/IMG/Icons/site prote.png" alt=""></a>
+                  </div>
+      
+                  <div>
+                    <a href="#"><img src="assets/IMG/IMG/Icons/siteseguro3.png" alt=""></a>
+                  </div>
+                  
+      
                 </div>
-              </form>
+              </ul>
             </div>
+      
+      
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+      
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+      
+              <button type="submit" class="btn btn-outline-light opacity-75 btn-block">Subscribe</button>
+            </div>
+      
           </div>
+      
         </div>
-      </div>
-      <div class="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-6 col-md-3">
-                <ul class="box">
-                  <li class="link_name">Company</li>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Contact us</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Get started</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-3">
-                <ul class="box">
-                  <li class="link_name">Services</li>
-                  <li><a href="#">App design</a></li>
-                  <li><a href="#">Web design</a></li>
-                  <li><a href="#">Logo design</a></li>
-                  <li><a href="#">Banner design</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-3">
-                <ul class="box">
-                  <li class="link_name">Account</li>
-                  <li><a href="#">Profile</a></li>
-                  <li><a href="#">My account</a></li>
-                  <li><a href="#">Preferences</a></li>
-                  <li><a href="#">Purchase</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-3">
-                <ul class="box">
-                  <li class="link_name">Courses</li>
-                  <li><a href="#">HTML e CSS</a></li>
-                  <li><a href="#">JavaScript</a></li>
-                  <li><a href="#">Photography</a></li>
-                  <li><a href="#">Photoshop</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      
+      
+      
+      
+        <div class="text-center  border-top border-white">
+          <div class="alert my-alert" role="alert">
             <div class="container">
               <div class="row">
-                <div class="col-md-6">
-                  <ul class="list-unstyled">
-                    <li class="link_name">Atendimento</li><br>
-                    <li id="Tel"><a href="#">Telefone: (11) 99999-9999</a></li>
-                    <li id="time"><a href="#">Seg. a Sexta 8:00h as 18:00h</a></li><br>
-                    <li>
-                      <a href="#">
-                        <span>
-                          Endereço <br/>
-                          Av. Mario Vilas Boas Rodrigues, 00 <br>
-                          Sao Paulo - SP - CEP 04757-020
-                        </span>
-  
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                
-                <div class="col-md-4">
-                  <div class="media-icons" id="selos">
-                    <div>
-                      <a href="#"><img src="assets/IMG/IMG/Icons/site seguro 2.png" alt=""></a>
-                    </div>
-
-                    <div>
-                      <a href="#"><img src="assets/IMG/IMG/Icons/selo-google-res.png" alt=""></a>
-                    </div>
-
-                    <div>
-                      <a href="#"><img src="assets/IMG/IMG/Icons/site prote.png" alt=""></a>
-                    </div>
-
-                    <div>
-                      <a href="#"><img src="assets/IMG/IMG/Icons/siteseguro3.png" alt=""></a>
-                    </div>
-
-                  </div>
-                </div> 
-              </div>
-            </div>
-          </div>
-          <div class="alert alert-primary" role="alert">
-            <div class="container">
-              <div class="row">
-
+      
               <div class="col-md-4">
                 <div class="media-icons">
                   <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
@@ -1637,14 +1609,14 @@
                   <a href="#"><ion-icon name="logo-github"></ion-icon></a>
                 </div>
               </div> 
-
+      
               <div class="col-md-4">
                 <span class="policy_terms">
                   <a href="#">Privacy policy</a><br/>
                   <a href="#">Terms e condition</a>
                 </span>
               </div>
-
+      
               <div class="col-md-4">
                 <div class="payment methods">
                   <a href="#"><img src="assets/IMG/IMG/Icons/visa.svg" alt=""></a>
@@ -1656,11 +1628,20 @@
                   <a href="#"><img src="assets/IMG/IMG/Icons/diners.svg" alt=""></a>
                 </div>
               </div>
-
+      
             </div>
           </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+
+
+
+
     <!--FIM FOOTER
 
       

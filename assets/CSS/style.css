@@ -203,6 +203,7 @@ html {
 .modal-content{
   width: auto;
   font-size: 1rem;
+
 }
 
 .text{
@@ -717,8 +718,30 @@ html {
 
 
 /*--------------- START FOOTER ------------------*/
+.newsletterfotter {
+  background: var(--cultured);
+  margin-top: 0rem;
+}
+
+.my-button{
+  margin: 1.5rem;
+  width: 10rem;
+   padding: 0.8rem;
+}
+
+.my-form{
+  justify-content: end;
+  margin: 0.9rem;
+  width: 20rem;
+  padding: 0.8rem;
+}
+
+.newsletterfotter{
+  display: flex;
+}
+
 .footer {
-  margin-top: 5rem;
+  margin-top: 0rem;
   background: var(--denim-blue);
 }
 
@@ -1742,7 +1765,7 @@ html {
     color: var(--white)!important;
   }
 
- 
+
   .navbar-toggler-icon ion-icon {
     font-size: 2.3rem;
     position:relative;

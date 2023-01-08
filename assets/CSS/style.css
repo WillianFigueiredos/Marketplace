@@ -364,52 +364,13 @@ html {
   transition: 0.3s;
 }
 
-#iconpc{
+#Smartwatch, #Smartphone, #Fones, #Iphones,#iconpc{
   font-size: 1.5rem;
   color: var(--orange);
   margin-right: 0.4rem;
 }
 
-#Smartwatch{
-  font-size: 1.5rem;
-  color: var(--orange);
-  margin-right: 0.4rem;
-}
-
-#Smartphone{
-  font-size: 1.55rem;
-  color: var(--orange);
-  margin-right: 0.4rem;
-}
-
-#Fones{
-  font-size: 1.55rem;
-  color: var(--orange);
-  margin-right: 0.4rem;
-}
-
-#Iphones{
-  font-size: 1.55rem;
-  color: var(--orange);
-  margin-right: 0.4rem;
-}
-
-#Fonesdown{
-  color: var(--orange);
-  margin-left: 0.4rem;
-}
-
-#departamentosdown{
-  color: var(--orange);
-  margin-left: 0.4rem;
-}
-
-#Smartphonesown{
-  color: var(--orange);
-  margin-left: 0.4rem;
-}
-
-#Iphonesdown{
+#Fonesdown, #departamentosdown,#Smartphonesown,#Iphonesdown{
   color: var(--orange);
   margin-left: 0.4rem;
 }
@@ -1309,7 +1270,7 @@ background-color: var(--denim-blue);
 }
 
 
-@media only screen and (min-width: 376px ) and (max-width: 414px) {
+@media only screen and (min-width: 376px ) and (max-width: 430px) {
 
   /*----------- START MODAL -------------*/
   .icon-box{
@@ -1573,103 +1534,101 @@ background-color: var(--denim-blue);
 
 }
 
-@media only screen and (min-width: 415px ) and (max-width: 768px){
+@media only screen and (min-width: 431px ) and (max-width: 768px){
 
-  .icon-box{
+  /*----------- START MODAL -------------*/
+
+  .modpicture{
     display: none;
-  } 
+  }
+
+  #modal-newsletter .icon-box i {
+    font-size: 5rem;
+  }
+
+  #modal-newsletter h4 {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .subnewsletter p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  #modal-newsletter .btn {
+    min-width: 10px;
+  }
+  /*----------- START MODAL -------------*/
+
 
   /*----------- START ALERT TOP BAR --------------*/
   .alert {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     margin: 0;
   }
   /*----------- END ALERT TOP BAR --------------*/
 
 
+
   /*----------- START NAVBAR HEADER --------------*/
-  .navbar{
-    --bs-navbar-padding-y:0rem !important;
-    --bs-navbar-toggler-padding-y:0rem !important;
-  }
-  
-  .navbar-toggler{
-    border: none;
-    color: transparent;
-  }
 
   .navbar-toggler-icon{
-    background-image: none;
-    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-    color: var(--white)!important;
+    display: none;        
   }
 
-
-  .navbar-toggler-icon ion-icon {
-    font-size: 2.3rem;
-    position:relative;
-    bottom:3.5rem !important;
-    left: 0.1rem !important;
-    color: var(--white);
+  .busca{
+    width: 35%;
+    margin-left: 2.6rem;
+    bottom: 1.6rem;
+    position: absolute;
   }
 
-  .w-75{
-    width: 100% !important;
+  #formbusca {
+    transform: translateY(-0);
   }
-
-  .shop-bag{
-    display: none;
-  }
-
-  #cart{
-    display: flex !important;
-    width:auto !important;
-    position: inherit !important;
-    bottom:6.7rem;
-    left: 23rem !important; 
-    font-size: 2.3rem;
+  
+  .navbar{
+    padding: 0.5rem 0.5rem;
+    flex-wrap: nowrap!important;
   }
 
   .navbar img {
-    margin-left: 7.5rem;
-    margin-top: 0.5rem;
+    margin-left: 1rem;
   }
 
-  .text-icon{
-    display: none;
+  #iconsoutline {
+    margin-left: -7.5rem;
+    font-size: 0.8rem;
   }
 
-  #mobile{
-    display: flex!important;
-    margin-left: 1.5rem!important;
-    margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
+  #iconsperson{
+    font-size: 0.8rem;
+    margin-left: 2.1rem;
   }
 
-  #iconscart{
-
-    position: absolute;
+  #cart{
+    margin-left: 2.1rem;
   }
 
-
-  #main{
-    position: absolute;
-  }
-
-  .translate-middle{
-    transform: translate(4%, -100%) !important;
+  .shop-bag{
+    font-size: 2.8rem;
   }
   /*----------- END NAVBAR HEADER --------------*/
 
 
 
-
   /*----------- START MENU TOP NAVIGATION --------------*/
-    .menu-category-list {
-      display: none;
-    }
-  /*----------- END MENU TOP NAVIGATION --------------*/
+  #Informática, #Celulares{
+    display: none;
+  }
 
+  .menu-category-list {
+    gap: 1.5rem; 
+    padding-left: 0rem;
+  }
+  /*----------- END MENU TOP NAVIGATION --------------*/
 
 
   /*----------- START NAV-ITENS-------------*/
@@ -1678,13 +1637,15 @@ background-color: var(--denim-blue);
   }
   .mt-4{
     margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
   }
   /*----------- END NAV-ITENS-------------*/
   
 
   /*----------- START MINI BANNER -------------*/
   .modulo {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   
   .flexslider {
@@ -1692,44 +1653,63 @@ background-color: var(--denim-blue);
   }
 
   .slides{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
   }
 
   .slides img {
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     border-radius: 5px;
   }
+
+  .col-4{
+    padding-top: 0rem;
+  }
   /*----------- END MINI BANNER -------------*/
 
-  /*---------------INICIO PRODUTOS------------------*/
-  .col-3 {
-    width: 50%;
+
+  /*--------------- START TITLE-SECTION ------------------*/
+  .category-item-tittle span {
+    display: none;
   }
-    
+
+  .category-content-flex-tittle h3::after {
+    width: 80%;
+    margin-top: 0.3rem!important;
+    margin: 0 auto;
+  }
+
+  .category-item-tittle {
+    padding-top: 0rem;
+  }
+  /*--------------- END TITLE-SECTION------------------*/
+
+  /*--------------- START PRODUCT ------------------*/
+  .col-3 {
+    width: 44%;
+  }
+  
   .product-list {
     padding-left: 0rem;
   }
-  
+
   .w-auto {
     width: 100% !important;
   }
-  
+
   .product-card .card-banner {
     position: relative;
     margin-bottom: 0px;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    margin-left: 0rem;
+    margin-left: 0.5rem;
     margin-right: 0rem;
   }
-  
-  .product-card .card-title a {
-    font-size: 0.9rem;
 
+  .product-card .card-title a {
+    font-size: 1rem;
   }
-  
+
   .product-card  {
     margin: 0 5px!important;
   }
@@ -1742,15 +1722,7 @@ background-color: var(--denim-blue);
     font-size:0.75rem;
   }
 
-  .conditions-price {
-    font-size: 0.8rem;
-  }
-
-  .conditions-payment {
-    font-size: 0.8rem;
-  }
-
-  .star {
+  .conditions-price, .conditions-payment, .star {
     font-size: 0.8rem;
   }
 
@@ -1767,80 +1739,273 @@ background-color: var(--denim-blue);
     justify-content: center;
   }
 
-  .product-card .card-badge-red {
+  .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
     padding: 3px 10px;
     font-size: 0.7rem;
     font-weight: 600;
   }
-
-  .product-card .card-badge {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
-  }
-
-  .product-card .card-badge-full {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
-  }
-  /*---------------FIM PRODUTOS------------------*/
-
+  /*--------------- END PRODUCT ------------------*/
   
 
 }
 
 @media only screen and (min-device-width: 769px ) and (max-device-width: 1023px) {
 
+/*----------- START MODAL -------------*/
   .icon-box{
-    display: none;
-  } 
+  display: none;
+} 
 
-  /*----------- START NAVBAR HEADER --------------*/
-  .navbar{
-    --bs-navbar-padding-y:0rem !important;
-    --bs-navbar-toggler-padding-y:0rem !important;
-  }
+#modal-newsletter .icon-box i {
+  font-size: 4.5rem;
+}
 
-  .navbar-toggler{
-    display: none;
-  }
+#modal-newsletter h4 {
+  font-size: 1.2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
 
-  .form-control{
-    width: 50%;
-  }
+.subnewsletter p{
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
 
-  .translate-middle{
-    transform: translate(41%, -30%) !important;
-    bottom: 3.6rem;
-  }
+#modal-newsletter .btn {
+  min-width: 10px;
+}
 
-  .row img{
-    padding-left: 0rem !important; 
-    width: auto !important;
-    margin-top: 1.5rem!important;
-  }
-
-  .navbar-toggler .container-fluid{
-    --bs-gutter-x: 0rem !important;
-  }
-
-  .d-flex span{
-    width:auto !important;
-    position: relative !important;
-    bottom:4rem;
-    left: 3.8rem !important;
-  }
-  
-  .d-flex{
-    margin-left: 4rem !important;
-  }
-  /*----------- END NAVBAR HEADER --------------*/
+/*----------- START MODAL -------------*/
 
 
-  .splide__slide {
-    width: auto !important;
-  }
+/*----------- START ALERT TOP BAR --------------*/
+.alert {
+  font-size: 4.8rem;
+  margin: 0;
+}
+/*----------- EDN ALERT TOP BAR --------------*/
+
+
+
+/*----------- START NAVBAR HEADER --------------*/
+.navbar{
+  --bs-navbar-padding-y:0rem !important;
+  --bs-navbar-toggler-padding-y:0rem !important;
+}
+
+.navbar-toggler{
+  border: none;
+  color: transparent;
+}
+
+.navbar-toggler-icon{
+  background-image: none;
+  background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+  color: var(--white)!important;
+}
+
+.navbar-toggler-icon ion-icon {
+  font-size: 2.3rem;
+  position:relative;
+  bottom:3.5rem !important;
+  left: 0.4rem !important;
+  color: var(--white);
+}
+
+.w-75{
+  width: 100% !important;
+}
+
+.shop-bag{
+  display: none;
+}
+
+#cart{
+  display: flex !important;
+  width:auto !important;
+  position: inherit !important;
+  bottom:6.9rem;
+  left: 19.3rem !important; 
+  font-size: 2.3rem;
+}
+
+.navbar img {
+  margin-left: 6rem;
+  margin-top: 0.5rem;
+}
+
+.text-icon{
+  display: none;
+}
+
+#mobile{
+  display: flex!important;
+  margin-left: 1.5rem!important;
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+#iconscart{
+
+  position: absolute;
+}
+
+#main{
+  position: absolute;
+}
+
+.translate-middle{
+  transform: translate(4%, -100%) !important;
+}
+/*----------- END NAVBAR HEADER --------------*/
+
+
+/*----------- START MENU TOP NAVIGATION --------------*/
+.menu-category-list {
+  display: none;
+}
+/*----------- END MENU TOP NAVIGATION --------------*/
+
+
+/*----------- START BANNER--------------*/
+.carousel-indicators [data-bs-target]{
+  display: none;
+}
+/*----------- END BANNER--------------*/
+
+
+/*----------- START NAV-ITENS-------------*/
+.splide__slide {
+  width: auto !important;
+}
+.mt-4{
+  margin-top: 0.5rem !important;
+}
+/*----------- END NAV-ITENS-------------*/
+
+
+/*----------- START MINI BANNER -------------*/
+.modulo {
+  width: 100%;
+}
+
+.flexslider {
+  width: 100%;
+}
+
+.slides{
+  padding-left: 1.2rem;
+}
+
+.slides img {
+  width: 95%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.col-4{
+  padding-top: 0rem;
+}
+/*----------- END MINI BANNER -------------*/
+
+
+/*--------------- START TITLE-SECTION ------------------*/
+.category-item-tittle span {
+  display: none;
+}
+
+.category-item-tittle {
+  padding-top: 0rem;
+}
+
+.category-content-flex-tittle h3::after {
+  width: 80%;
+  margin-top: 0.3rem!important;
+  margin: 0 auto;
+}
+/*--------------- END TITLE-SECTION------------------*/
+
+/*--------------- START PRODUCT ------------------*/
+.col-3 {
+  width: 50%;
+}
+
+.product-list {
+  padding-left: 0rem;
+}
+
+.w-auto {
+  width: 100% !important;
+}
+
+.product-card .card-banner {
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+  margin-right: 0rem;
+}
+
+.product-card .card-title a {
+  font-size: 1rem;
+}
+
+.product-card  {
+  margin: 0 5px!important;
+}
+
+.product-card .card-price {
+  font-size: 1.19rem;
+}
+
+.product-card .card-price data:not(:last-child) {
+  font-size:0.75rem;
+}
+
+.conditions-price {
+  font-size: 0.8rem;
+}
+
+.conditions-payment {
+  font-size: 0.8rem;
+}
+
+.star {
+  font-size: 0.8rem;
+}
+
+.card-content {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 0.2rem;
+}
+
+.card-content a {
+  justify-content: center;
+}
+
+.product-card .card-badge-red {
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.product-card .card-badge {
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.product-card .card-badge-full {
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+/*--------------- END PRODUCT ------------------*/
+
 }
 
 

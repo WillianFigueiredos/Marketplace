@@ -1040,6 +1040,13 @@ background-color: var(--denim-blue);
     font-weight: 600;
   }
   /*--------------- END PRODUCT ------------------*/
+
+  #selos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
+  }
+
 }
 
 

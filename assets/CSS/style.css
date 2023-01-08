@@ -722,7 +722,6 @@ background-color: var(--denim-blue);
 .my-alert{
   background-color: var(--denim-blue);
   color: var(--white);
-  opacity: 0.5;
   font-size: 1rem;
   border: none;
   margin: 0;
@@ -732,13 +731,11 @@ background-color: var(--denim-blue);
 .list-unstyled a{
   text-decoration: none;
   color: var(--white);
-  opacity: 0.5;
   font-size: 1rem;
 }
 
 .text-uppercase{
   color: var(--white);
-  opacity: 0.5;
   font-size: 1.1rem;
 }
 
@@ -761,13 +758,11 @@ background-color: var(--denim-blue);
 .media-icons a{
   margin-top: 1rem;
   color: var(--white);
-  opacity: 0.5;
 }
 
 .policy_terms a{
   text-decoration: none;
   color: var(--white);
-  opacity: 0.5;
 
 }
 /*--------------- END FOOTER ------------------*/

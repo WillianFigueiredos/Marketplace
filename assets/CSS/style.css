@@ -203,7 +203,6 @@ html {
 .modal-content{
   width: auto;
   font-size: 1rem;
-
 }
 
 .text{
@@ -1177,9 +1176,6 @@ html {
     min-width: 10px;
   }
 
-  .modal-body {
-    padding: 0rem;
-  }
   /*----------- START MODAL -------------*/
   
   
@@ -1468,9 +1464,6 @@ html {
     min-width: 10px;
   }
 
-  .modal-body {
-    padding: 0rem;
-  }
   /*----------- START MODAL -------------*/
 
 
@@ -1525,7 +1518,6 @@ html {
     font-size: 2.3rem;
   }
 
-
   .navbar img {
     margin-left: 7rem;
     margin-top: 0.5rem;
@@ -1543,7 +1535,6 @@ html {
   }
 
   #iconscart{
-
     position: absolute;
   }
 

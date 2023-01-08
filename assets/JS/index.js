@@ -75,7 +75,7 @@ function toggleDropdownMenu4() {
 //Modal-Newsletter
 setTimeout(function() {
   $('#modal2').modal('show');
-}, 3000);
+}, 1000);
 
 
 function closeItem() {

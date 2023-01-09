@@ -313,7 +313,6 @@ html {
 }
 
 .me-2 {
-
   margin-right: 0rem!important;
 }
 
@@ -350,18 +349,6 @@ html {
 @keyframes fadeIn {
   from {
     opacity: 0;
-  }
-  to {
-    opacity: 0.1;
-  }
-  to {
-    opacity: 0.2;
-  }
-  to {
-    opacity: 0.6;
-  }
-  to {
-    opacity: 0.8;
   }
   to {
     opacity: 1;

@@ -24,6 +24,7 @@ html {
 /*-----------RESET--------------*/
 
 /*----------- START MODAL -------------*/
+
 #modal-newsletter .modal-content {
 	padding: 1rem;
 	border-radius: 0;		
@@ -361,7 +362,7 @@ html {
 
 .menu-category :hover #Iphonesdown{
   rotate: -180deg;
-  transition: 0.3s;
+
 }
 
 #Smartwatch, #Smartphone, #Fones, #Iphones,#iconpc{
@@ -442,8 +443,17 @@ html {
 }
 /*----------- END MENU TOP NAVIGATION -------------*/
 
+#carouselExampleCaptionsmobile{
+  display: none;
+}
 
+carouselExampleCaptions{
+  display: none;
+}
 
+#carouselExampleCaptionsmobile2{
+  display: none;
+}
 /*----------- START NAV-ITENS-------------*/
 .category-item{ 
   display: flex;
@@ -850,6 +860,21 @@ background-color: var(--denim-blue);
     display: none;
   } /*----------- END MENU TOP NAVIGATION --------------*/
   
+  #carouselExampleCaptionsmobile{
+    display: block;
+  }
+  
+  #carouselExampleCaptions{
+    display: none;
+  }
+  
+  #carouselExampleCaptionsmobile2{
+    display: block;
+  }
+  
+  .minibannermobile{
+    display: none;
+  }
 
   /*----------- START BANNER--------------*/
   .carousel-indicators [data-bs-target]{
@@ -1127,6 +1152,22 @@ background-color: var(--denim-blue);
   /*----------- START BANNER--------------*/
   .carousel-indicators [data-bs-target]{
     display: none;
+
+  }
+
+  #carouselExampleCaptionsmobile{
+    display: block;
+  }
+  
+  #carouselExampleCaptions{
+    display: none;
+  }
+  
+  #carouselExampleCaptionsmobile2{
+    display: block;
+  }
+  .minibannermobile{
+    display: none;
   }
   /*----------- END BANNER--------------*/
 
@@ -1393,6 +1434,22 @@ background-color: var(--denim-blue);
   .carousel-indicators [data-bs-target]{
     display: none;
   }
+
+  #carouselExampleCaptionsmobile{
+    display: block;
+  }
+  
+  #carouselExampleCaptions{
+    display: none;
+  }
+  
+  #carouselExampleCaptionsmobile2{
+    display: block;
+  }
+
+  .minibannermobile{
+    display: none;
+  }
   /*----------- END BANNER--------------*/
 
 
@@ -1627,6 +1684,7 @@ background-color: var(--denim-blue);
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
 
+  
 
   /*----------- START NAV-ITENS-------------*/
   .splide__slide {
@@ -1641,7 +1699,6 @@ background-color: var(--denim-blue);
 
   /*----------- START MINI BANNER -------------*/
   .modulo {
-    width: 90%;
     margin: 0 auto;
   }
   
@@ -1654,7 +1711,6 @@ background-color: var(--denim-blue);
   }
 
   .slides img {
-    width: 95%;
     overflow: hidden;
     border-radius: 5px;
   }
@@ -1682,9 +1738,6 @@ background-color: var(--denim-blue);
   /*--------------- END TITLE-SECTION------------------*/
 
   /*--------------- START PRODUCT ------------------*/
-  .col-3 {
-    width: 30%;
-  }
   
   .product-list {
     padding-left: 0rem;

@@ -12,6 +12,17 @@ function startCarousel() {
 startCarousel();
 
 
+function startCarouselmobile() {
+  const carousel = document.getElementById("carouselExampleCaptionsmobile");
+  const nextButton = carousel.querySelector(".carousel-control-next");
+
+  setInterval(function () {
+    nextButton.dispatchEvent(new Event("click"));
+  }, 5000);
+}
+startCarouselmobile();
+
+
 //SplideJs
 const splide = new Splide(".splide", {
   type: "loop",

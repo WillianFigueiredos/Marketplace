@@ -683,6 +683,13 @@ display: none;
 /*--------------- END PRODUCT ------------------*/
 
 
+#mobilebanner{
+  display: none;
+}
+
+bannerdesktop{
+  display: none;
+}
 
 
 
@@ -1028,6 +1035,18 @@ background-color: var(--denim-blue);
   }
   /*--------------- END PRODUCT ------------------*/
 
+
+
+  #mobilebanner{
+    display: block;
+  }
+  
+  #bannerdesktop{
+    display: none;
+  }
+
+  
+
   #selos{
     display: flex;
     flex-wrap: wrap;
@@ -1317,7 +1336,14 @@ background-color: var(--denim-blue);
   /*--------------- END PRODUCT ------------------*/
 
 
+  #mobilebanner{
+    display: block;
+  }
   
+  #bannerdesktop{
+    display: none;
+  }
+
 
 }
 
@@ -1605,6 +1631,15 @@ background-color: var(--denim-blue);
   /*--------------- END PRODUCT ------------------*/
 
 
+  #mobilebanner{
+    display: block;
+  }
+  
+  #bannerdesktop{
+    display: none;
+  }
+
+  
 }
 
 @media only screen and (min-width: 431px ) and (max-width: 768px){

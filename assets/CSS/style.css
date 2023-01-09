@@ -447,10 +447,6 @@ html {
 #carouselExampleCaptionsmobile{
   display: none;
 }
-
-carouselExampleCaptions{
-  display: none;
-}
 /*----------- END BANNER MOBILE -------------*/
 
 
@@ -687,8 +683,8 @@ display: none;
   display: none;
 }
 
-bannerdesktop{
-  display: none;
+#bannerdesktop li{
+  list-style: none;
 }
 
 
@@ -711,19 +707,23 @@ background-color: var(--denim-blue);
   text-decoration: none;
   color: var(--white);
   font-size: 1rem;
+  opacity: 0.7;
 }
 
 .text-uppercase{
   color: var(--white);
   font-size: 1.1rem;
+  opacity: 0.7;
 }
 
-#form2 label{
+#form2 button{
   color: var(--white);
+  opacity: 0.5;
 }
 
 .payment a{
-  gap: 5px
+  gap: 5px;
+  opacity: 0.7;
 }
 
 #selos{
@@ -731,18 +731,19 @@ background-color: var(--denim-blue);
   flex-wrap: wrap;
   align-items: center;
   gap: 1.5rem;
-  margin: 0 auto
+  opacity: 0.7;
 }
 
 .media-icons a{
   margin-top: 1rem;
   color: var(--white);
+  opacity: 0.7;
 }
 
 .policy_terms a{
   text-decoration: none;
   color: var(--white);
-
+  opacity: 0.7;
 }
 /*--------------- END FOOTER ------------------*/
 
@@ -1036,16 +1037,20 @@ background-color: var(--denim-blue);
   /*--------------- END PRODUCT ------------------*/
 
 
+  .picturebannermobile{
+    overflow: hidden;
+  }
 
   #mobilebanner{
     display: block;
+    list-style: none;
   }
   
   #bannerdesktop{
     display: none;
   }
 
-  
+
 
   #selos{
     display: flex;
@@ -1336,14 +1341,24 @@ background-color: var(--denim-blue);
   /*--------------- END PRODUCT ------------------*/
 
 
+  .picturebannermobile{
+    overflow: hidden;
+  }
+
   #mobilebanner{
     display: block;
+    list-style: none;
   }
   
   #bannerdesktop{
     display: none;
   }
 
+  #selos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5.5rem;
+  }
 
 }
 
@@ -1630,16 +1645,25 @@ background-color: var(--denim-blue);
   }
   /*--------------- END PRODUCT ------------------*/
 
+  .picturebannermobile{
+    overflow: hidden;
+  }
 
   #mobilebanner{
     display: block;
+    list-style: none;
   }
-  
   #bannerdesktop{
     display: none;
   }
 
   
+  #selos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 431px ) and (max-width: 768px){

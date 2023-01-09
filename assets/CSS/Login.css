@@ -372,17 +372,39 @@ html {
 
 
 #verticalline {
-  border-right: 1px solid var(--spanish-gray);
+  border-right: 1px solid var(--eerie-black);
   padding-left: 0;
   padding-right: 0;
 }
 
+
+.container-login-content,
 .container-login {
-padding-left: 8rem;
+    display: inline-block;
+    width: 50%;
 }
 
 
+#remember {
+  margin-right: 0.30em;
+  margin-top: 0.40em;
+  border-radius: 0;
 
+}
+
+.login-title{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+#btn2, #btn1{
+  background-color: var(--kelly-green);
+  color: var(--white);
+  border-color: var(--kelly-green);
+  border-radius: 0.2rem;
+  font-weight: 500;
+}
 /*--------------- MAIN - FIM LOGIN------------------*/
 
 
@@ -605,6 +627,14 @@ padding-left: 8rem;
   /*----------- END BANNER--------------*/
   
 
+
+  #verticalline{
+    display: none;
+  }
+
+
+
+  
   /*--------------- START FOOTER ------------------*/
   .footer {
     margin-top: 1rem;

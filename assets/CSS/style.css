@@ -24,7 +24,6 @@ html {
 /*-----------RESET--------------*/
 
 /*----------- START MODAL -------------*/
-
 #modal-newsletter .modal-content {
 	padding: 1rem;
 	border-radius: 0;		
@@ -443,6 +442,8 @@ html {
 }
 /*----------- END MENU TOP NAVIGATION -------------*/
 
+
+/*----------- START BANNER MOBILE -------------*/
 #carouselExampleCaptionsmobile{
   display: none;
 }
@@ -450,10 +451,9 @@ html {
 carouselExampleCaptions{
   display: none;
 }
+/*----------- END BANNER MOBILE -------------*/
 
-#carouselExampleCaptionsmobile2{
-  display: none;
-}
+
 /*----------- START NAV-ITENS-------------*/
 .category-item{ 
   display: flex;
@@ -479,9 +479,6 @@ carouselExampleCaptions{
 }
 /*----------- END NAV-ITENS-------------*/
 
-
-
-
 /*----------- START MINI BANNER -------------*/
 .slides{  
   list-style: none;
@@ -505,6 +502,10 @@ carouselExampleCaptions{
 .flexslider ul li{
   overflow: hidden;
   border-radius: 0.5rem;
+}
+
+#image-carousel{
+display: none;
 }
 /*----------- END MINI BANNER -------------*/
 
@@ -860,24 +861,17 @@ background-color: var(--denim-blue);
     display: none;
   } /*----------- END MENU TOP NAVIGATION --------------*/
   
+
+  /*----------- START BANNER--------------*/
+  .carousel-indicators [data-bs-target]{
+    display: none;
+  }
+
   #carouselExampleCaptionsmobile{
     display: block;
   }
   
   #carouselExampleCaptions{
-    display: none;
-  }
-  
-  #carouselExampleCaptionsmobile2{
-    display: block;
-  }
-  
-  .minibannermobile{
-    display: none;
-  }
-
-  /*----------- START BANNER--------------*/
-  .carousel-indicators [data-bs-target]{
     display: none;
   }
   /*----------- END BANNER--------------*/
@@ -890,6 +884,10 @@ background-color: var(--denim-blue);
   }
   .mt-4{
     margin-top: 0.5rem !important;
+  }
+
+  .category-item {
+    padding-bottom: 1rem;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -919,6 +917,14 @@ background-color: var(--denim-blue);
   .col-4{
     padding-top: 0rem;
   }
+
+  .minibannermobile{
+    display: none;
+  }
+
+  #image-carousel{
+    display: block;
+  }
   /*----------- END MINI BANNER -------------*/
   
 
@@ -929,7 +935,7 @@ background-color: var(--denim-blue);
 
   
   .category-item-tittle {
-    padding-top: 0rem;
+    padding-top: 1rem;
   }
 
   .category-content-flex-tittle h3::after {
@@ -1152,7 +1158,6 @@ background-color: var(--denim-blue);
   /*----------- START BANNER--------------*/
   .carousel-indicators [data-bs-target]{
     display: none;
-
   }
 
   #carouselExampleCaptionsmobile{
@@ -1162,13 +1167,6 @@ background-color: var(--denim-blue);
   #carouselExampleCaptions{
     display: none;
   }
-  
-  #carouselExampleCaptionsmobile2{
-    display: block;
-  }
-  .minibannermobile{
-    display: none;
-  }
   /*----------- END BANNER--------------*/
 
 
@@ -1176,8 +1174,13 @@ background-color: var(--denim-blue);
   .splide__slide {
     width: auto !important;
   }
+
   .mt-4{
     margin-top: 0.5rem !important;
+  }
+
+  .category-item {
+    padding-bottom: 1rem;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -1204,6 +1207,14 @@ background-color: var(--denim-blue);
   .col-4{
     padding-top: 0rem;
   }
+
+  .minibannermobile{
+    display: none;
+  }
+
+  #image-carousel{
+    display: block;
+  }
   /*----------- END MINI BANNER -------------*/
 
 
@@ -1213,7 +1224,7 @@ background-color: var(--denim-blue);
   }
 
   .category-item-tittle {
-    padding-top: 0rem;
+    padding-top: 1rem;
   }
 
   .category-content-flex-tittle h3::after {
@@ -1442,14 +1453,6 @@ background-color: var(--denim-blue);
   #carouselExampleCaptions{
     display: none;
   }
-  
-  #carouselExampleCaptionsmobile2{
-    display: block;
-  }
-
-  .minibannermobile{
-    display: none;
-  }
   /*----------- END BANNER--------------*/
 
 
@@ -1457,8 +1460,13 @@ background-color: var(--denim-blue);
   .splide__slide {
     width: auto !important;
   }
+
   .mt-4{
     margin-top: 0.5rem !important;
+  }
+
+  .category-item {
+    padding-bottom: 1rem;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -1486,6 +1494,14 @@ background-color: var(--denim-blue);
     padding-top: 0rem;
   }
 
+  .minibannermobile{
+    display: none;
+  }
+
+  #image-carousel{
+    display: block;
+  }
+
   /*----------- END MINI BANNER -------------*/
 
 
@@ -1501,7 +1517,7 @@ background-color: var(--denim-blue);
   }
 
   .category-item-tittle {
-    padding-top: 0rem;
+    padding-top: 1rem;
   }
   /*--------------- END TITLE-SECTION------------------*/
 
@@ -1684,7 +1700,6 @@ background-color: var(--denim-blue);
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
 
-  
 
   /*----------- START NAV-ITENS-------------*/
   .splide__slide {
@@ -1696,6 +1711,7 @@ background-color: var(--denim-blue);
   }
   /*----------- END NAV-ITENS-------------*/
   
+
 
   /*----------- START MINI BANNER -------------*/
   .modulo {

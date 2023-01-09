@@ -1,5 +1,5 @@
 
-
+/*
 //Bootstrap Carousel
 function startCarousel() {
   const carousel = document.getElementById("carouselExampleCaptions");
@@ -10,17 +10,9 @@ function startCarousel() {
   }, 5000);
 }
 startCarousel();
+*/
 
 
-function startCarouselmobile() {
-  const carousel = document.getElementById("carouselExampleCaptionsmobile");
-  const nextButton = carousel.querySelector(".carousel-control-next");
-
-  setInterval(function () {
-    nextButton.dispatchEvent(new Event("click"));
-  }, 5000);
-}
-startCarouselmobile();
 
 
 //SplideJs
@@ -34,7 +26,7 @@ const splide = new Splide(".splide", {
   perPage: 4,
   start: 1,
   perMove: 1,
-  autoplay: true,
+  autoplay: false,
   interval: 4000,
   arrows: false,
   pagination: false,
@@ -42,6 +34,30 @@ const splide = new Splide(".splide", {
   wheel: true,
 });
 splide.mount();
+
+
+//SplideJsmobile
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#image-carousel',{ 
+  type: "loop",
+  padding: { y: 10 },
+  gap: "1rem",
+  rewind: true,
+  speed: 2000,
+  width: "100vw",
+  perPage: 1,
+  start: 1,
+  perMove: 1,
+  autoplay: true,
+  interval: 4000,
+  arrows: false,
+  pagination: false,
+  pauseOnHover: true,
+  wheel: true,
+} ).mount();
+} );
+
+
 
 
 //Menu-Modal
@@ -80,7 +96,6 @@ function toggleDropdownMenu4() {
     menu.style.display = "block";
   }
 }
-
 
 
 //Modal-Newsletter

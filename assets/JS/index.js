@@ -101,7 +101,7 @@ function toggleDropdownMenu4() {
 //Modal-Newsletter
 setTimeout(function() {
   $('#modal2').modal('show');
-}, 1000);
+}, 3000);
 
 
 function closeItem() {
@@ -131,3 +131,20 @@ function redirectProductpage() {
     
 }
 
+
+
+window.onscroll = function() {
+  fixNavbar()
+};
+
+var navbar = document.getElementsByClassName("navbar")[0];
+
+var sticky = navbar.offsetTop;
+
+function fixNavbar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("fixed");
+  } else {
+    navbar.classList.remove("fixed");
+  }
+}

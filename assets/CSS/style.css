@@ -201,7 +201,7 @@ html {
 
 .modal-header{
   padding: 0;
-  background-color: var(--orange);
+  background-color:rgb(10 10 10);
 }
 
 .modal-content{
@@ -335,6 +335,45 @@ html {
   background-color: var(--white);
 }
 
+.navbar {
+  position: relative;
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0px;
+  background-color:rgb(10 10 10);
+  width: 100%;
+  z-index: 999;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar.fixed {
+  animation: fadeIn 0.5s ease-in;
+}
+
+
+
 .menu-category-list {
   position: relative;
   display: flex;
@@ -342,6 +381,7 @@ html {
   margin: 0.7rem;
   list-style:none; 
 }
+
 
 .menu-category span{
   display: flex;
@@ -735,7 +775,6 @@ display: none;
   flex-wrap: wrap;
   align-items: center;
   gap: 1.5rem;
-  opacity: 0.5;
 }
 
 .media-icons a{

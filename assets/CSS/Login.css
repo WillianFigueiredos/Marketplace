@@ -367,6 +367,28 @@ html {
 /*----------- END MENU TOP NAVIGATION -------------*/
 
 
+/*--------------- MAIN - INICIO LOGIN------------------*/
+
+
+
+#verticalline {
+  border-right: 1px solid var(--spanish-gray);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-login {
+padding-left: 8rem;
+}
+
+
+
+/*--------------- MAIN - FIM LOGIN------------------*/
+
+
+
+
+
 /*--------------- START FOOTER ------------------*/
 .footer {
   margin-top: 5rem;

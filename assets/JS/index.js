@@ -118,7 +118,7 @@ function redirectBtnindex() {
 }
 
 // redirect login e produto
-const actionbtn = document.querySelector(".text", "#iconsperson");
+const actionbtn = document.querySelector(".text", ".link","#iconsperson", ".account-login");
 
 function redirectBtnlogin() {
     window.location.href = "Login.html";

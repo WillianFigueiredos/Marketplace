@@ -21,6 +21,10 @@ html {
   font-family: 'Inter', sans-serif !important;
 }
 
+.body {
+  background-color: rgb(255 255 255);
+}
+
 /*-----------RESET--------------*/
 
 /*----------- START MODAL -------------*/
@@ -159,7 +163,7 @@ html {
 
 /*----------- START NAVBAR HEADER --------------*/
 .navbar{
-  background-color:var(--denim-blue);
+  background-color:rgb(10 10 10);
   margin-bottom: 1px;
 }
 
@@ -691,11 +695,11 @@ display: none;
 
 /*--------------- START FOOTER ------------------*/
 #footerb{
-background-color: var(--denim-blue);
+  background-color:rgba(10 10 10 );
 }
 
 .my-alert{
-  background-color: var(--denim-blue);
+  background-color:rgba(10 10 10 );
   color: var(--white);
   font-size: 1rem;
   border: none;
@@ -707,13 +711,13 @@ background-color: var(--denim-blue);
   text-decoration: none;
   color: var(--white);
   font-size: 1rem;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .text-uppercase{
   color: var(--white);
   font-size: 1.1rem;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 #form2 button{
@@ -723,7 +727,7 @@ background-color: var(--denim-blue);
 
 .payment a{
   gap: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 #selos{
@@ -731,19 +735,19 @@ background-color: var(--denim-blue);
   flex-wrap: wrap;
   align-items: center;
   gap: 1.5rem;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .media-icons a{
   margin-top: 1rem;
   color: var(--white);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .policy_terms a{
   text-decoration: none;
   color: var(--white);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 /*--------------- END FOOTER ------------------*/
 

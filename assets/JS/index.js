@@ -59,16 +59,6 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 
-function toggleDropdownMenu(menuId) {
-  var menu = document.getElementById(menuId);
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "block";
-  }
-}
-
-
 
 //Menu-Modal
 function toggleDropdownMenu() {

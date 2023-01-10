@@ -766,6 +766,7 @@ display: none;
   left: 2.5rem;
   font-size: 36px;
   font-weight: 500;
+  display: none;
 }
 
 .counter-mobile .days-mobile, .hours-mobile, .minutes-mobile, .seconds-mobile {
@@ -1149,6 +1150,14 @@ display: none;
   /*--------------- END PRODUCT ------------------*/
 
 
+  .counter-mobile {
+    left: 2rem;
+    width: 80%;
+    display: block;
+    display: flex;
+  }
+
+
   .picturebannermobile{
     overflow: hidden;
   }
@@ -1161,6 +1170,7 @@ display: none;
   #bannerdesktop{
     display: none;
   }
+
 
 
 
@@ -1457,6 +1467,13 @@ display: none;
     overflow: hidden;
   }
 
+  .counter-mobile {
+    left: 2.4rem;
+    width: 80%;
+    display: block;
+    display: flex;
+  }
+
   #mobilebanner{
     display: block;
     list-style: none;
@@ -1465,6 +1482,7 @@ display: none;
   #bannerdesktop{
     display: none;
   }
+
 
   #selos{
     display: flex;
@@ -1759,6 +1777,13 @@ display: none;
 
   .picturebannermobile{
     overflow: hidden;
+  }
+
+  .counter-mobile {
+    left: 2.5rem;
+    width: 80%;
+    display: block;
+    display: flex;
   }
 
   #mobilebanner{

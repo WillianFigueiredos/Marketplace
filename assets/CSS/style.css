@@ -354,7 +354,22 @@ html {
   background-color:rgba(10, 10, 10, 1);
   border-top: 1px solid var(--onyx);
 }
+  #navbar2.color i {
+    color: var(--white);
+  }
 
+  #navbar2.color a {
+    color: var(--white);
+  }
+
+  #departamentosdown, #Fonesdown, #Smartphonesown, #Iphonesdown,.color  {
+    color: var(--white);
+  }
+
+
+  .menu-title.color a{
+    color: var(--white);
+  }
 
 .menu-category-list {
   position: relative;

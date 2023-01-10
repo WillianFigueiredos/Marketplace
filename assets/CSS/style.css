@@ -30,7 +30,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 4px;
   background: #F4F4F4;
 }
 
@@ -879,10 +879,7 @@ display: none;
 
 @media only screen and (max-width: 320px){
 
-  ::-webkit-scrollbar {
-    width: 5px;
-    background: #F4F4F4;
-  }
+
   
   /*----------- START MODAL -------------*/
   .icon-box{
@@ -1202,11 +1199,6 @@ display: none;
 
 @media only screen and (min-width: 321px ) and (max-width: 375px)  {
 
-  ::-webkit-scrollbar {
-    width: 5px;
-    background: #F4F4F4;
-  }
-
   /*----------- START MODAL -------------*/
   .icon-box{
     display: none;
@@ -1515,11 +1507,6 @@ display: none;
 
 
 @media only screen and (min-width: 376px ) and (max-width: 430px) {
-
-  ::-webkit-scrollbar {
-    width: 5px;
-    background: #F4F4F4;
-  }
 
   /*----------- START MODAL -------------*/
   .icon-box{

@@ -137,9 +137,7 @@ function redirectProductpage() {
 var navbar1 = document.querySelector("#navbar1");
 var navbar2 = document.querySelector("#navbar2");
 
-
 var sticky = navbar1.offsetTop;
-
 
 window.onscroll = function() {
  
@@ -236,7 +234,6 @@ const xmobile = setInterval(function() {
   hourLabelMobile.innerHTML = "HORAS";
   minutesLabelMobile.innerHTML = "MIN.";
   secondsLabelMobile.innerHTML= "SEG.";
-  
   
 }, 1000);
 

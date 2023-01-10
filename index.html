@@ -85,7 +85,7 @@
       <!-- END ALERT TOP BAR -->
 
       <!-- START NAVBAR HEADER -->
-      <section class="navbar navbar-expand-lg">
+      <section class="navbar navbar-expand-lg" id="navbar1">
 
         <div class="col-md-2" onclick="redirectBtnindex()" href="Login.html">
           <img src="assets/IMG/IMG/Logo/ON_SHOP.png" alt="Imagem" width="" height="75" />
@@ -105,7 +105,6 @@
             <i class="bi bi-search" id="formbusca"></i>
           </div>
       </form>
-  
 
         <div class="col-md-3" >
           <div class="d-flex d-md-flex flex-row align-items-center">
@@ -134,8 +133,9 @@
         </div>
       </div>
     </section>
+    <!-- END NAVBAR HEADER -->
 
-
+    <!-- MODAL MOBILE -->
     <div class="modal animated slide-in-right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
 
@@ -276,13 +276,12 @@
 
       </div>
     </div>
-    <!-- END NAVBAR HEADER -->
+    <!-- MODAL MOBILE -->
+
 
       <!-- START MENU TOP NAVIGATION -->
-
-      
       <section class="navigationmenu">
-        <nav class="navigation-menu">
+        <nav class="navigation-menu" id="navbar2">
           <div class="container-navigation-menu">
             <ul class="menu-category-list">
               <li class="menu-category">
@@ -994,6 +993,29 @@
                 <li class="category-item-banner">
                   <div>
                     <img src="assets/IMG/banner-contador (1).webp" alt="" width="auto"/>
+                    <div class="counter">
+
+                      <div class="days">
+                        <div class="number" id="days"> 00 </div>
+                        <div class="day" id="day-label">Dia</div>  
+                    </div>
+                    <div class="ping">:</div>
+                    <div class="hours">
+                        <div class="number" id="hours"> 00 </div>
+                        <div class="hr" id="hours-label">Hr</div>
+                    </div>
+                    <div class="ping">:</div>
+                    <div class="minutes">
+                        <div class="number" id="minutes"> 00 </div>
+                        <div class="min" id="minutes-label">Min</div>
+                    </div>
+                    <div class="ping">:</div>
+                    <div class="seconds">
+                        <div class="number" id="seconds"> 00 </div>
+                        <div class="seg" id="seconds-label">Seg</div>
+                    </div>
+
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -1001,6 +1023,7 @@
           </div>
         </div>
       </section>
+      
       <!-- FIM INICIO BANNER- CONTATDOR
 
       <!-- INICIO BANNER- CONTATDOR MOBILE -->
@@ -1015,23 +1038,31 @@
           </div>
         </div>
       </section>
-      <!-- FIM INICIO BANNER- CONTATDOR
+      <!-- FIM INICIO BANNER- CONTATDOR MOBILE -->
 
       <!-- START TITLE-SECTION -->
-      <div class="category-tittle">
-        <div class="category-tittle-container">
-          <div class="category-item-tittle">
-            <div class="category-content-flex-tittle">
-              <h3 class="category-item-title-title">
-                <a href="#">Destaques</a>
-                <span>
-                  Os queridinhos da loja
-                </span> 
-              </h3>
-            </div>
-          </div>
+      <div class="counter-mobile">
+        <div class="days-mobile">
+            <div class="number" id="days-mobile">00</div>
+            <div class="day" id="day-label-mobile">Dias</div>
         </div>
-      </div>
+        <div class="ping">:</div>
+        <div class="hours-mobile">
+            <div class="number" id="hours-mobile">00</div>
+            <div class="day" id="hours-label-mobile">Horas</div>
+        </div>
+        <div class="ping">:</div>
+        <div class="minutes-mobile">
+            <div class="number" id="minutes-mobile">00</div>
+            <div class="day" id="minutes-label-mobile">Minutos</div>
+        </div>
+        <div class="ping">:</div>
+        <div class="seconds-mobile">
+            <div class="number" id="seconds-mobile">00</div>
+            <div class="day" id="seconds-label-mobile">Segundos</div>
+        </div>
+    </div>
+    
       <!--END TITLE-SECTION-->
 
       <!-- START PRODUCT -->

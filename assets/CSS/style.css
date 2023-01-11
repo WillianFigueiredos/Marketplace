@@ -1329,10 +1329,6 @@ display: none;
     width: 100%;
   }
 
-  .slides{
-    padding-left: 1.2rem;
-  }
-
   .slides img {
     width: 95%;
     border-radius: 5px;
@@ -1648,12 +1644,8 @@ display: none;
     width: 100%;
   }
 
-  .slides{
-    padding-left: 1.2rem;
-  }
-
   .slides img {
-    width: 95%;
+    width: 100%;
     border-radius: 5px;
   }
 
@@ -1798,7 +1790,6 @@ display: none;
   }
   /*--------------- FIM BANNER CONTADTOR ------------------*/
 
-
   /*--------------- INICIO FOOTER ------------------*/
   #selos{
     display: flex;
@@ -1924,10 +1915,6 @@ display: none;
   
   .flexslider {
     width: 100%;
-  }
-
-  .slides{
-    padding-left: 1.2rem;
   }
 
   .slides img {

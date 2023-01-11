@@ -515,8 +515,7 @@ html {
 .slides{  
   list-style: none;
   padding-left: 1rem;
-  padding-right: 0rem;
-
+  overflow: hidden;
 }
 
 .col-4{
@@ -534,6 +533,7 @@ html {
 #image-carousel{
 display: none;
 }
+
 /*----------- END MINI BANNER -------------*/
 
 

@@ -22,8 +22,10 @@ html {
 }
 
 .body {
-  background-color: rgb(255 255 255);
+  background: rgb(255 255 255);
+
 }
+
 
 ::-webkit-scrollbar-track {
   background-color: var(--eerie-black)

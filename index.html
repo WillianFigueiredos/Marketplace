@@ -11,19 +11,22 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"/>
-      
+    <!-- Bootstrap CSS -->
+    
     <!-- splidejs CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/css/themes/splide-skyblue.min.css">
+    <!-- splidejs CSS -->
 
-  
     <!-- css -->
     <link rel="stylesheet" href="assets/CSS/style.css"/>
+    <!-- css -->
 
     <!-- Bootstrap icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+    <!-- Bootstrap icons -->
 
     <!-- Fonte Google -->
     <link
@@ -31,6 +34,7 @@
     rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <!-- Fonte Google -->
 
   </head>
 
@@ -47,9 +51,9 @@
                   </button> 
                     <div class="modal-header" id="headermodal">
                       <div class="icon-box col-md-6 modpicture">
-                        <img src="assets/IMG/IMG/Banners/Fullbanner principal mobile - Copia.jpg" alt="">
+                        <img src="assets/IMG/IMG/Banners/Fullbanner principal mobile - Copia.jpg" alt="Foto modal newsletter">
                       </div>
-                      <div class="col-md-6 col-md-12 col-lg-6  modnews">
+                      <div class="col-md-6 col-md-12 col-lg-6 modnews">
                         <div class="modal-body text-center">
                           <div class="icon-box2 col-md-6">
                             <i class="bi bi-envelope-check"></i>
@@ -77,6 +81,7 @@
     <!-- END MODAL -->
 
     <header>
+
       <!-- START ALERT TOP BAR -->
       <div class="alert alert-primary" role="alert">
         <img src="assets/IMG/IMG/Icons/logo-pix-icone-256.png" width="20" height="20" />
@@ -86,11 +91,9 @@
 
       <!-- START NAVBAR HEADER -->
       <section class="navbar navbar-expand-lg" id="navbar1">
-
         <div class="col-md-2" onclick="redirectBtnindex()" href="Login.html">
-          <img src="assets/IMG/IMG/Logo/ON_SHOP.png" alt="Imagem" width="" height="75" />
+          <img src="assets/IMG/IMG/Logo/ON_SHOP.png" alt="" width="" height="75" />
       </div>
-
       <button class="navbar-toggler d-lg-none" id="main">
         <span class="navbar-toggler-icon">
           <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -98,14 +101,12 @@
           </a>
         </span>
       </button>
-
-        <form class="d-lg-flex mb-2 mb-lg-0 mx-auto w-100" id="mobile">
-          <div class="busca">
-            <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
-            <i class="bi bi-search" id="formbusca"></i>
-          </div>
+      <form class="d-lg-flex mb-2 mb-lg-0 mx-auto w-100" id="mobile">
+        <div class="busca">
+          <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
+          <i class="bi bi-search" id="formbusca"></i>
+        </div>
       </form>
-
         <div class="col-md-3" >
           <div class="d-flex d-md-flex flex-row align-items-center">
             <div class="col-md-3" id="iconsoutline">
@@ -115,16 +116,14 @@
               <div class="text-icon">Central de
                 Atendimento</div>
             </div>
-            
             <div class="col-md-3" id="iconsperson" onclick="redirectBtnlogin()">
               <span class="shop-bag">
-                <ion-icon name="person-circle-outline" ></ion-icon>
+                <ion-icon name="person-circle-outline"></ion-icon>
               </span>
               <div class="text-icon">
                 Entrar ou Cadastrar
               </div>
             </div>
-            
             <div class="col-md-3" id="iconscart">
             <span class="shop-bag" id="cart">
               <ion-icon name="cart-outline"></ion-icon>
@@ -138,9 +137,7 @@
     <!-- MODAL MOBILE -->
     <div class="modal animated slide-in-right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
-
         <div class="modal-content">
-
           <div class="modal-header">
             <div  class="account-login" >
               <span>
@@ -155,49 +152,38 @@
               <i class="fa-solid fa-xmark"></i>
             </button>
           </div>
-
           <div class="modal-body">
-
             <div class="modal-line">
               <a href="#">Meus Pedidos</a>
-          </div>
-
-          <div class="modal-line">
-            <a href="#">Minha Conta</a>
-          </div>
-
-          <div class="modal-line" id="titlesub-menu-modal">
-            <a href="#"> <strong>Compre por departamento</strong></a>
-          </div>
-
-          <div class="modal-line" onclick="toggleDropdownMenu()">
-            <a href="#" >Fones</a>
-            <i class="bi bi-chevron-down" id="setmodal"></i>
-
-            <ul id="dropdown-menu" class="sidebar-dropdown-menu" style="display: none;">
-              
-              <li class="sidebar-dropdown-item">
-                <a href="#">JBL</a>
-              </li>
-              <li class="sidebar-dropdown-item">
-                <a href="#">Baseus</a>
-              </li>
-              <li class="sidebar-dropdown-item">
-                <a href="#">Hyperx Cloud</a>
-              </li>
-              <li class="sidebar-dropdown-item">
-                <a href="#">Redragon</a>
-              </li>
-            </ul>
-
+            </div>
+            <div class="modal-line">
+              <a href="#">Minha Conta</a>
+            </div>
+            <div class="modal-line" id="titlesub-menu-modal">
+              <a href="#"> <strong>Compre por departamento</strong></a>
+            </div>
+            <div class="modal-line" onclick="toggleDropdownMenu()">
+              <a href="#" >Fones</a>
+              <i class="bi bi-chevron-down" id="setmodal"></i>
+              <ul id="dropdown-menu" class="sidebar-dropdown-menu" style="display:none">
+                <li class="sidebar-dropdown-item">
+                  <a href="#">JBL</a>
+                </li>
+                <li class="sidebar-dropdown-item">
+                  <a href="#">Baseus</a>
+                </li>
+                <li class="sidebar-dropdown-item">
+                  <a href="#">Hyperx Cloud</a>
+                </li>
+                <li class="sidebar-dropdown-item">
+                  <a href="#">Redragon</a>
+                </li>
+              </ul>
           </div>
           <div class="modal-line" onclick="toggleDropdownMenu2()">
-            <a href="#" >Smartphones
-            </a>
+            <a href="#" >Smartphones</a>
             <i class="bi bi-chevron-down" id="setmodal2"></i>
-
             <ul id="dropdown-menu2" class="sidebar-dropdown-menu" style="display: none;">
-              
               <li class="sidebar-dropdown-item">
                 <a href="#">Xiaomi</a>
               </li>
@@ -211,25 +197,19 @@
                 <a href="#">Realme</a>
               </li>
             </ul>
-
           </div>
-
           <div class="modal-line">
             <i class="fa-solid fa-file-lines"></i>
             <a href="#">Smartwatch</a>
           </div>
-
           <div class="modal-line">
             <i class="fa-solid fa-file-lines"></i>
             <a href="#">Informática</a>
           </div>
-
           <div class="modal-line" onclick="toggleDropdownMenu3()">
             <a href="#" >Iphones</a>
             <i class="bi bi-chevron-down" id="setmodal3"></i>
-
-            <ul id="dropdown-menu3" class="sidebar-dropdown-menu" style="display: none;">
-              
+            <ul id="dropdown-menu3" class="sidebar-dropdown-menu" style="display: none;">  
               <li class="sidebar-dropdown-item">
                 <a href="#">Iphone 14</a>
               </li>
@@ -243,15 +223,11 @@
                 <a href="#">Acessorios Apple</a>
               </li>
             </ul>
-
           </div>
-
           <div class="modal-line" onclick="toggleDropdownMenu4()">
             <a href="#" >Ofertas</a>
             <i class="bi bi-chevron-down" id="setmodal4"></i>
-
-            <ul id="dropdown-menu4" class="sidebar-dropdown-menu" style="display: none;">
-              
+            <ul id="dropdown-menu4" class="sidebar-dropdown-menu" style="display: none;"> 
               <li class="sidebar-dropdown-item">
                 <a href="#">Subcategoria 01</a>
               </li>
@@ -266,16 +242,16 @@
               </li>
             </ul>
           </div>
-        </div>
           <div class="modal-footer">
             <a target="_blank" href="#">
-              <i class="bi bi-whatsapp" id="whatsmodal"></i></a>
-              <span>Compre pelo Whatsapp</span>
+              <i class="bi bi-whatsapp" id="whatsmodal"></i>
+            </a>
+            <span>Compre pelo Whatsapp</span>
           </div>
         </div>
-
       </div>
     </div>
+  </div>
     <!-- MODAL MOBILE -->
 
 
@@ -285,116 +261,93 @@
           <div class="container-navigation-menu">
             <ul class="menu-category-list">
               <li class="menu-category">
-
                 <span>
                   <i class="bi bi-list" id="Todosdepartamentos-icon" ></i>
                   <a href="#" class="menu-title" id="Todosdepartamentos">Todos departamentos </a>
                   <i class="bi bi-chevron-down" id="departamentosdown"></i>
                 </span> 
               </li>
-
               <li class="menu-category">
                 <span>
                   <i class="bi bi-headphones" id="Fones"></i>
                   <a href="#" class="menu-title" id="Fonescolorchange">Fones</a>
                   <i class="bi bi-chevron-down" id="Fonesdown"></i>
                 </span>
-
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
                 </ul>
               </li>
-
               <li class="menu-category" id="Celulares">
                 <span>
                   <i class="bi bi-phone" id="Smartphone"></i>
                   <a href="#" class="menu-title" id="Smartphoneschange">Smartphones</a>
                   <i class="bi bi-chevron-down" id="Smartphonesown"></i>
                 </span>
-
-
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
-
                   <li class="dropdown-item">
                     <a href="#">Subcategoria Informática 01</a>
                   </li>
                 </ul>
               </li>
-
               <li class="menu-category" id="Eletro">
                 <span>
                   <i class="bi bi-smartwatch" id="Smartwatch"></i>
                   <a href="#" class="menu-title" id="Smartwatchlchange">Smartwatch</a>
                 </span>
               </li>
-
               <li class="menu-category" id="Informática">
-                
                 <span>
                   <i class="bi bi-pc-display-horizontal" id="iconpc"></i>
                   <a href="#" class="menu-title">Informática</a>
                 </span>
-
                 <li class="menu-category" id="Iphone">
                   <span>
                     <i class="bi bi-phone" id="Iphones"></i>
                     <a href="#" class="menu-title">Iphones</a>
                     <i class="bi bi-chevron-down" id="Iphonesdown"></i>
                   </span>
-  
-  
                   <ul class="dropdown-list">
                     <li class="dropdown-item">
                       <a href="#">Subcategoria Informática 01</a>
                     </li>
-  
                     <li class="dropdown-item">
                       <a href="#">Subcategoria Informática 01</a>
                     </li>
-  
                     <li class="dropdown-item">
                       <a href="#">Subcategoria Informática 01</a>
                     </li>
-  
                     <li class="dropdown-item">
                       <a href="#">Subcategoria Informática 01</a>
                     </li>
                   </ul>
                 </li>
-
-              <li class="menu-category-btn" id="Ofertas">
-                <button type="button" class="btn btn-primary">
-                  <i class="bi bi-list"></i>
-                  <span>OFERTAS</span> 
-                </button>
+                <li class="menu-category-btn" id="Ofertas">
+                  <button type="button" class="btn btn-primary">
+                    <i class="bi bi-list"></i>
+                    <span>OFERTAS</span> 
+                  </button>
+                </li>
               </li>
-            </li>
-
             </ul>
           </div>
         </nav>
@@ -407,10 +360,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" ></button>
         </div>
-
         <div class="carousel-inner">
-
-
           <div class="carousel-item">
             <img src="assets/IMG/1635345209_go-tech-desktop-full-banner-01.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
@@ -420,29 +370,23 @@
               </p>
             </div>
           </div>
-
           <div class="carousel-item active">
             <img src="assets/IMG/1635345209_go-tech-desktop-full-banner-02.webp " class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
             </div>
           </div>
-
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button class="carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
       <!-- END BANNER -->
 
       <!-- HOME BANNER-MOBILE -->
@@ -451,10 +395,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptionsmobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptionsmobile" data-bs-slide-to="1" aria-label="Slide 2" ></button>
         </div>
-
         <div class="carousel-inner">
-
-
           <div class="carousel-item">
             <img src="assets/IMG/1635417895_mobile-01.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
@@ -464,7 +405,6 @@
               </p>
             </div>
           </div>
-
           <div class="carousel-item active">
             <img src="assets/IMG/1635417895_mobile-02.webp" class= "d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
@@ -474,18 +414,16 @@
               </p>
             </div>
           </div>
-
         </div>
-
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsmobile" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-
         <button class="carousel-control-next" data-bs-target="#carouselExampleCaptionsmobile" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+
       </div>
       <!-- END BANNER-MOBILE -->
     </header>
@@ -497,7 +435,6 @@
           <div class="splide__slider">
             <div class="splide__track">
               <ul class="splide__list">
-                
                 <li class="splide__slide">
                   <div class="category-item">
                     <div class="category-item-icon">
@@ -511,7 +448,6 @@
                       </div>
                   </div>
                 </li>
-      
                 <li class="splide__slide">
                   <div class="category-item">
                     <div class="category-item-icon">
@@ -525,7 +461,6 @@
                       </div>
                   </div>
                 </li>
-      
                 <li class="splide__slide">
                   <div class="category-item">
                     <div class="category-item-icon">
@@ -541,7 +476,6 @@
                       </div>
                   </div>
                 </li>
-                      
                 <li class="splide__slide">
                   <div class="category-item">
                     <div class="category-item-icon">
@@ -650,339 +584,259 @@
 
       <!-- START PRODUCT -->
       <section class="section-product-Lançamentos grid">
-        <ul class="product-list">
-          <li class="col-3">
-
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-            
-                <img src="assets/IMG/b641d84456.webp" alt=""  class="w-auto" />
-
-                <div class="card-badge">New</div>
-                
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Jogo Uncharted Coleção Legado <div> Dos Ladrões Remasterizado PS5</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 484,00</data>
-                  <data value="">R$ 324,90</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 8x de R$ 46,15 sem juros </span>
-                </div>
-              </div>
-            </div>
-            
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img src="assets/IMG/monitor-gamer-aoc-led-24-full-hd-widescreen-hero-g2460pf-b3ded940.webp" alt="Varsi Leather Bag" class="w-auto" />
-
+        <div class="container">
+          <ul class="product-list">
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/b641d84456.webp" alt=""  class="w-auto" />
                   <div class="card-badge">New</div>
-
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Monitor Gamer AOC SPEED 24 75Hz IPS 1ms 24G2HE5</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
                 </div>
-
-                <div class="card-price">
-                  <data value="">R$ 1.869,00</data>
-                  <data value="">R$ 1.792,42</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 179,24  sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Jogo Uncharted Coleção Legado <div> Dos Ladrões Remasterizado PS5</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 484,00</data>
+                    <data value="">R$ 324,90</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>  
+                  <div class="conditions-payment">
+                    <span> ou 8x de R$ 46,15 sem juros </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/headset-gamer-razer-kraken-7-1-v2-chroma-oval-usb-06ab2be1.webp" alt="Varsi Leather Bag"  class="w-auto"/>
-
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Headset Razer Kraken X Lite Surrounbr <br> d7.1 Drivers 40mm</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+            </li>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/monitor-gamer-aoc-led-24-full-hd-widescreen-hero-g2460pf-b3ded940.webp" alt="" class="w-auto" />
+                  <div class="card-badge">New</div>
                 </div>
-
-                <div class="card-price">
-                  <data value="">R$ 999,00</data>
-                  <data value="">R$ 399,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 39,90 sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Monitor Gamer AOC SPEED 24 75Hz <br> IPS 1ms 24G2HE5</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 1.869,00</data>
+                    <data value="">R$ 1.792,42</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 179,24  sem juros </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/jogo-mortal-kombat-11-ps4-6bba1909.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
+            </li>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/headset-gamer-razer-kraken-7-1-v2-chroma-oval-usb-06ab2be1.webp" alt=""  class="w-auto"/>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Headset Razer Kraken X Lite Surrounbr <br> d7.1 Drivers 40mm</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 999,00</data>
+                    <data value="">R$ 399,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 39,90 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/jogo-mortal-kombat-11-ps4-6bba1909.webp" alt="" class="w-auto"/>
                     <div class="card-badge-full">
                       Full <ion-icon name="flash"></ion-icon>
                     </div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Mortal Kombat 11 - PS4</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 99,10</data>
+                  </div>
   
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Mortal Kombat 11 - PS4</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 99,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 9,90 sem juros </span>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 9,90 sem juros </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/console-playstation-4-slim-500gb-preto-bivolt-2aaceb63.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/console-playstation-4-slim-500gb-preto-bivolt-2aaceb63.webp" alt="" class="w-auto"/>
                     <div class="card-badge-full">
                       Full <ion-icon name="flash"></ion-icon>
                     </div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Console Playstation 4 Slim 1 TB <div>God of War Ragnarok Bundle</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 3.999,00</data>
+                    <data value="">R$ 2.899,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 289,90 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
   
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Console Playstation 4 Slim 1 TB <div>God of War Ragnarok Bundle</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/3d6e734e22.webp" alt="Varsi Leather Bag" class="w-auto"/>
+                  <div class="card-badge-red">50% off</div>
                 </div>
-
-                <div class="card-price">
-                  <data value="">R$ 3.999,00</data>
-                  <data value="">R$ 2.899,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 289,90 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/3d6e734e22.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                <div class="card-badge-red">50% off</div>
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Console Atari Flashback X Tectoy<div>Com 110 Jogos E 2 Joystick</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-
-                  <data value="">R$ 895,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 85,00 sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Console Atari Flashback X Tectoy<div>Com 110 Jogos E 2 Joystick</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 895,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 85,00 sem juros </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/console-playstation-4-slim-500gb-preto-bivolt-2aaceb63.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/console-playstation-4-slim-500gb-preto-bivolt-2aaceb63.webp" alt="" class="w-auto"/>
                     <div class="card-badge-full">
                       Full <ion-icon name="flash"></ion-icon>
                     </div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Console Playstation 4 Slim 1 TB <div>God of War Ragnarok Bundle</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 2.499,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 49,00 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
   
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Console Playstation 4 Slim 1 TB <div>God of War Ragnarok Bundle</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/66f0195677.webp" alt="Varsi Leather Bag" class="w-auto"/>
+                  <div class="card-badge-red">50% off</div>
                 </div>
-
-                <div class="card-price">
-
-                  <data value="">R$ 2.499,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 49,00 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/66f0195677.webp"
-                    alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                <div class="card-badge-red">50% off</div>
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Caixa de Som Multimídia 6W Rms - SP261 Multilaser</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 399,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 439,90 sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Caixa de Som Multimídia 6W Rms - SP261 Multilaser</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 399,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 439,90 sem juros </span>
+                  </div>
                 </div>
               </div>
-              
-            </div>
-          </li>
-        </ul>
- 
-      
-    </section>
-    <!-- END PRODUCT -->
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- END PRODUCT -->
 
       <!-- INICIO BANNER- CONTATDOR -->
       <section class="category-banner d-flex justify-content-center">
@@ -993,28 +847,27 @@
                 <li class="category-item-banner">
                   <div>
                     <img src="assets/IMG/banner-contador (1).webp" alt="" width="auto"/>
-                    <div class="counter">
 
+                    <div class="counter">
                       <div class="days">
                         <div class="number" id="days"> 00 </div>
                         <div class="day" id="day-label">Dia</div>  
-                    </div>
-                    <div class="ping">:</div>
-                    <div class="hours">
+                      </div>
+                      <div class="ping">:</div>
+                      <div class="hours">
                         <div class="number" id="hours"> 00 </div>
                         <div class="hr" id="hours-label">Hr</div>
-                    </div>
-                    <div class="ping">:</div>
-                    <div class="minutes">
+                      </div>
+                      <div class="ping">:</div>
+                      <div class="minutes">
                         <div class="number" id="minutes"> 00 </div>
                         <div class="min" id="minutes-label">Min</div>
-                    </div>
-                    <div class="ping">:</div>
-                    <div class="seconds">
+                      </div>
+                      <div class="ping">:</div>
+                      <div class="seconds">
                         <div class="number" id="seconds"> 00 </div>
                         <div class="seg" id="seconds-label">Seg</div>
-                    </div>
-
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -1023,371 +876,292 @@
           </div>
         </div>
       </section>
-      
       <!-- FIM INICIO BANNER- CONTATDOR
 
       <!-- INICIO BANNER- CONTATDOR MOBILE -->
       <section class="bannercontador">
         <div class="container" id="mobilebanner">
           <div class="row-fluid">
-    
             <div class="picturebannermobile">
               <img src="assets/IMG/banner-contador-mob.png" alt="" width="auto"/>
             </div>
-
           </div>
         </div>
       </section>
-      <!-- FIM INICIO BANNER- CONTATDOR MOBILE -->
 
-      <!-- START TITLE-SECTION -->
       <div class="counter-mobile">
         <div class="days-mobile">
-            <div class="number" id="days-mobile">00</div>
-            <div class="day" id="day-label-mobile">Dias</div>
+          <div class="number" id="days-mobile">00</div>
+          <div class="day" id="day-label-mobile">Dias</div>
         </div>
         <div class="ping">:</div>
         <div class="hours-mobile">
-            <div class="number" id="hours-mobile">00</div>
-            <div class="day" id="hours-label-mobile">Horas</div>
+          <div class="number" id="hours-mobile">00</div>
+          <div class="day" id="hours-label-mobile">Horas</div>
         </div>
         <div class="ping">:</div>
         <div class="minutes-mobile">
-            <div class="number" id="minutes-mobile">00</div>
-            <div class="day" id="minutes-label-mobile">Minutos</div>
-        </div>
+          <div class="number" id="minutes-mobile">00</div>
+          <div class="day" id="minutes-label-mobile">Minutos</div>
+        </div>     
         <div class="ping">:</div>
         <div class="seconds-mobile">
-            <div class="number" id="seconds-mobile">00</div>
-            <div class="day" id="seconds-label-mobile">Segundos</div>
+          <div class="number" id="seconds-mobile">00</div>
+          <div class="day" id="seconds-label-mobile">Segundos</div>
         </div>
-    </div>
-    
-      <!--END TITLE-SECTION-->
+      </div>
+      <!-- FIM INICIO BANNER- CONTATDOR MOBILE -->
 
       <!-- START PRODUCT -->
       <section class="section-product-Lançamentos grid">
-        <ul class="product-list">
-          <li class="col-3">
-
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-            
-                <img src="assets/IMG/de3d1fb070.webp" alt="Varsi Leather Bag"  class="w-auto" />
-
-                <div class="card-badge">New</div>
-                
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Apple iPhone 11 (64 GB) Preto</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 8.299,00</data>
-                  <data value="">R$ 6.599,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 659,90 sem juros </span>
-                </div>
-              </div>
-            </div>
-            
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img src="assets/IMG/cf31dba1ff.webp" 
-                  alt="Varsi Leather Bag" class="w-auto" />
-
+        <div class="container">
+          <ul class="product-list">
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/iphone-xs-max-space-select-2018.jfif" alt=""  class="w-auto" />
                   <div class="card-badge">New</div>
-              </div>
-                <a class="card-title">
-                  <a class="title-text" href="#" >iPhone 14 Pro Max (512 GB) - Preto</a>
-                </a>
-
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
                 </div>
-
-                <div class="card-price">
-                  <data value="">R$ 164,90</data>
-                  <data value="">R$ 124,75</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 2x de R$ 62,37 sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Apple iPhone 11 (64 GB) Preto</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 8.299,00</data>
+                    <data value="">R$ 6.599,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 659,90 sem juros </span>
+                  </div>
                 </div>
               </div>
-          </li>
-
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/1722f7d28b.webp" alt="Varsi Leather Bag"  class="w-auto"/>
-
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >iPhone 14 Pro Max (512 GB) - Preto</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 1.499,00</data>
-                  <data value="">R$ 1.349,10</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 149,90 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/03d7840136.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                <div class="card-badge-red">50% off</div>
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >iPhone 12 Pro Max (512 GB) - Preto</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 1.059,00</data>
-                  <data value="">R$ R$999,00</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 99,90 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/3d6e734e22.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                <div class="card-badge-red">50% off</div>
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Tripé em alumínio com extensão até 2 m<div> reto Grande</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 349,90</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 6x R$ 58,35 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/capinha-de-celular-iphone-8-cf2cb00b.webp" alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                <div class="card-badge-red">50% off</div>
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Tablet Multilaser Minnie Quad Core<div> 32GB Tela 7 Polegadas Preto</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 439,00</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 8x R$ 54,91 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/IMG/Products/TV.jpg" alt="Varsi Leather Bag" class="w-auto"/>
-
-
-                    <div class="card-badge-full">
-                      Full <ion-icon name="flash"></ion-icon>
-                    </div>
+            </li>
   
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Smart TV 32" LG HD 32LQ620 Wi-Fi <div>Bluetooth HDR ThinQ AI Google Alexa</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/cf31dba1ff.webp" alt="Varsi Leather Bag" class="w-auto" />
+                  <div class="card-badge">New</div>
                 </div>
-
-                <div class="card-price">
-                  <data value="">R$ 1.299,99</data>
+                  <a class="card-title">
+                    <a class="title-text" href="#" >iPhone 14 Pro Max (512 GB) - Preto</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 164,90</data>
+                    <data value="">R$ 124,75</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 2x de R$ 62,37 sem juros </span>
+                  </div>
                 </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/2xiaomi_redmi_note_10_5g_128gb_graphite_gray-e1623347692143-250x300.jpg" alt=""  class="w-auto"/>
                 </div>
-
-                <div class="conditions-payment">
-                  <span> ou 8x de R$ 162,49 sem juros </span>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >iPhone 14 Pro Max (512 GB) - Preto</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 1.499,00</data>
+                    <data value="">R$ 1.349,10</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 149,90 sem juros </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          </li>
-
-          <li class="col-3">
-            <div class="product-card" onclick="redirectProductpage()" >
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/IMG/Products/GELADEIRA.jpg" alt="Varsi Leather Bag" class="w-auto"/>
-
-
+            </li>
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/foto5-1-e1650206247663-250x300.jpg" alt="" class="w-auto"/>
+                  <div class="card-badge-red">50% off</div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >iPhone 12 Pro Max (512 GB) - Preto</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 1.059,00</data>
+                    <data value="">R$ R$999,00</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 10x de R$ 99,90 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/3d6e734e22.webp" alt="" class="w-auto"/>
+                  <div class="card-badge-red">50% off</div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Console Atari Flashback X Tectoy <br> Com 110 Jogos E 2 Joystick</a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 349,90</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 6x R$ 58,35 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/capinha-de-celular-iphone-8-cf2cb00b.webp" alt="" class="w-auto"/>
+                  <div class="card-badge-red">50% off</div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Tablet Multilaser Minnie Quad Core<div> 32GB Tela 7 Polegadas Preto</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 439,00</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 8x R$ 54,91 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                <div class="card-banner">
+                  <img src="assets/IMG/IMG/Products/TV.jpg" alt="" class="w-auto"/>
                   <div class="card-badge-full">
                     Full <ion-icon name="flash"></ion-icon>
                   </div>
-
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Smart TV 32" LG HD 32LQ620 Wi-Fi <div>Bluetooth HDR ThinQ AI Google Alexa</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 1.299,99</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 8x de R$ 162,49 sem juros </span>
+                  </div>
+                </div>
+              </div>
+            </li>
   
+            <li class="col-3">
+              <div class="product-card" onclick="redirectProductpage()" >
+                <div class="card-banner">
+                    <img
+                      src="assets/IMG/IMG/Products/GELADEIRA.jpg" alt="" class="w-auto"/>
+                    <div class="card-badge-full">
+                      Full <ion-icon name="flash"></ion-icon>
+                    </div>
+                </div>
+                <div class="card-content">
+                  <a class="card-title">
+                    <a class="title-text" href="#" >Refrigerador Frost Free RF27T5501SG <div> Door Family 614 Litros Samsung - 220V</div></a>
+                  </a>
+                  <div class="star">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                  </div>
+                  <div class="card-price">
+                    <data value="">R$ 25.999,00</data>
+                  </div>
+                  <div class="conditions-price">
+                    <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                  </div>
+                  <div class="conditions-payment">
+                    <span> ou 12x de R$ 2.166,58 sem juros </span>
+                  </div>
+                </div>
               </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Refrigerador Frost Free RF27T5501SG <div> Door Family 614 Litros Samsung - 220V</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 25.999,00</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 12x de R$ 2.166,58 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- END PRODUCT -->
 
@@ -1417,7 +1191,6 @@
       <!--END MINI BANNER 2-->
 
       <!-- START TITLE-SECTION -->
-
       <div class="category-tittle">
         <div class="category-tittle-container">
           <div class="category-item-tittle">
@@ -1436,164 +1209,124 @@
 
       <!-- START PRODUCT -->
       <section class="section-product-Lançamentos grid">
-        <ul class="product-list">
-          <li class="col-3">
-
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-            
-                <img src="assets/IMG/IMG/Products/GERADOR.jpg" alt="Varsi Leather Bag"  class="w-auto" />
-
-                <div class="card-badge">New</div>
-                
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Gerador de Energia a Gasolina Trifásico 8kva <div> 110-220v Partida Elétrica - Nagano</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 5.523,32</data>
-                  <data value=""> R$ 4.970,99</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 12x de R$ 460,28 sem juros </span>
-                </div>
-              </div>
-            </div>
-            
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img src="assets/IMG/IMG/Products/NIKE.jpg" alt="Varsi Leather Bag" class="w-auto" />
-
-                  <div class="card-badge">New</div>
-
-              </div>
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Tênis Desportivo Nike Free Rn 5.0 <div> Série Neon Verde </div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 900,00</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 90,00 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/IMG/Products/PLACADEVIDEO2.jpg" alt="Varsi Leather Bag"  class="w-auto"/>
-
-              </div>
-
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Placa de Vídeo Gigabyte AMD  <div> Radeon RX 6700 XT Eagle 12GB GDDR6</div></a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 2.699,99</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 317,64 sem juros </span>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="col-3">
-            <div onclick="redirectProductpage()" class="product-card">
-              <div class="card-banner">
-
-                  <img
-                    src="assets/IMG/IMG/Products/IMPRESSORA.jpg" alt="Varsi Leather Bag" class="w-auto"/>
-
+        <div class="container">
+          <ul class="product-list">
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                  <div class="card-banner">
+                    <img src="assets/IMG/IMG/Products/GERADOR.jpg"  alt="" class="img-fluid w-auto" />
                     <div class="card-badge-full">
                       Full <ion-icon name="flash"></ion-icon>
                     </div>
-  
-
-              <div class="card-content">
-                <a class="card-title">
-                  <a class="title-text" href="#" >Impressora hp deskjet 2776 mult.wifi</a>
-                </a>
-
-                <div class="star">
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star"></ion-icon>
-                  <ion-icon name="star-half"></ion-icon> <span>(5)</span>
-                </div>
-
-                <div class="card-price">
-                  <data value="">R$ 677,35</data>
-                </div>
-
-                <div class="conditions-price">
-                  <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
-                </div>
-
-                <div class="conditions-payment">
-                  <span> ou 10x de R$ 67,74  sem juros </span>
-                </div>
+                  </div>
+                  <div class="card-content">
+                    <a class="title-text" href="#" >Gerador de Energia a Gasolina Trifásico 8kva 110-220v Partida Elétrica - Nagano</a>
+                      <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                      </div>
+                      <div class="card-price">
+                        <data value="">R$ 5.523,32</data>
+                        <data value=""> R$ 4.970,99</data>
+                      </div>   
+                      <div class="conditions-price">
+                        <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                      </div>
+                      <div class="conditions-payment">
+                        <span> ou 12x de R$ 460,28 sem juros </span>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          </li>
-        </ul>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                  <div class="card-banner">
+                      <img src="assets/IMG/IMG/Products/NIKE.jpg"  alt="" class="img-fluid w-auto" />
+                      <div class="card-badge badge badge-danger">New</div>
+                  </div>
+                  <div class="card-content">
+                    <a class="title-text" href="#" >Tênis Desportivo Nike Free Rn 5.0 <div> Série Neon Verde </div></a>
+                      <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                      </div>
+                      <div class="card-price">
+                        <data value="">R$ 900,00</data>
+                      </div>    
+                      <div class="conditions-price">
+                        <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                      </div>
+                      <div class="conditions-payment">
+                        <span> ou 10x de R$ 90,00 sem juros </span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                  <div class="card-banner">
+                      <img src="assets/IMG/IMG/Products/PLACADEVIDEO2.jpg"  alt="" class="img-fluid w-auto" />
+                      <div class="card-badge badge badge-danger">New</div>
+                  </div>
+                  <div class="card-content">
+                    <a class="title-text" href="#" >Placa de Vídeo Gigabyte AMD <div> Radeon RX 6700 XT Eagle 12GB GDDR6</div></a>
+                      <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                      </div>
+                      <div class="card-price">
+                        <data value="">R$ 2.699,99</data>
+                      </div>
+                      <div class="conditions-price">
+                        <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                      </div>
+                      <div class="conditions-payment">
+                        <span> ou 10x de R$ 317,64 sem juros </span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+  
+            <li class="col-3">
+              <div onclick="redirectProductpage()" class="product-card">
+                  <div class="card-banner">
+                      <img src="assets/IMG/IMG/Products/IMPRESSORA.jpg"  alt="" class="img-fluid w-auto" />
+                      <div class="card-badge badge badge-danger">New</div>
+                  </div>
+                  <div class="card-content">
+                    <a class="title-text" href="#" >Tênis Desportivo Nike Free Rn 5.0 <div> Série Neon Verde </div></a>
+                      <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon> <span>(5)</span>
+                      </div>
+                      <div class="card-price">
+                        <data value="">R$ 677,35</data>
+                      </div>
+                      <div class="conditions-price">
+                        <p><a href="">à vista</a> <span>(10% de desconto)</span></p>
+                      </div>
+                      <div class="conditions-payment">
+                        <span> ou 10x de R$ 67,74  sem juros </span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

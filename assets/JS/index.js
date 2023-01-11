@@ -112,53 +112,40 @@ function closeItem() {
 
 // redirect index
 const returnbtn = document.querySelector(".col-md-2");
-
 function redirectBtnindex() {
     window.location.href = "index.html";
 }
 
 // redirect login e produto
 const actionbtn = document.querySelector(".text", ".link","#iconsperson", ".account-login");
-
 function redirectBtnlogin() {
     window.location.href = "Login.html";
 }
 
 const actionproductcard = document.querySelector(".product-card");
-
 function redirectProductpage() {
     window.location.href = "produto.html";
-    
 }
-
-
-
 
 var navbar1 = document.querySelector("#navbar1");
 var navbar2 = document.querySelector("#navbar2");
-
 var sticky = navbar1.offsetTop;
 
 window.onscroll = function() {
- 
   if (window.pageYOffset >= sticky) {
-    
     navbar1.classList.add("fixed");
     navbar2.classList.add("fixed");
     navbar2.classList.add("color");
   } else {
-    
     navbar1.classList.remove("fixed");
     navbar2.classList.remove("fixed");
     navbar2.classList.remove("color");
   }
-
 }; 
 
 
 // Contador Desktop
 const countDownDate = new Date("Jan 20, 2023 19:00:00").getTime();
-
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
@@ -171,9 +158,7 @@ const secondsLabel = document.getElementById("seconds-label");
 const x = setInterval(function() {
 
   const now = new Date().getTime();
-
   let distance = countDownDate - now;
-
   if (distance < 0) {
     distance = countDownDate - distance;
   }
@@ -214,9 +199,7 @@ const secondsLabelMobile = document.getElementById("seconds-label-mobile");
 const xmobile = setInterval(function() {
 
   const now = new Date().getTime();
-
   let distance = countDownDatemobile - now;
-
   if (distance < 0) {
     distance = countDownDatemobile - distance;
   }

@@ -590,19 +590,15 @@ display: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1rem;
   list-style: none;
-  padding-left: 5rem;
-  padding-right: 0px;
-
+  margin: 0 auto;
+  padding-left: 0rem;
+  width: auto;
 }
+
 .product-card .card-banner {
   position: relative;
-  margin-bottom: 20px;
   margin-top: 3rem;
-  margin-bottom: 0rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .product-list li{
@@ -647,7 +643,8 @@ display: none;
 }
 
 .card-content{
-  margin-left: 1rem;
+  position: relative;
+  margin-left: 1.8rem;
   padding-bottom: 1rem;
 }
 

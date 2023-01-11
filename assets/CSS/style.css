@@ -515,8 +515,9 @@ html {
 .slides{  
   list-style: none;
   padding-left: 1rem;
-  overflow: hidden;
 }
+
+ //verificar 
 
 .col-4{
   width: auto;

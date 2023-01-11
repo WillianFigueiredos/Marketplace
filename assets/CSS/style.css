@@ -38,8 +38,6 @@ html {
   background: var(--orange);
   border-radius: 15px;
 }
-
-
 /*-----------RESET--------------*/
 
 /*----------- START MODAL -------------*/
@@ -116,7 +114,6 @@ html {
 #modal-newsletter .close:hover {
 	opacity: 0.6;
 }
-
 
 #modal-newsletter .form-control, #modal-newsletter .btn {
 	min-height: 46px;
@@ -212,7 +209,6 @@ html {
     transform: translateX(0);
   }
 }
-
 
 .modal-header{
   padding: 0;
@@ -377,7 +373,6 @@ html {
   list-style:none; 
 }
 
-
 .menu-category span{
   display: flex;
   align-items: center;
@@ -519,6 +514,7 @@ html {
   list-style: none;
   padding-left: 1rem;
   padding-right: 0rem;
+
 }
 
 .col-4{
@@ -531,12 +527,7 @@ html {
 
 .flexslider ul li{
   overflow: hidden;
-  border-radius: 0.4rem;
-}
-
-.flexslider ul li{
-  overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 1rem; 
 }
 
 #image-carousel{
@@ -715,18 +706,10 @@ display: none;
 /*--------------- END PRODUCT ------------------*/
 
 
-#mobilebanner{
-  display: none;
-}
-
+/*--------------- INICIO BANNER- CONTATDOR ------------------*/
 #bannerdesktop li{
   list-style: none;
 }
-
-
-
-
-
 
 .counter {
   display: flex;
@@ -764,10 +747,13 @@ display: none;
   font-size: 0.9rem;
   color: var(--white);
 }
+/*--------------- FIM BANNER- CONTATDOR ------------------*/
 
 
-
-
+/*--------------- INICIO BANNER- CONTATDOR MOBILE ------------------*/
+#mobilebanner{
+  display: none;
+}
 
 .counter-mobile {
   display: flex;
@@ -783,7 +769,6 @@ display: none;
   background-color: var(--onyx);
   opacity: 0.7;
 }
-
 
 .days-mobile, .hours-mobile, .minutes-mobile, .seconds-mobile {
   color: var(--white);
@@ -806,11 +791,10 @@ display: none;
   text-align: center;
 }
 
-
 .counter-mobile div {
   margin: 0px 1px;
 }
-
+/*---------------FIM INICIO BANNER- CONTATDOR MOBILE ------------------*/
 
 
 /*--------------- START FOOTER ------------------*/
@@ -875,8 +859,6 @@ display: none;
 /*----------- HOME MEDIA QUERIES -------------*/
 
 @media only screen and (max-width: 320px){
-
-
   
   /*----------- START MODAL -------------*/
   .icon-box{
@@ -900,7 +882,6 @@ display: none;
 
   #modal-newsletter .btn {
     min-width: 10px;
-
   }
   /*----------- END MODAL -------------*/
   
@@ -1008,7 +989,6 @@ display: none;
   /*----------- END BANNER--------------*/
 
 
-
   /*----------- START NAV-ITENS-------------*/
   .splide__slide {
     width: auto !important;
@@ -1023,7 +1003,6 @@ display: none;
   /*----------- END NAV-ITENS-------------*/
   
 
-
   /*----------- START MINI BANNER -------------*/
   .modulo {
     width: 100%;
@@ -1036,7 +1015,7 @@ display: none;
   .slides{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-  
+
   }
 
   .slides img {
@@ -1160,13 +1139,13 @@ display: none;
   /*--------------- END PRODUCT ------------------*/
 
 
+  /*--------------- START BANNER CONTADTOR MOBILE ------------------*/
   .counter-mobile {
     left: 2rem;
     width: 80%;
     display: block;
     display: flex;
   }
-
 
   .picturebannermobile{
     overflow: hidden;
@@ -1176,19 +1155,22 @@ display: none;
     display: block;
     list-style: none;
   }
-  
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR ------------------*/
   #bannerdesktop{
     display: none;
   }
+  /*--------------- FIM BANNER CONTADTOR ------------------*/
 
 
-
-
+  /*--------------- INICIO FOOTER ------------------*/
   #selos{
     display: flex;
     flex-wrap: wrap;
     margin-left: 4.5rem;
   }
+  /*--------------- FIM FOOTER ------------------*/
 
 }
 
@@ -1219,7 +1201,6 @@ display: none;
   #modal-newsletter .btn {
     min-width: 10px;
   }
-
   /*----------- START MODAL -------------*/
   
   
@@ -1231,7 +1212,6 @@ display: none;
   /*----------- EDN ALERT TOP BAR --------------*/
 
   
-
   /*----------- START NAVBAR HEADER --------------*/
   .navbar{
     --bs-navbar-padding-y:0rem !important;
@@ -1472,9 +1452,13 @@ display: none;
   }
   /*--------------- END PRODUCT ------------------*/
 
-
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
   .picturebannermobile{
     overflow: hidden;
+  }
+
+  #bannerdesktop{
+    display: none;
   }
 
   .counter-mobile {
@@ -1488,17 +1472,23 @@ display: none;
     display: block;
     list-style: none;
   }
-  
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR ------------------*/
   #bannerdesktop{
     display: none;
   }
+  /*--------------- FIM BANNER CONTADTOR ------------------*/
 
 
+  /*--------------- INICIO FOOTER ------------------*/
   #selos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5.5rem;
+    margin-left: 6.5rem;
   }
+  /*--------------- FIM FOOTER ------------------*/
+
 
 }
 
@@ -1528,7 +1518,6 @@ display: none;
   #modal-newsletter .btn {
     min-width: 10px;
   }
-
   /*----------- START MODAL -------------*/
 
 
@@ -1682,7 +1671,6 @@ display: none;
   #image-carousel{
     display: block;
   }
-
   /*----------- END MINI BANNER -------------*/
 
 
@@ -1785,8 +1773,13 @@ display: none;
   }
   /*--------------- END PRODUCT ------------------*/
 
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
   .picturebannermobile{
     overflow: hidden;
+  }
+
+  #bannerdesktop{
+    display: none;
   }
 
   .counter-mobile {
@@ -1800,18 +1793,26 @@ display: none;
     display: block;
     list-style: none;
   }
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR ------------------*/
   #bannerdesktop{
     display: none;
   }
+  /*--------------- FIM BANNER CONTADTOR ------------------*/
 
-  
+
+  /*--------------- INICIO FOOTER ------------------*/
   #selos{
     display: flex;
     flex-wrap: wrap;
     margin-left: 7.5rem;
   }
+  /*--------------- FIM FOOTER ------------------*/
 
 }
+
+
 
 @media only screen and (min-width: 431px ) and (max-width: 768px){
 

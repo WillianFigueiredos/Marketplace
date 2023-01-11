@@ -528,7 +528,6 @@ html {
 }
 
 .flexslider ul li{
-  overflow: hidden;
   border-radius: 1rem; 
 }
 
@@ -1017,12 +1016,10 @@ display: none;
   .slides{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-
   }
 
   .slides img {
     width: 100%;
-    overflow: hidden;
     border-radius: 5px;
   }
 
@@ -1338,7 +1335,6 @@ display: none;
 
   .slides img {
     width: 95%;
-    overflow: hidden;
     border-radius: 5px;
   }
 
@@ -1658,7 +1654,6 @@ display: none;
 
   .slides img {
     width: 95%;
-    overflow: hidden;
     border-radius: 5px;
   }
 
@@ -1936,7 +1931,6 @@ display: none;
   }
 
   .slides img {
-    overflow: hidden;
     border-radius: 5px;
   }
 

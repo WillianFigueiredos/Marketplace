@@ -247,7 +247,7 @@ html {
   display: flex;
   font-size: 4.5rem;
   color: var(--white);
-  margin-right: 0.rem;  
+  margin-right: 0.rem;
   margin-left: 1.5rem;
 }
 
@@ -278,7 +278,7 @@ html {
 }
 
 .sidebar-dropdown-menu{
-  padding-left: 0rem;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -615,7 +615,6 @@ display: none;
   position: absolute;
   top: 0;
   left: 0;
-  font-weight: var(--fw-500);
   padding: 3px 10px;
   background-color: var(--red);
   color: var(--white);
@@ -692,7 +691,6 @@ display: none;
 
 .product-card .card-price {
   color: var(--eerie-black);
-  font-weight: var(--fw-500);
   font-size: 1.35rem;
 }
 

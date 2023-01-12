@@ -1861,7 +1861,6 @@ html {
 
   .busca{
     width: 35%;
-    margin-left: 2.6rem;
     bottom: 1.6rem;
     position: absolute;
   }
@@ -1879,20 +1878,19 @@ html {
     margin-left: 1rem;
   }
 
+  .text-icon {
+    display: none;
+  }	
   #iconsoutline {
-    margin-left: -7.5rem;
-    font-size: 0.8rem;
+    font-size: 0.4rem;
+    margin-right: 0.8rem; 
   }
 
   #iconsperson{
-    font-size: 0.8rem;
-    margin-left: 2.1rem;
+    margin-right: 0.5rem; 
+    font-size: 0.4rem;
+    
   }
-
-  #cart{
-    margin-left: 2.1rem;
-  }
-
   .shop-bag{
     font-size: 2.8rem;
   }
@@ -1901,7 +1899,7 @@ html {
 
 
   /*----------- START MENU TOP NAVIGATION --------------*/
-  #Informática, #Celulares, #Ofertas{
+  #Informática, #Celulares, #Ofertas, #Eletro{
     display: none;
   }
 
@@ -1968,6 +1966,7 @@ html {
   
   .product-list {
     padding-left: 0rem;
+    width: 540px;
   }
 
   .w-auto {
@@ -1985,10 +1984,6 @@ html {
 
   .product-card .card-title a {
     font-size: 1rem;
-  }
-
-  .product-card  {
-    margin: 0 5px!important;
   }
 
   .product-card .card-price {

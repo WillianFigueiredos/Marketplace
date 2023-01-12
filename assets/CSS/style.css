@@ -1934,11 +1934,7 @@ html {
 
   /*----------- START MINI BANNER -------------*/
   .modulo {
-    width: 100%;
-  }
-  
-  .flexslider {
-    width: 100%;
+    width: 50%;
   }
 
   .slides img {
@@ -1957,7 +1953,7 @@ html {
   #image-carousel{
     display: block;
   }
-  /*----------- END MINI BANNER -------------*
+  /*----------- END MINI BANNER -------------*/
 
 
   /*--------------- START TITLE-SECTION ------------------*/
@@ -2175,11 +2171,7 @@ html {
 
   /*----------- START MINI BANNER -------------*/
   .modulo {
-    width: 100%;
-  }
-  
-  .flexslider {
-    width: 100%;
+    width: 50%;
   }
 
   .slides img {
@@ -2198,7 +2190,7 @@ html {
   #image-carousel{
     display: block;
   }
-  /*----------- END MINI BANNER -------------*
+  /*----------- END MINI BANNER -------------*/
 
 
   /*--------------- START TITLE-SECTION ------------------*/
@@ -2401,32 +2393,28 @@ html {
     /*----------- END NAV-ITENS-------------*/
     
   
-    /*----------- START MINI BANNER -------------*/
-    .modulo {
-      width: 100%;
-    }
-    
-    .flexslider {
-      width: 100%;
-    }
-  
-    .slides img {
-      width: 100%;
-      border-radius: 5px;
-    }
-  
-    .col-4{
-      padding-top: 0rem;
-    }
-  
-    .minibannermobile{
-      display: none;
-    }
-  
-    #image-carousel{
-      display: block;
-    }
-    /*----------- END MINI BANNER -------------*
+  /*----------- START MINI BANNER -------------*/
+  .modulo {
+    width: 50%;
+  }
+
+  .slides img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .col-4{
+    padding-top: 0rem;
+  }
+
+  .minibannermobile{
+    display: none;
+  }
+
+  #image-carousel{
+    display: block;
+  }
+  /*----------- END MINI BANNER -------------*/
   
   
     /*--------------- START TITLE-SECTION ------------------*/
@@ -2525,7 +2513,6 @@ html {
       /*----------- START MODAL -------------*/
       #modal-newsletter {
         width: 100%;
-        max-width: 100%;
         padding: 0.5rem;
       }
     
@@ -2631,32 +2618,28 @@ html {
       /*----------- END NAV-ITENS-------------*/
       
     
-      /*----------- START MINI BANNER -------------*/
-      .modulo {
-        width: 100%;
-      }
-      
-      .flexslider {
-        width: 100%;
-      }
-    
-      .slides img {
-        width: 100%;
-        border-radius: 5px;
-      }
-    
-      .col-4{
-        padding-top: 0rem;
-      }
-    
-      .minibannermobile{
-        display: none;
-      }
-    
-      #image-carousel{
-        display: block;
-      }
-      /*----------- END MINI BANNER -------------*
+  /*----------- START MINI BANNER -------------*/
+  .modulo {
+    width: 50%;
+  }
+
+  .slides img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .col-4{
+    padding-top: 0rem;
+  }
+
+  .minibannermobile{
+    display: none;
+  }
+
+  #image-carousel{
+    display: block;
+  }
+  /*----------- END MINI BANNER -------------*/
     
     
       /*--------------- START TITLE-SECTION ------------------*/

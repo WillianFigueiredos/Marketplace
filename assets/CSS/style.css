@@ -23,16 +23,14 @@ html {
 
 .body {
   background: rgb(255 255 255);
-
 }
-
 
 ::-webkit-scrollbar-track {
   background-color: var(--eerie-black)
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 5px;
   background: #F4F4F4;
 }
 
@@ -40,6 +38,8 @@ html {
   background: var(--orange);
   border-radius: 15px;
 }
+
+
 /*-----------RESET--------------*/
 
 /*----------- START MODAL -------------*/
@@ -1812,7 +1812,7 @@ html {
 
 
 
-@media only screen and (min-width: 431px ) and (max-width: 768px){
+@media only screen and (min-width: 431px ) and (max-width: 600px){
 
   /*----------- START MODAL -------------*/
   #modal-newsletter {

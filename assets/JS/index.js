@@ -99,14 +99,14 @@ function toggleDropdownMenu4() {
 
 
 //Modal-Newsletter
-setTimeout(function() {
-  $('#modal2').modal('show');
-}, 3000);
+///setTimeout(function() {
+  //$('#modal2').modal('show');
+///}, 3000);
 
 
-function closeItem() {
-  $('#modal2').modal('hide');
-}
+//function closeItem() {
+  //$('#modal2').modal('hide');
+//}
 
 
 

@@ -46,7 +46,7 @@ html {
 #modal-newsletter .modal-content {
 	padding: 1rem;
   z-index: 9999;
-	border-radius: 0;		
+	border-radius: 0;
 	border: none;
   z-index: 1000;
 }
@@ -182,6 +182,7 @@ html {
 
 .navbar img {
   margin-left: 5.5rem;
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.3);
 }
 
 .modal{
@@ -526,12 +527,14 @@ html {
   padding-right: 0rem;
 }
 
-.flexslider ul li{
-  border-radius: 1rem; 
+.flexslider ul li {
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.3);
 }
 
+
 #image-carousel{
-display: none;
+  display: none;
 }
 
 /*----------- END MINI BANNER -------------*/
@@ -709,6 +712,10 @@ display: none;
 #bannerdesktop li{
   list-style: none;
 }
+.category-item-banner img{
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.3);
+  border-radius: 1rem;
+}
 
 .counter {
   display: flex;
@@ -763,6 +770,11 @@ display: none;
   font-weight: 500;
   display: none;
 }
+
+#mobilebanner img{
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.3);
+}
+
 
 .counter-mobile .days-mobile, .hours-mobile, .minutes-mobile, .seconds-mobile {
   background-color: var(--onyx);
@@ -1803,8 +1815,14 @@ display: none;
 @media only screen and (min-width: 431px ) and (max-width: 768px){
 
   /*----------- START MODAL -------------*/
-  .modpicture{
-    display: none;
+  #modal-newsletter {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  #modal-newsletter .modal-content {
+    padding: 0.5rem;
   }
 
   #modal-newsletter .icon-box i {
@@ -1883,12 +1901,12 @@ display: none;
 
 
   /*----------- START MENU TOP NAVIGATION --------------*/
-  #Informática, #Celulares{
+  #Informática, #Celulares, #Ofertas{
     display: none;
   }
 
   .menu-category-list {
-    gap: 1.5rem; 
+    gap: 1.9rem; 
     padding-left: 0rem;
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
@@ -1905,10 +1923,9 @@ display: none;
   /*----------- END NAV-ITENS-------------*/
   
 
-
   /*----------- START MINI BANNER -------------*/
   .modulo {
-    margin: 0 auto;
+    width: 100%;
   }
   
   .flexslider {
@@ -1916,28 +1933,34 @@ display: none;
   }
 
   .slides img {
+    width: 100%;
     border-radius: 5px;
   }
 
   .col-4{
     padding-top: 0rem;
   }
-  /*----------- END MINI BANNER -------------*/
 
-
-  /*--------------- START TITLE-SECTION ------------------*/
-  .category-item-tittle span {
+  .minibannermobile{
     display: none;
   }
 
+  #image-carousel{
+    display: block;
+  }
+  /*----------- END MINI BANNER -------------*
+
+
+  /*--------------- START TITLE-SECTION ------------------*/
   .category-content-flex-tittle h3::after {
-    width: 80%;
+    width: 40%;
     margin-top: 0.3rem!important;
     margin: 0 auto;
   }
 
   .category-item-tittle {
-    padding-top: 0rem;
+    padding-top: 0,5rem;
+    padding-bottom: 1rem;
   }
   /*--------------- END TITLE-SECTION------------------*/
 
@@ -1999,6 +2022,27 @@ display: none;
     font-weight: 600;
   }
   /*--------------- END PRODUCT ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+
+    #bannerdesktop{
+    overflow: hidden;
+    }
+
+    .category-item-banner img{
+      width: auto;
+      height: auto;
+      border-radius: 5px;
+    }
+    .counter-mobile {
+      display: none;
+    }
+  
+    #mobilebanner{
+      display: none;
+    }
+
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
   
 
 }

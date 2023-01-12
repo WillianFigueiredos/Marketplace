@@ -1860,9 +1860,10 @@ html {
   }
 
   .busca{
-    width: 35%;
-    bottom: 1.6rem;
-    position: absolute;
+    width: 130%;
+    top: 0.3rem;
+    position: relative;
+    right: 2rem;
   }
 
   #formbusca {
@@ -1881,6 +1882,7 @@ html {
   .text-icon {
     display: none;
   }	
+
   #iconsoutline {
     font-size: 0.4rem;
     margin-right: 0.8rem; 
@@ -1899,13 +1901,22 @@ html {
 
 
   /*----------- START MENU TOP NAVIGATION --------------*/
-  #Informática, #Celulares, #Ofertas, #Eletro{
+  #Informática, #Celulares, #Ofertas, #eletro{
     display: none;
   }
 
   .menu-category-list {
     gap: 1.9rem; 
     padding-left: 0rem;
+  }
+
+  .navigation-menu {
+    justify-content: center; 
+  }
+
+  .menu-category {
+    margin: 0rem;
+    color: var(--orange);
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
 
@@ -1964,9 +1975,12 @@ html {
 
   /*--------------- START PRODUCT ------------------*/
   
+  .container, .container-sm {
+    max-width: 576px !important;
+  }
+
   .product-list {
-    padding-left: 0rem !important;
-    width: 540px!important;
+    padding-left: 0rem;
   }
 
   .w-auto {
@@ -2015,7 +2029,7 @@ html {
     padding: 3px 10px;
     font-size: 0.7rem;
     font-weight: 600;
-  }
+  }   
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
@@ -2038,6 +2052,7 @@ html {
     }
 
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+
   
 
 }
@@ -2101,7 +2116,6 @@ html {
   }
   
   .navbar{
-    padding: 0.5rem 0.5rem;
     flex-wrap: nowrap!important;
   }
 
@@ -2139,6 +2153,12 @@ html {
     gap: 1.9rem; 
     padding-left: 0rem;
   }
+
+  .navigation-menu {
+    justify-content: space-evenly;
+  }
+  
+  
   /*----------- END MENU TOP NAVIGATION --------------*/
 
 
@@ -2250,7 +2270,6 @@ html {
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-
     #bannerdesktop{
     overflow: hidden;
     }
@@ -2267,20 +2286,242 @@ html {
     #mobilebanner{
       display: none;
     }
-
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
   
 
 }
 
-@media only screen and (min-device-width: 769px ) and (max-device-width: 1023px) {
+@media only screen and (min-width: 770px ) and (max-width: 850px) {
 
-
-
+    /*----------- START MODAL -------------*/
+    #modal-newsletter {
+      width: 100%;
+      max-width: 100%;
+      padding: 0.5rem;
+    }
+  
+    #modal-newsletter .modal-content {
+      padding: 0.5rem;
+    }
+  
+    #modal-newsletter .icon-box i {
+      font-size: 5rem;
+    }
+  
+    #modal-newsletter h4 {
+      font-size: 1.2rem;
+      margin-top: 0rem;
+      margin-bottom: 1rem;
+    }
+  
+    .subnewsletter p{
+      font-size: 0.8rem;
+      margin-top: 5px;
+    }
+  
+    #modal-newsletter .btn {
+      min-width: 10px;
+    }
+    /*----------- START MODAL -------------*/
+  
+  
+    /*----------- START ALERT TOP BAR --------------*/
+    .alert {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    /*----------- END ALERT TOP BAR --------------*/
+  
+  
+    /*----------- START NAVBAR HEADER --------------*/
+    .navbar-toggler-icon{
+      display: none;        
+    }
+  
+    .busca{
+      width: 100%;
+      top: 0.3rem;
+      position: relative;
+      left: 1.8rem;
+    }
+  
+    #formbusca {
+      transform: translateY(-0);
+    }
+    
+    .navbar{
+      padding: 0.5rem 0.5rem;
+      flex-wrap: nowrap!important;
+    }
+  
+    .navbar img {
+      margin-left: 1rem;
+    }
+  
+    .text-icon {
+      display: none;
+    }	
+  
+    #iconsoutline {
+      font-size: 0.4rem;
+      margin-right: 0.8rem; 
+    }
+  
+    #iconsperson{
+      margin-right: 0.5rem; 
+      font-size: 0.4rem;
+      
+    }
+    .shop-bag{
+      font-size: 2.8rem;
+    }
+    /*----------- END NAVBAR HEADER --------------*/
+  
+  
+  
+    /*----------- START MENU TOP NAVIGATION --------------*/
+    #Informática, #Celulares, #Ofertas{
+      display: none;
+    }
+  
+    .menu-category-list {
+      gap: 1.9rem; 
+      padding-left: 0rem;
+    }
+    /*----------- END MENU TOP NAVIGATION --------------*/
+  
+  
+    /*----------- START NAV-ITENS-------------*/
+    .splide__slide {
+      width: auto !important;
+    }
+    .mt-4{
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+    /*----------- END NAV-ITENS-------------*/
+    
+  
+    /*----------- START MINI BANNER -------------*/
+    .modulo {
+      width: 100%;
+    }
+    
+    .flexslider {
+      width: 100%;
+    }
+  
+    .slides img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  
+    .col-4{
+      padding-top: 0rem;
+    }
+  
+    .minibannermobile{
+      display: none;
+    }
+  
+    #image-carousel{
+      display: block;
+    }
+    /*----------- END MINI BANNER -------------*
+  
+  
+    /*--------------- START TITLE-SECTION ------------------*/
+    .category-content-flex-tittle h3::after {
+      width: 40%;
+      margin-top: 0.3rem!important;
+      margin: 0 auto;
+    }
+  
+    .category-item-tittle {
+      padding-top: 0,5rem;
+      padding-bottom: 1rem;
+    }
+    /*--------------- END TITLE-SECTION------------------*/
+  
+    /*--------------- START PRODUCT ------------------*/
+    
+    .product-list {
+      padding-left: 0rem;
+    }
+  
+    .w-auto {
+      width: 100% !important;
+    }
+  
+    .product-card .card-banner {
+      position: relative;
+      margin-bottom: 0px;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0.5rem;
+      margin-right: 0rem;
+    }
+  
+    .product-card .card-title a {
+      font-size: 1rem;
+    }
+  
+    .product-card .card-price {
+      font-size: 1.19rem;
+    }
+  
+    .product-card .card-price data:not(:last-child) {
+      font-size:0.75rem;
+    }
+  
+    .conditions-price, .conditions-payment, .star {
+      font-size: 0.8rem;
+    }
+  
+    .card-content {
+      padding-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-left: 0.2rem;
+    }
+  
+    .card-content a {
+      justify-content: center;
+    }
+  
+    .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
+      padding: 3px 10px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }   
+    /*--------------- END PRODUCT ------------------*/
+  
+    /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+  
+      #bannerdesktop{
+      overflow: hidden;
+      }
+  
+      .category-item-banner img{
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+      }
+      .counter-mobile {
+        display: none;
+      }
+    
+      #mobilebanner{
+        display: none;
+      }
+  
+    /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 }
 
 
-@media only screen and (min-width: 1024px ) and (max-width: 1439px) {
+@media only screen and (min-width: 851px ) and (max-width: 1024pxpx) {
 
 
   

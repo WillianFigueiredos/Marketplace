@@ -100,7 +100,7 @@ function toggleDropdownMenu4() {
 
 setTimeout(function() {
   $('#modal2').modal('show');
-}, 3000);
+}, 3500);
 
 
 function closeItem() {

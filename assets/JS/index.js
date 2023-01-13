@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function()
   document.querySelector(".spinner-wrapper").style.opacity= "0";
   setTimeout(function(){
     document.querySelector(".spinner-wrapper").style.display = "none";
-  }, 3000); 
+  }, 2000); 
 });
 
 

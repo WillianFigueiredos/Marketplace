@@ -11,6 +11,18 @@ function startCarousel() {
 startCarousel();
 */
 
+
+
+document.addEventListener("DOMContentLoaded", function()
+{
+  document.querySelector(".spinner-wrapper").style.opacity= "0";
+  setTimeout(function(){
+    document.querySelector(".spinner-wrapper").style.display = "none";
+  }, 2500); 
+});
+
+
+
 //SplideJs
 const splide = new Splide(".splide", {
   type: "loop",
@@ -96,6 +108,7 @@ setTimeout(function () {
 function closeItem() {
   $("#modal2").modal("hide");
 }
+
 
 // redirect index
 const returnbtn = document.querySelector(".col-md-2");

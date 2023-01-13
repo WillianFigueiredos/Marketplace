@@ -868,7 +868,7 @@ html {
 
 /*----------- HOME MEDIA QUERIES -------------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
   
   /*----------- START MODAL -------------*/
   .icon-box{
@@ -1177,7 +1177,7 @@ html {
 
 
 
-@media screen and (min-width: 321px ) and (max-width: 375px) {
+@media screen and (min-width: 321px ) and (max-width: 375px){
 
   /*----------- START MODAL -------------*/
   .icon-box{

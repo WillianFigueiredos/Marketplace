@@ -2012,16 +2012,16 @@ html {
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-
-    #bannerdesktop{
+  #bannerdesktop{
     overflow: hidden;
     }
 
     .category-item-banner img{
-      width: auto;
+      width: 100%;
       height: auto;
       border-radius: 5px;
     }
+
     .counter-mobile {
       display: none;
     }
@@ -2029,8 +2029,27 @@ html {
     #mobilebanner{
       display: none;
     }
-  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 
+    .counter {
+      bottom: 5.5rem;
+      left: 1rem;
+      font-size: 18px;
+    }
+
+    .counter div {
+      margin: 1px 2px;
+    }
+
+  
+    .days, .hours, .minutes, .seconds {
+      color: var(--white);
+      opacity: 0.7;
+      border: 1px solid rgb(255 255 255);
+      opacity: 0.8;
+      height: 55px;
+      width: 55px; 
+    }
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
   
 
 }
@@ -2257,16 +2276,37 @@ html {
     }
 
     .category-item-banner img{
-      width: auto;
+      width: 100%;
       height: auto;
       border-radius: 5px;
     }
+
     .counter-mobile {
       display: none;
     }
   
     #mobilebanner{
       display: none;
+    }
+
+    .counter {
+      bottom: 5.5rem;
+      left: 1rem;
+      font-size: 18px;
+    }
+
+    .counter div {
+      margin: 1px 2px;
+    }
+
+    
+    .days, .hours, .minutes, .seconds {
+      color: var(--white);
+      opacity: 0.7;
+      border: 1px solid rgb(255 255 255);
+      opacity: 0.8;
+      height: 55px;
+      width: 55px; 
     }
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
   
@@ -2486,12 +2526,12 @@ html {
   /*--------------- END PRODUCT ------------------*/
   
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-    #bannerdesktop{
-      overflow: hidden;
+  #bannerdesktop{
+    overflow: hidden;
     }
-  
+
     .category-item-banner img{
-      width: auto;
+      width: 100%;
       height: auto;
       border-radius: 5px;
     }
@@ -2499,9 +2539,29 @@ html {
     .counter-mobile {
       display: none;
     }
-    
+  
     #mobilebanner{
       display: none;
+    }
+
+    .counter {
+      bottom: 5.5rem;
+      left: 1rem;
+      font-size: 18px;
+    }
+
+    .counter div {
+      margin: 1px 2px;
+    }
+
+    
+    .days, .hours, .minutes, .seconds {
+      color: var(--white);
+      opacity: 0.7;
+      border: 1px solid rgb(255 255 255);
+      opacity: 0.8;
+      height: 55px;
+      width: 55px; 
     }
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 }
@@ -2516,7 +2576,7 @@ html {
     }
     
     #modal-newsletter .modal-content {
-       padding: 0.5rem;
+      padding: 0.5rem;
     }
     
     #modal-newsletter .icon-box i {
@@ -2535,7 +2595,7 @@ html {
     }
     
     #modal-newsletter .btn {
-       min-width: 10px;
+      min-width: 10px;
     }
   /*----------- START MODAL -------------*/
 
@@ -2712,13 +2772,12 @@ html {
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-  
   #bannerdesktop{
     overflow: hidden;
   }
   
   .category-item-banner img{
-    width: auto;
+    width: 100%;
     height: auto;
     border-radius: 5px;
   }
@@ -2726,11 +2785,15 @@ html {
   .counter-mobile {
     display: none;
   }
-
+  
   #mobilebanner{
     display: none;
   }
-  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+    
+  .counter div {
+    margin: 1px 2px;
+  }
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 }
 
 /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
@@ -2933,18 +2996,17 @@ html {
   #bannerdesktop{
   overflow: hidden;
   }
-    
-  .category-item-banner img{
-    width: auto;
-    height: auto;
-    border-radius: 5px;
-  }
+
   .counter-mobile {
     display: none;
   }
 
   #mobilebanner{
     display: none;
+  }
+  
+  .counter div {
+  margin: 1px 2px;
   }
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 

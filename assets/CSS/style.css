@@ -28,6 +28,22 @@ html {
 
 /*-----------RESET--------------*/
 
+/* Barra de Rolagem */
+::-webkit-scrollbar-track {
+  background-color: #232C3B;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FE4719;
+  border-radius: 2px;
+}
+
+
 
 .spinner-wrapper{
   background: rgb(255 255 255);
@@ -46,7 +62,6 @@ html {
   width: 60px;
   height: 60px;
 }
-
 
 /*----------- START MODAL -------------*/
 #modal-newsletter .modal-content {

@@ -60,7 +60,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 
-//Menu-Modal
+//Menu-Modal-Dropdown
 function toggleDropdownMenu() {
   var menu = document.getElementById("dropdown-menu");
   if (menu.style.display === "block") {
@@ -126,6 +126,7 @@ function redirectProductpage() {
     window.location.href = "produto.html";
 }
 
+//Fixed Navbar
 var navbar1 = document.querySelector("#navbar1");
 var navbar2 = document.querySelector("#navbar2");
 var sticky = navbar1.offsetTop;
@@ -142,8 +143,7 @@ window.onscroll = function() {
   }
 }; 
 
-
-// Contador Desktop
+//Contador Desktop
 const countDownDate = new Date("Jan 20, 2023 19:00:00").getTime();
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
@@ -182,7 +182,7 @@ console.log(countDownDate);
 
 
 
-// Contador Mobile
+//Contador Mobile
 const countDownDatemobile = new Date("Jan 20, 2023 19:00:00").getTime();
 
 const daysMobileElement = document.getElementById("days-mobile");

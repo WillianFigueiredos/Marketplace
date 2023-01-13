@@ -25,20 +25,6 @@ html {
   background: rgb(255 255 255);
 }
 
-::-webkit-scrollbar-track {
-  background-color: var(--eerie-black)
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-  background: #F4F4F4;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--orange);
-  border-radius: 15px;
-}
-
 
 /*-----------RESET--------------*/
 
@@ -200,7 +186,7 @@ html {
 }
 
 .slide-in-right {
-  animation: slide-in-right 0.5s forwards;
+  animation: slide-in-right 0.8s forwards;
 }
 
 @keyframes slide-in-right {
@@ -516,8 +502,8 @@ html {
   list-style: none;
   padding-left: 1rem;
   overflow: hidden;
+  box-sizing: border-box;
 }
-
 
 .col-4{
   width: auto;
@@ -531,10 +517,19 @@ html {
   border-radius: 1rem;
 }
 
+.slides img {
+  width: 95%;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.col-4{
+  padding-top: 0rem;
+}
+
 #image-carousel{
   display: none;
 }
-
 /*----------- END MINI BANNER -------------*/
 
 
@@ -767,7 +762,6 @@ html {
   font-weight: 500;
   display: none;
 }
-
 
 .counter-mobile .days-mobile, .hours-mobile, .minutes-mobile, .seconds-mobile {
   background-color: var(--onyx);
@@ -1008,14 +1002,6 @@ html {
   
 
   /*----------- START MINI BANNER -------------*/
-  .modulo {
-    width: 100%;
-  }
-  
-  .flexslider {
-    width: 100%;
-  }
-
   .slides{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1024,6 +1010,7 @@ html {
   .slides img {
     width: 100%;
     border-radius: 5px;
+    box-sizing: border-box;
   }
 
   .col-4{
@@ -1324,17 +1311,10 @@ html {
   
 
   /*----------- START MINI BANNER -------------*/
-  .modulo {
-    width: 100%;
-  }
-  
-  .flexslider {
-    width: 100%;
-  }
-
   .slides img {
     width: 95%;
     border-radius: 5px;
+    box-sizing: border-box;
   }
 
   .col-4{
@@ -1639,17 +1619,10 @@ html {
   
 
   /*----------- START MINI BANNER -------------*/
-  .modulo {
-    width: 100%;
-  }
-  
-  .flexslider {
-    width: 100%;
-  }
-
   .slides img {
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
+    box-sizing: border-box;
   }
 
   .col-4{
@@ -1847,85 +1820,84 @@ html {
   /*----------- END ALERT TOP BAR --------------*/
 
 
- /*----------- START NAVBAR HEADER --------------*/
- .navbar{
-  --bs-navbar-padding-y:0rem !important;
-  --bs-navbar-toggler-padding-y:0rem !important;
-}
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar{
+    --bs-navbar-padding-y:0rem !important;
+    --bs-navbar-toggler-padding-y:0rem !important;
+  }
 
-.navbar-toggler{
-  border: none;
-  color: transparent;
-}
+  .navbar-toggler{
+    border: none;
+    color: transparent;
+  }
 
-.navbar-toggler-icon{
-  background-image: none;
-  background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-  color: var(--white)!important;
-}
+  .navbar-toggler-icon{
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white)!important;
+  }
 
-.navbar-toggler-icon ion-icon {
-  font-size: 2.3rem;
-  position:relative;
-  bottom:3.5rem !important;
-  left: 0.5rem !important;
-  color: var(--white);
-}
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
+    position:relative;
+    bottom:3.5rem !important;
+    left: 0.5rem !important;
+    color: var(--white);
+  }
 
-.w-75{
-  width: 100% !important;
-}
+  .w-75{
+    width: 100% !important;
+  }
 
-.shop-bag{
-  display: none;
-}
+  .shop-bag{
+    display: none;
+  }
 
-#cart{
-  display: flex !important;
-  width:auto !important;
-  position: inherit !important;
-  bottom:6.9rem;
-  left: 34rem !important; 
-  font-size: 2.3rem;
-}
+  #cart{
+    display: flex !important;
+    width:auto !important;
+    position: inherit !important;
+    bottom:6.9rem;
+    left: 34rem !important; 
+    font-size: 2.3rem;
+  }
 
-.navbar img {
-  margin-left: 13.5rem;
-  margin-top: 0.5rem;
-}
+  .navbar img {
+    margin-left: 13.5rem;
+    margin-top: 0.5rem;
+  }
 
-.text-icon{
-  display: none;
-}
+  .text-icon{
+    display: none;
+  }
 
-#mobile{
-  display: flex!important;
-  margin-left: 1.5rem!important;
-  margin-top: 1rem!important;
-  margin-bottom: 1rem!important;
-}
+  #mobile{
+    display: flex!important;
+    margin-left: 1.5rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
 
-#iconscart{
-  position: absolute;
-}
+  #iconscart{
+    position: absolute;
+  }
 
+  #main{
+    position: absolute;
+  }
 
-#main{
-  position: absolute;
-}
-
-.translate-middle{
-  transform: translate(4%, -100%) !important;
-}
-/*----------- END NAVBAR HEADER --------------*/
-
+  .translate-middle{
+    transform: translate(4%, -100%) !important;
+  }
+  /*----------- END NAVBAR HEADER --------------*/
 
 
-/*----------- START MENU TOP NAVIGATION --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
   .menu-category-list {
     display: none;
   }
-/*----------- END MENU TOP NAVIGATION --------------*/
+  /*----------- END MENU TOP NAVIGATION --------------*/
 
   /*----------- START NAV-ITENS-------------*/
   .splide__slide {
@@ -2057,7 +2029,6 @@ html {
     #mobilebanner{
       display: none;
     }
-
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 
   
@@ -2163,6 +2134,14 @@ html {
 
   .navigation-menu {
     justify-content: space-evenly;
+  }
+
+  .dropdown-list {
+    z-index: 300;
+  }
+
+  .menu-category-list .menu-category:hover>.dropdown-list {
+    transform: translateY(9%);
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
 
@@ -2296,7 +2275,7 @@ html {
 
 @media only screen and (min-width: 770px ) and (max-width: 890px) {
 
-    /*----------- START MODAL -------------*/
+  /*----------- START MODAL -------------*/
     #modal-newsletter {
       width: 100%;
       max-width: 100%;
@@ -2325,18 +2304,18 @@ html {
     #modal-newsletter .btn {
       min-width: 10px;
     }
-    /*----------- START MODAL -------------*/
+  /*----------- START MODAL -------------*/
   
   
-    /*----------- START ALERT TOP BAR --------------*/
+  /*----------- START ALERT TOP BAR --------------*/
     .alert {
       font-size: 0.95rem;
       margin: 0;
     }
-    /*----------- END ALERT TOP BAR --------------*/
+  /*----------- END ALERT TOP BAR --------------*/
   
   
-    /*----------- START NAVBAR HEADER --------------*/
+  /*----------- START NAVBAR HEADER --------------*/
     .navbar-toggler-icon{
       display: none;        
     }
@@ -2378,11 +2357,11 @@ html {
     .shop-bag{
       font-size: 2.8rem;
     }
-    /*----------- END NAVBAR HEADER --------------*/
+  /*----------- END NAVBAR HEADER --------------*/
   
   
   
-    /*----------- START MENU TOP NAVIGATION --------------*/
+  /*----------- START MENU TOP NAVIGATION --------------*/
     #Celulares, #Ofertas,#Iphone{
       display: none;
     }
@@ -2390,10 +2369,18 @@ html {
       gap: 1.9rem; 
       padding-left: 0rem;
     }
-    /*----------- END MENU TOP NAVIGATION --------------*/
+
+    .dropdown-list {
+      z-index: 300;
+    }
+  
+    .menu-category-list .menu-category:hover>.dropdown-list {
+      transform: translateY(8%);
+    }
+  /*----------- END MENU TOP NAVIGATION --------------*/
   
   
-    /*----------- START NAV-ITENS-------------*/
+  /*----------- START NAV-ITENS-------------*/
     .splide__slide {
       width: auto !important;
     }
@@ -2401,8 +2388,8 @@ html {
       margin-top: 0.5rem !important;
       margin-bottom: 0.5rem !important;
     }
-    /*----------- END NAV-ITENS-------------*/
-    
+  /*----------- END NAV-ITENS-------------*/
+  
   
   /*----------- START MINI BANNER -------------*/
   .modulo {
@@ -2430,7 +2417,7 @@ html {
   /*----------- END MINI BANNER -------------*/
   
   
-    /*--------------- START TITLE-SECTION ------------------*/
+  /*--------------- START TITLE-SECTION ------------------*/
     .category-content-flex-tittle h3::after {
       width: 40%;
       margin-top: 0.3rem!important;
@@ -2441,9 +2428,9 @@ html {
       padding-top: 0,5rem;
       padding-bottom: 1rem;
     }
-    /*--------------- END TITLE-SECTION------------------*/
+  /*--------------- END TITLE-SECTION------------------*/
   
-    /*--------------- START PRODUCT ------------------*/
+  /*--------------- START PRODUCT ------------------*/
     
     .product-list {
       padding-left: 0rem;
@@ -2496,141 +2483,140 @@ html {
       font-size: 0.7rem;
       font-weight: 600;
     }   
-    /*--------------- END PRODUCT ------------------*/
+  /*--------------- END PRODUCT ------------------*/
   
-    /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-  
-      #bannerdesktop{
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+    #bannerdesktop{
       overflow: hidden;
-      }
+    }
   
-      .category-item-banner img{
-        width: auto;
-        height: auto;
-        border-radius: 5px;
-      }
-      .counter-mobile {
-        display: none;
-      }
+    .category-item-banner img{
+      width: auto;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .counter-mobile {
+      display: none;
+    }
     
-      #mobilebanner{
-        display: none;
-      }
-  
-    /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+    #mobilebanner{
+      display: none;
+    }
+  /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 }
 
 
 @media only screen and (min-width: 891px ) and (max-width: 1114px) {
 
-      /*----------- START MODAL -------------*/
-      #modal-newsletter {
-        width: 100%;
-        padding: 0.5rem;
-      }
+  /*----------- START MODAL -------------*/
+    #modal-newsletter {
+      width: 100%;
+      padding: 0.5rem;
+    }
     
-      #modal-newsletter .modal-content {
-        padding: 0.5rem;
-      }
+    #modal-newsletter .modal-content {
+       padding: 0.5rem;
+    }
     
-      #modal-newsletter .icon-box i {
-        font-size: 5rem;
-      }
+    #modal-newsletter .icon-box i {
+      font-size: 5rem;
+    }
     
-      #modal-newsletter h4 {
-        font-size: 1.2rem;
-        margin-top: 0rem;
-        margin-bottom: 1rem;
-      }
+    #modal-newsletter h4 {
+      font-size: 1.2rem;
+      margin-top: 0rem;
+      margin-bottom: 1rem;
+    }
     
-      .subnewsletter p{
-        font-size: 0.8rem;
-        margin-top: 5px;
-      }
+    .subnewsletter p{
+      font-size: 0.8rem;
+      margin-top: 5px;
+    }
     
-      #modal-newsletter .btn {
-        min-width: 10px;
-      }
-      /*----------- START MODAL -------------*/
+    #modal-newsletter .btn {
+       min-width: 10px;
+    }
+  /*----------- START MODAL -------------*/
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+    .alert {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+  /*----------- END ALERT TOP BAR --------------*/
     
     
-      /*----------- START ALERT TOP BAR --------------*/
-      .alert {
-        font-size: 0.95rem;
-        margin: 0;
-      }
-      /*----------- END ALERT TOP BAR --------------*/
+  /*----------- START NAVBAR HEADER --------------*/
+    .navbar-toggler-icon{
+      display: none;        
+    }
     
+    .busca{
+      width: 100%;
+      top: 0.3rem;
+      position: relative;
+      left: 1.8rem;
+    }
     
-      /*----------- START NAVBAR HEADER --------------*/
-      .navbar-toggler-icon{
-        display: none;        
-      }
-    
-      .busca{
-        width: 100%;
-        top: 0.3rem;
-        position: relative;
-        left: 1.8rem;
-      }
-    
-      #formbusca {
-        transform: translateY(-0);
-      }
+    #formbusca {
+      transform: translateY(-0);
+    }
       
-      .navbar{
-        padding: 0.5rem 0.5rem;
-        flex-wrap: nowrap!important;
-      }
+    .navbar{
+      padding: 0.5rem 0.5rem;
+      flex-wrap: nowrap!important;
+    }
     
-      .navbar img {
-        margin-left: 1rem;
-      }
+    .navbar img {
+      margin-left: 1rem;
+    }
     
-      .text-icon {
-        display: none;
-      }	
+    .text-icon {
+      display: none;
+    }	
     
-      #iconsoutline {
-        font-size: 0.4rem;
-        margin-right: 0.8rem; 
-      }
+    #iconsoutline {
+      font-size: 0.4rem;
+      margin-right: 0.8rem; 
+    }
     
-      #iconsperson{
-        margin-right: 0.5rem; 
-        font-size: 0.4rem;
-        
-      }
-      .shop-bag{
-        font-size: 2.8rem;
-      }
-      /*----------- END NAVBAR HEADER --------------*/
+    #iconsperson{
+      margin-right: 0.5rem; 
+      font-size: 0.4rem;
+    }
+
+    .shop-bag{
+      font-size: 2.8rem;
+    }
+    /*----------- END NAVBAR HEADER --------------*/
     
     
     
-      /*----------- START MENU TOP NAVIGATION --------------*/
-      #Celulares{
-        display: none;
-      }
+    /*----------- START MENU TOP NAVIGATION --------------*/
+    #Celulares{
+      display: none;
+    }
       
-      .menu-category-list {
-        gap: 1.7rem; 
-        padding-left: 0rem;
-      }
-      /*----------- END MENU TOP NAVIGATION --------------*/
+    .menu-category-list {
+      gap: 1.7rem; 
+      padding-left: 0rem;
+    }
+    /*----------- END MENU TOP NAVIGATION --------------*/
     
     
-      /*----------- START NAV-ITENS-------------*/
-      .splide__slide {
-        width: auto !important;
-      }
-      .mt-4{
-        margin-top: 0.5rem !important;
-        margin-bottom: 0.5rem !important;
-      }
-      /*----------- END NAV-ITENS-------------*/
-      
-    
+    /*----------- START NAV-ITENS-------------*/
+    .splide__slide {
+      width: auto !important;
+    }
+
+    .mt-4{
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+  /*----------- END NAV-ITENS-------------*/
+
   /*----------- START MINI BANNER -------------*/
   .modulo {
     width: 50%;
@@ -2657,203 +2643,199 @@ html {
   /*----------- END MINI BANNER -------------*/
     
     
-      /*--------------- START TITLE-SECTION ------------------*/
-      .category-content-flex-tittle h3::after {
-        width: 40%;
-        margin-top: 0.3rem!important;
-        margin: 0 auto;
-      }
+  /*--------------- START TITLE-SECTION ------------------*/
+  .category-content-flex-tittle h3::after {
+    width: 40%;
+    margin-top: 0.3rem!important;
+    margin: 0 auto;
+  }
     
-      .category-item-tittle {
-        padding-top: 0,5rem;
-        padding-bottom: 1rem;
-      }
-      /*--------------- END TITLE-SECTION------------------*/
-    
-      /*--------------- START PRODUCT ------------------*/
-      
-      .product-list {
-        padding-left: 0rem;
-      }
-    
-      .w-auto {
-        width: 100% !important;
-      }
-    
-      .product-card .card-banner {
-        position: relative;
-        margin-bottom: 0px;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        margin-left: 0.5rem;
-        margin-right: 0rem;
-      }
-    
-      .product-card .card-title a {
-        font-size: 1rem;
-      }
-    
-      .product-card .card-price {
-        font-size: 1.19rem;
-      }
-    
-      .product-card .card-price data:not(:last-child) {
-        font-size:0.75rem;
-      }
-    
-      .conditions-price, .conditions-payment, .star {
-        font-size: 0.8rem;
-      }
-    
-      .card-content {
-        padding-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-left: 0.2rem;
-      }
-    
-      .card-content a {
-        justify-content: center;
-      }
-    
-      .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
-        padding: 3px 10px;
-        font-size: 0.7rem;
-        font-weight: 600;
-      }   
-      /*--------------- END PRODUCT ------------------*/
-    
-      /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-    
-        #bannerdesktop{
-        overflow: hidden;
-        }
+  .category-item-tittle {
+    padding-top: 0,5rem;
+    padding-bottom: 1rem;
+  }
+  /*--------------- END TITLE-SECTION------------------*/
+
   
-        .category-item-banner img{
-          width: auto;
-          height: auto;
-          border-radius: 5px;
-        }
-        .counter-mobile {
-          display: none;
-        }
-      
-        #mobilebanner{
-          display: none;
-        }
+  /*--------------- START PRODUCT ------------------*/
+  .product-list {
+    padding-left: 0rem;
+  }
+  
+  .w-auto {
+    width: 100% !important;
+  }
+  
+  .product-card .card-banner {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+    
+  .product-card .card-title a {
+    font-size: 1rem;
+  }
+    
+  .product-card .card-price {
+    font-size: 1.19rem;
+  }
+    
+  .product-card .card-price data:not(:last-child) {
+    font-size:0.75rem;
+  }
+    
+  .conditions-price, .conditions-payment, .star {
+    font-size: 0.8rem;
+  }
+    
+  .card-content {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.2rem;
+  }
+    
+  .card-content a {
+    justify-content: center;
+  }
+    
+  .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }   
+  /*--------------- END PRODUCT ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+  
+  #bannerdesktop{
+    overflow: hidden;
+  }
+  
+  .category-item-banner img{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .counter-mobile {
+    display: none;
+  }
+
+  #mobilebanner{
+    display: none;
+  }
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
 }
 
-      /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+/*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
 @media only screen and (min-width: 1115px ) and (max-width: 1280px) {
 
-        /*----------- START MODAL -------------*/
-        #modal-newsletter {
-          width: 100%;
-          padding: 0.5rem;
-        }
-      
-        #modal-newsletter .modal-content {
-          padding: 0.5rem;
-        }
-      
-        #modal-newsletter .icon-box i {
-          font-size: 5rem;
-        }
-      
-        #modal-newsletter h4 {
-          font-size: 1.2rem;
-          margin-top: 0rem;
-          margin-bottom: 1rem;
-        }
-      
-        .subnewsletter p{
-          font-size: 0.8rem;
-          margin-top: 5px;
-        }
-      
-        #modal-newsletter .btn {
-          min-width: 10px;
-        }
-        /*----------- START MODAL -------------*/
-      
-      
-        /*----------- START ALERT TOP BAR --------------*/
-        .alert {
-          font-size: 0.95rem;
-          margin: 0;
-        }
-        /*----------- END ALERT TOP BAR --------------*/
-      
-      
-        /*----------- START NAVBAR HEADER --------------*/
-        .navbar-toggler-icon{
-          display: none;        
-        }
-      
-        .busca{
-          width: 100%;
-          top: 0.3rem;
-          position: relative;
-          left: 1.8rem;
-        }
-      
-        #formbusca {
-          transform: translateY(-0);
-        }
-        
-        .navbar{
-          padding: 0.5rem 0.5rem;
-          flex-wrap: nowrap!important;
-        }
-      
-        .navbar img {
-          margin-left: 1rem;
-        }
-      
-        .text-icon {
-          display: none;
-        }	
-      
-        #iconsoutline {
-          font-size: 0.4rem;
-          margin-right: 0.8rem; 
-        }
-      
-        #iconsperson{
-          margin-right: 0.5rem; 
-          font-size: 0.4rem;
-          
-        }
-        .shop-bag{
-          font-size: 2.8rem;
-        }
-        /*----------- END NAVBAR HEADER --------------*/
-      
-      
-      
-        /*----------- START MENU TOP NAVIGATION --------------*/
+  /*----------- START MODAL -------------*/
+  #modal-newsletter {
+    width: 100%;
+    padding: 0.5rem;
+  }
 
-        .menu-category-list {
-          gap: 1.9rem; 
-          padding-left: 0rem;
-        }
-        /*----------- END MENU TOP NAVIGATION --------------*/
-      
-      
-        /*----------- START NAV-ITENS-------------*/
-        .splide__slide {
-          width: auto !important;
-        }
-        .mt-4{
-          margin-top: 0.5rem !important;
-          margin-bottom: 0.5rem !important;
-        }
-        /*----------- END NAV-ITENS-------------*/
-        
-      
-    /*----------- START MINI BANNER -------------*/
+  #modal-newsletter .modal-content {
+    padding: 0.5rem;
+  }
+
+  #modal-newsletter .icon-box i {
+    font-size: 5rem;
+  }
+
+  #modal-newsletter h4 {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .subnewsletter p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  #modal-newsletter .btn {
+    min-width: 10px;
+  }
+  /*----------- START MODAL -------------*/
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar-toggler-icon{
+    display: none;        
+  }
+  
+  .busca{
+    width: 100%;
+    top: 0.3rem;
+    position: relative;
+    left: 1.8rem;
+  }
+  
+  #formbusca {
+    transform: translateY(-0);
+  }
+  
+  .navbar{
+    padding: 0.5rem 0.5rem;
+    flex-wrap: nowrap!important;
+  }
+
+  .navbar img {
+    margin-left: 1rem;
+  }
+
+  .text-icon {
+    display: none;
+  }	
+
+  #iconsoutline {
+    font-size: 0.4rem;
+    margin-right: 0.8rem; 
+  }
+
+  #iconsperson{
+    margin-right: 0.5rem; 
+    font-size: 0.4rem;
+  }
+  .shop-bag{
+    font-size: 2.8rem;
+  }
+  /*----------- END NAVBAR HEADER --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    gap: 1.9rem; 
+    padding-left: 0rem;
+  }
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+  /*----------- START NAV-ITENS-------------*/
+  .splide__slide {
+    width: auto !important;
+  }
+  .mt-4{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  /*----------- END NAV-ITENS-------------*/
+  
+  /*----------- START MINI BANNER -------------*/
     .modulo {
       width: 50%;
       padding-left: 0;
@@ -2876,108 +2858,95 @@ html {
     #image-carousel{
       display: block;
     }
-    /*----------- END MINI BANNER -------------*/
+  /*----------- END MINI BANNER -------------*/
 
   
-    /*--------------- START TITLE-SECTION ------------------*/
-        .category-content-flex-tittle h3::after {
-          width: 40%;
-          margin-top: 0.3rem!important;
-          margin: 0 auto;
-        }
+  /*--------------- START TITLE-SECTION ------------------*/
+  .category-content-flex-tittle h3::after {
+    width: 40%;
+    margin-top: 0.3rem!important;
+    margin: 0 auto;
+  }
       
-        .category-item-tittle {
-          padding-top: 0,5rem;
-          padding-bottom: 1rem;
-        }
-        /*--------------- END TITLE-SECTION------------------*/
-      
-        /*--------------- START PRODUCT ------------------*/
-        
-        .product-list {
-          padding-left: 0rem;
-        }
-      
-        .w-auto {
-          width: 100% !important;
-        }
-      
-        .product-card .card-banner {
-          position: relative;
-          margin-bottom: 0px;
-          margin-top: 0rem;
-          margin-bottom: 0rem;
-          margin-left: 0.5rem;
-          margin-right: 0rem;
-        }
-      
-        .product-card .card-title a {
-          font-size: 1rem;
-        }
-      
-        .product-card .card-price {
-          font-size: 1.19rem;
-        }
-      
-        .product-card .card-price data:not(:last-child) {
-          font-size:0.75rem;
-        }
-      
-        .conditions-price, .conditions-payment, .star {
-          font-size: 0.8rem;
-        }
-      
-        .card-content {
-          padding-bottom: 1rem;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          margin-left: 0.2rem;
-        }
-      
-        .card-content a {
-          justify-content: center;
-        }
-      
-        .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
-          padding: 3px 10px;
-          font-size: 0.7rem;
-          font-weight: 600;
-        }   
-        /*--------------- END PRODUCT ------------------*/
-      
-        /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-      
-          #bannerdesktop{
-          overflow: hidden;
-          }
+  .category-item-tittle {
+    padding-top: 0,5rem;
+    padding-bottom: 1rem;
+  }
+  /*--------------- END TITLE-SECTION------------------*/
+
+  /*--------------- START PRODUCT ------------------*/
+
+  .product-list {
+    padding-left: 0rem;
+  }
+
+  .w-auto {
+    width: 100% !important;
+  }
+
+  .product-card .card-banner {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+
+  .product-card .card-title a {
+    font-size: 1rem;
+  }
+
+  .product-card .card-price {
+    font-size: 1.19rem;
+  }
+
+  .product-card .card-price data:not(:last-child) {
+    font-size:0.75rem;
+  }
+
+  .conditions-price, .conditions-payment, .star {
+    font-size: 0.8rem;
+  }
+
+  .card-content {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.2rem;
+  }
+
+  .card-content a {
+    justify-content: center;
+  }
+
+  .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }   
+  /*--------------- END PRODUCT ------------------*/
+
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+  #bannerdesktop{
+  overflow: hidden;
+  }
     
-          .category-item-banner img{
-            width: auto;
-            height: auto;
-            border-radius: 5px;
-          }
-          .counter-mobile {
-            display: none;
-          }
-        
-          #mobilebanner{
-            display: none;
-          }
+  .category-item-banner img{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+  }
+  .counter-mobile {
+    display: none;
+  }
+
+  #mobilebanner{
+    display: none;
+  }
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
-  
 
-
-
-  
-
-
-
-/*----------- END MEDIA QUERIES -------------*/
-
-
-
-
-
+  /*----------- END MEDIA QUERIES -------------*/
 }

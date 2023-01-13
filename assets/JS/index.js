@@ -12,6 +12,7 @@ startCarousel();
 */
 
 
+document.querySelector('.spinner-wrapper').style.display = 'none';
 
 document.addEventListener("DOMContentLoaded", function()
 {

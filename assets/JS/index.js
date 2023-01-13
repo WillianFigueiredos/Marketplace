@@ -121,7 +121,7 @@ function redirectBtnlogin() {
     window.location.href = "Login.html";
 }
 
-const actionproductcard = document.querySelector(".product-card");
+const actionproductcard = document.querySelector(".card-banner" , ".card-price" , ".conditions-price" , ".conditions-payment" ,"title-text");
 function redirectProductpage() {
     window.location.href = "produto.html";
 }

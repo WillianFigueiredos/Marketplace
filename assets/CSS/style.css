@@ -641,6 +641,7 @@ html {
   color: var(--eerie-black);
   font-size: 1.1rem;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .star {
@@ -652,6 +653,7 @@ html {
 .title-text{
   text-decoration: none;
   color: var(--eerie-black);
+  cursor: pointer;
 }
 
 .star span {
@@ -660,34 +662,44 @@ html {
 
 .card-price data {
   font-weight: 500;
+  cursor: pointer;
 }
 
 .conditions-price {
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .conditions-price a {
   text-decoration: none;
   color: var(--eerie-black);
-
+  cursor: pointer;
 }
 
 .conditions-price span {
   text-decoration: none;
   color: var(--kelly-green);
+  cursor: pointer;
 }
 
 .conditions-payment {
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .conditions-price p { 
   margin-bottom:0rem;
+  cursor: pointer;
+}
+
+.card-banner img {
+  cursor: pointer;
 }
 
 .product-card .card-price {
   color: var(--eerie-black);
   font-size: 1.35rem;
+  cursor: pointer;
 }
 
 .product-card .card-price data:not(:last-child) {

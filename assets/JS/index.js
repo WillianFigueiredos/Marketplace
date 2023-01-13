@@ -12,6 +12,7 @@ startCarousel();
 */
 
 
+
 document.addEventListener("DOMContentLoaded", function()
 {
   document.querySelector(".spinner-wrapper").style.opacity= "0";

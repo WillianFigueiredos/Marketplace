@@ -1,4 +1,10 @@
 
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("fade-out"), 2000;
+});
+
+  
+  
   function toggleDropdownMenu() {
     var menu = document.getElementById("dropdown-menu");
     if (menu.style.display === "block") {

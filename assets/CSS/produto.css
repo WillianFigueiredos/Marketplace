@@ -24,7 +24,10 @@ html {
 /*-----------RESET--------------*/
 
 
-
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
 
 /*----------- START ALERT TOP BAR --------------*/
 .alert-primary{

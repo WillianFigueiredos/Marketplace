@@ -24,13 +24,12 @@ html {
 .body {
   background: rgb(255 255 255);
 }
+/*--------COLORS---------------*/
 
 
-/*-----------RESET--------------*/
-
-/* Barra de Rolagem */
+/*-----------Barra de Rolagem--------------*/
 ::-webkit-scrollbar-track {
-  background-color: #232C3B;
+  background-color: rgb(10 10 10);
 }
 
 ::-webkit-scrollbar {
@@ -42,9 +41,9 @@ html {
   background: #FE4719;
   border-radius: 2px;
 }
+/*-----------Barra de Rolagem--------------*/
 
-
-
+/*-----------LOADING--------------*/
 .spinner-wrapper{
   background: rgb(255 255 255);
   opacity: 0.9;
@@ -58,11 +57,11 @@ html {
   transition: all 0.5s;
 }
 
-
 .spinner-border{
   width: 60px;
   height: 60px;
 }
+/*-----------LOADING--------------*/
 
 /*----------- START MODAL -------------*/
 #modal-newsletter .modal-content {
@@ -204,6 +203,7 @@ html {
 
 .navbar img {
   margin-left: 5.5rem;
+  cursor: pointer;
 }
 
 .modal{

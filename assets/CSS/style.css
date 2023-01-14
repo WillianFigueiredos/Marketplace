@@ -56,11 +56,6 @@ html {
   align-items: center;
   transition: all 0.5s;
 }
-
-.spinner-border{
-  width: 60px;
-  height: 60px;
-}
 /*-----------LOADING--------------*/
 
 /*----------- START MODAL -------------*/

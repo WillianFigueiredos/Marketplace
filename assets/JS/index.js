@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function()
   }, 2000); 
 });
 
-
-
 //SplideJs
 const splide = new Splide(".splide", {
   type: "loop",
@@ -110,6 +108,19 @@ function closeItem() {
 }
 
 
+const icon = document.querySelector("ion-icon[name='cart-outline']");
+const dropdown = document.querySelector(".dropdown-menu");
+
+icon.addEventListener("click", () => {
+  if (dropdown.style.display === "block") {
+    dropdown.style.display = "none";
+  } else {
+    dropdown.style.display = "block";
+  }
+});
+
+
+
 // redirect index
 const returnbtn = document.querySelector(".col-md-2");
 function redirectBtnindex() {
@@ -126,6 +137,147 @@ const actionbtn = document.querySelector(
 function redirectBtnlogin() {
   window.location.href = "Login.html";
 }
+
+/*
+// Obtém a referência do elemento que exibe o número de itens no carrinho
+let notificationNumber = document.querySelector('.notification-number');
+
+// Inicializa o número de itens no carrinho como 0
+let cartCount = 0;
+
+// Obtém a referência dos botões que adicionam e removem itens ao carrinho
+let addToCartButton = document.querySelector('#add-to-cart-button');
+let removeFromCartButton = document.querySelector('#remove-from-cart-button');
+
+// Adiciona um evento de clique ao botão de adicionar itens ao carrinho
+addToCartButton.addEventListener('click', function() {
+    // Incrementa o número de itens no carrinho
+    cartCount++;
+    // Atualiza o número exibido na bolinha vermelha
+    notificationNumber.textContent = cartCount;
+});
+
+// Adiciona um evento de clique ao botão de remover itens do carrinho
+removeFromCartButton.addEventListener('click', function() {
+    // Decrementa o número de itens no carrinho, desde que o número não seja menor que zero
+    if (cartCount > 0) {
+        cartCount--;
+        // Atualiza o número exibido na bolinha vermelha
+        notificationNumber.textContent = cartCount;
+    }
+});
+
+
+/*
+let cartItems = [];
+
+let addToCartButton = document.querySelector('#add-to-cart-button');
+
+let cartList = document.querySelector('.cart-list');
+
+// Adiciona um evento de clique ao botão de adicionar itens ao carrinho
+addToCartButton.addEventListener('click', function() {
+    // Obtém as informações do item a ser adicionado ao carrinho
+    let item = {
+        name: "item name",
+        image: "image url",
+        price: "price",
+        quantity: 1
+    };
+    // Adiciona o item ao carrinho
+    cartItems.push(item);
+    // Chama a função para atualizar a visualização do carrinho
+    updateCart();
+});
+
+function updateCart() {
+    // Limpa a lista de itens do carrinho
+    cartList.innerHTML = "";
+
+    // Adiciona cada item ao carrinho
+    cartItems.forEach(function(item) {
+        // Cria um novo elemento de lista
+        let newItem = document.createElement('li');
+
+        // Adiciona as informações do item ao elemento de lista
+        newItem.innerHTML = `
+            <img src="${item.image}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p>Quantity: ${item.quantity}</p>
+            <p>Price: ${item.price}</p>
+        `;
+        // Adiciona um evento de clique para redirecionar para a página de detalhes do item
+        newItem.addEventListener('click', function() {
+            window.location.href = "item-details.html?name=" + item.name;
+        });
+
+        // Adiciona o elemento de lista à lista de itens do carrinho
+        cartList.appendChild(newItem);
+    });
+}
+
+/*
+let cartItems = [];
+
+let addToCartButton = document.querySelector('#add-to-cart-button');
+
+let cartList = document.querySelector('.cart-list');
+
+let mobileCartModal = document.querySelector('#mobile-cart-modal');
+
+let mobileCartList = mobileCartModal.querySelector('.cart-list');
+
+// Adiciona um evento de clique ao botão de adicionar itens ao carrinho
+addToCartButton.addEventListener('click', function() {
+    // Obtém as informações do item a ser adicionado ao carrinho
+    let item = {
+        name: "item name",
+        image: "image url",
+        price: "price",
+        quantity: 1
+    };
+    // Adiciona o item ao carrinho
+    cartItems.push(item);
+    // Chama a função para atualizar a visualização do carrinho
+    updateCart();
+});
+
+// Chama a função para atualizar a visualização do modal de carrinho móvel
+updateMobileCart();
+
+// Adiciona um evento de clique ao botão de abrir o modal de carrinho móvel
+document.querySelector('#open-mobile-cart-button').addEventListener('click', function() {
+    mobileCartModal.style.display = "block";
+});
+
+// Adiciona um evento de clique ao botão de fechar o modal de carrinho móvel
+mobileCartModal.querySelector('.close-button').addEventListener('click', function() {
+    mobileCartModal.style.display = "none";
+});
+
+function updateCart() {
+    // Limpa a lista de itens do carrinho
+    cartList.innerHTML = "";
+    mobileCartList.innerHTML = "";
+
+    // Adiciona cada item ao carrinho
+    cartItems.forEach(function(item) {
+        // Cria um novo elemento de lista para o carrinho
+        let newItem = document.createElement('li');
+
+        // Adiciona as informações do item ao elemento de lista
+        newItem.innerHTML = `
+            <img src="${item.image}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p>Quantity: ${item.quantity}</p>
+            <p>Price: ${item.price}</p>
+        `;
+        // Adiciona um evento de clique para redirecionar para a página de detalhes do item
+        newItem.addEventListener('click', function() {
+            window.location.href = "item-details.
+
+*/
+
 
 const actionproductcard = document.querySelector(
   ".card-banner",

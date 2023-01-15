@@ -111,6 +111,7 @@ function closeItem() {
 const icon = document.querySelector("ion-icon[name='cart-outline']");
 const dropdown = document.querySelector(".dropdown-menu");
 
+
 icon.addEventListener("click", () => {
   if (dropdown.style.display === "block") {
     dropdown.style.display = "none";

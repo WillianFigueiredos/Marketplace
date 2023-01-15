@@ -353,13 +353,6 @@ html {
   margin-left: .5rem;
 }
 
-.dropdown-menu {
-  display: none;
-}
-
-.show {
-  display: block;
-}
 
 .dropdown-item img{
   margin-left: 0.5rem;
@@ -376,8 +369,8 @@ html {
   position: absolute;
   top: 5.2rem;
   right: -2rem;
-  width: 19rem;
-  height: 31rem;
+  width: 18rem;
+  height: 32rem;
   --bs-dropdown-link-active-bg: var(--white); 
   --bs-dropdown-link-hover-bg: var(--white);
   --bs-dropdown-item-padding-x: 0rem;

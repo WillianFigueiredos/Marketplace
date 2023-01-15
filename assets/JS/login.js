@@ -65,20 +65,3 @@ const actionbtn = document.querySelector(
 function redirectBtnlogin() {
   window.location.href = "Login.html";
 }
-
-//Fixed Navbar
-var navbar1 = document.querySelector("#navbar1");
-var navbar2 = document.querySelector("#navbar2");
-var sticky = navbar1.offsetTop;
-
-window.onscroll = function () {
-  if (window.pageYOffset >= sticky) {
-    navbar1.classList.add("fixed");
-    navbar2.classList.add("fixed");
-    navbar2.classList.add("color");
-  } else {
-    navbar1.classList.remove("fixed");
-    navbar2.classList.remove("fixed");
-    navbar2.classList.remove("color");
-  }
-};

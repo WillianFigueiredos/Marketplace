@@ -304,7 +304,6 @@ html {
   color: var(--white);
 }
 
-
 #iconsoutline{
   align-items: center;
   display: flex;
@@ -333,12 +332,12 @@ html {
 
 .notification {
   position: absolute;
-  top: 0rem;
-  right:-0.5rem;
+  top: 0.5rem;
+  right:2rem;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: var(--red);
+  background-color: var(--orange);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,58 +346,6 @@ html {
 .notification-number {
   color: white;
   font-size: 0.8rem;
-}
-
-.text-icon{
-  margin-left: .5rem;
-}
-
-
-.dropdown-item img{
-  margin-left: 0.5rem;
-}
-
-.shopping-cart-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px 10px 0px 10px;
-}
-
-.dropdown-menu{
-  position: absolute;
-  top: 5.2rem;
-  right: -2rem;
-  width: 18rem;
-  height: 32rem;
-  --bs-dropdown-link-active-bg: var(--white); 
-  --bs-dropdown-link-hover-bg: var(--white);
-  --bs-dropdown-item-padding-x: 0rem;
-  border-radius: 0;
-}
-
-.dropdown-item button{
-  background-color: var(--orange);
-  border: 1px solid var(--cultured);
-  border-radius: 0.25rem;
-  height: 2.5rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-left: 4rem;
-  margin-right: 0.5rem;
-  width: 12rem;
-}
-
-.dropdown-item a{
-  text-align: center;
-  text-decoration: none;
-  color: var(--white);
-  font-weight: 300;
-}
-
-.shopping-cart-header{
-  border-bottom: 1px solid var(--cultured);
-  font-size: 1rem;
 }
 
 #formbusca {
@@ -1024,8 +971,12 @@ html {
     font-size: 2.3rem;
     position:relative;
     bottom:3.5rem !important;
-    left: 0.1rem !important;
+    left: 0.4rem !important;
     color: var(--white);
+  }
+
+  .w-75{
+    width: 100% !important;
   }
 
   .shop-bag{
@@ -1035,9 +986,9 @@ html {
   #cart{
     display: flex !important;
     width:auto !important;
-    position: relative !important;
-    bottom:7.9rem;
-    right: -16.8rem !important; 
+    position: inherit !important;
+    bottom:6.9rem;
+    left: 16.7rem !important; 
     font-size: 2.3rem;
   }
 
@@ -1072,13 +1023,9 @@ html {
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;
   }
-
   #iconscart{
-    position: absolute;
-  }
 
-  .w-75{
-    width: 100% !important;
+    position: absolute;
   }
 
   #main{
@@ -1089,7 +1036,6 @@ html {
     transform: translate(4%, -100%) !important;
   }
   /*----------- END NAVBAR HEADER --------------*/
-
 
 
   /*----------- START MENU TOP NAVIGATION --------------*/
@@ -1604,7 +1550,7 @@ html {
   #selos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 6.5rem;
+    margin-left: 6rem;
   }
   /*--------------- FIM FOOTER ------------------*/
 
@@ -3020,16 +2966,17 @@ html {
   }
 
   .text-icon {
-    display: none;
+    font-size: 0.8rem;
+
   }	
 
   #iconsoutline {
     font-size: 0.4rem;
-    margin-right: 0.8rem; 
+    margin-right: 2.8rem; 
   }
 
   #iconsperson{
-    margin-right: 0.5rem; 
+    margin-right: 2rem; 
     font-size: 0.4rem;
   }
   .shop-bag{

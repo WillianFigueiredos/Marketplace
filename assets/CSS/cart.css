@@ -1329,7 +1329,7 @@
 }
 .qtd{
   color: var(--eerie-black);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
@@ -1338,10 +1338,8 @@
 
 .price{
   color: var(--eerie-black);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
   margin-left: 31.5rem;
 }
 
@@ -1354,4 +1352,5 @@
 .info{
   border-bottom: 8px solid var(--cultured);
   width: auto;
+  font-size: 0.9rem;
 }

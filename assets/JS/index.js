@@ -126,8 +126,6 @@ function redirectBtnlogin() {
   window.location.href = "Login.html";
 }
 
-
-
 const actionproductcard = document.querySelector(
   ".card-banner",
   ".card-price",
@@ -138,6 +136,15 @@ const actionproductcard = document.querySelector(
 function redirectProductpage() {
   window.location.href = "produto.html";
 }
+
+const actionCheckout = document.querySelector(".iconscart");
+function redirectIconCheckout() {
+  window.location.href = "Cart.html";
+}
+
+
+
+
 
 //Fixed Navbar
 var navbar1 = document.querySelector("#navbar1");

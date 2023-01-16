@@ -1319,8 +1319,39 @@
   background: rgb(255 255 255);
 }
 
+.desktop{
+  display: none;
+}
 
+.titlecart{
+  background-color: var(--cultured);
+  width: auto;
+}
+.qtd{
+  color: var(--eerie-black);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 5rem;
+}
 
+.price{
+  color: var(--eerie-black);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-left: 31.5rem;
+}
 
+.desc{
+  position: relative;
+  left: 1rem;
+  font-size: 0.9rem;
+}
 
-
+.info{
+  border-bottom: 8px solid var(--cultured);
+  width: auto;
+}

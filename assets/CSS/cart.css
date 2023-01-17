@@ -296,7 +296,11 @@
     bottom: 1.75rem;
   }
   
-  .desktop{
+  .mobile{
+    display: none;
+  }
+
+  #mobiletitlecart{
     display: none;
   }
 
@@ -532,11 +536,24 @@
       height: 3rem;
     }
  
+    .desktop{
+      display: none;
+    }
+
+    #mobiletitlecart{
+      display: block;
+    }
+  
+    .mobile{
+      display: block;
+    }
+
     .paymentcard{
       position: relative;
       top: 5.1rem;
-      left: -4rem;
+      left:-5.8rem;
     }
+
     /*----------- END CART --------------*/
   
     /*--------------- INICIO FOOTER ------------------*/
@@ -639,14 +656,26 @@
         right: 0rem;
         top: 3rem;
         width: 17rem;
-        right: 1.8rem;
+        right: 1.2rem;
         height: 3rem;
       }
+
+      .desktop{
+        display: none;
+      }
+  
+      #mobiletitlecart{
+        display: block;
+      }
+    
+      .mobile{
+        display: block;
+      }  
     
       .paymentcard{
         position: relative;
         top: 5.1rem;
-        left: -2rem;
+        left: -4rem;
       }
     /*----------- END CART --------------*/
 
@@ -764,10 +793,21 @@
         right: 0rem;
         top: 3rem;
         width: 17rem;
-        right: 4rem;
+        right: 3rem;
         height: 3rem;
       }
-      
+      .desktop{
+        display: none;
+      }
+  
+      .mobile{
+        display: block;
+      }  
+
+      #mobiletitlecart{
+        display: block;
+      }
+    
       .paymentcard{
         position: relative;
         top: 5.1rem;
@@ -913,7 +953,17 @@
         right: 2.5rem;
         height: 3rem;
       }
-        
+      .desktop{
+        display: none;
+      }
+
+      #mobiletitlecart{
+        display: block;
+      }
+
+      .mobile{
+        display: block;
+      }  
       .paymentcard{
         position: relative;
         top: 5.1rem;
@@ -1011,6 +1061,18 @@
       right: 2.5rem;
       height: 3rem;
     }
+
+    .desktop{
+      display: none;
+    }
+
+    #mobiletitlecart{
+      display: block;
+    }
+
+    .mobile{
+      display: block;
+    }  
       
     .paymentcard{
       position: relative;
@@ -1087,7 +1149,19 @@
         right: 2.5rem;
         height: 3rem;
       }
-        
+
+      .desktop{
+        display: none;
+      }
+
+      #mobiletitlecart{
+        display: block;
+      }
+  
+      .mobile{
+        display: block;
+      }  
+
       .paymentcard{
         position: relative;
         top: 5.1rem;
@@ -1266,8 +1340,9 @@
     }
     /*----------- END MENU TOP NAVIGATION --------------*/
   
-    /*----------- END MEDIA QUERIES -------------*/
+    
+ 
   }
 
-
+  /*----------- END MEDIA QUERIES -------------*/
 

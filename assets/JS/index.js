@@ -99,9 +99,9 @@ function toggleDropdownMenu4() {
   }
 }
 
-//setTimeout(function () {
-//  $("#modal2").modal("show");
-//}, 3500);
+setTimeout(function () {
+$("#modal2").modal("show");
+}, 3500);
 
 function closeItem() {
   $("#modal2").modal("hide");

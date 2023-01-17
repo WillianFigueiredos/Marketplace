@@ -495,8 +495,6 @@ html {
 
 /*--------------- MAIN - INICIO LOGIN------------------*/
 
-/*--------------- MAIN - INICIO LOGIN------------------*/
-
 #remember {
   margin-right: 0.30em;
   margin-top: 0.40em;
@@ -506,7 +504,7 @@ html {
 .login-title{
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 #btn2, #btn1{
@@ -520,11 +518,15 @@ html {
 }
 
 .loginclient{
+  margin-left: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .notclient{
+  margin-left: 1rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .form-check-input {
@@ -534,7 +536,6 @@ html {
 .form-group{
   margin-bottom: 1rem;
 }
-
 /*--------------- MAIN - FIM LOGIN------------------*/
 
 
@@ -785,7 +786,7 @@ html {
   #selos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 6.5rem;
+    margin-left: 5.7rem;
   }
   /*--------------- FIM FOOTER ------------------*/
 
@@ -914,7 +915,7 @@ html {
   #selos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 7.5rem;
+    margin-left: 6.5rem;
   }
   /*--------------- FIM FOOTER ------------------*/
 
@@ -1089,16 +1090,10 @@ html {
     transform: translateY(9%);
   }
   /*----------- END MENU TOP NAVIGATION --------------*/
-
-
-  
-
 }
 
 @media screen and (min-width: 770px ) and (max-width: 890px) {
 
-
-  
   /*----------- START ALERT TOP BAR --------------*/
     .alert {
       font-size: 0.95rem;

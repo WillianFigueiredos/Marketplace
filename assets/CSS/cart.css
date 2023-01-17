@@ -1319,10 +1319,6 @@
   background: rgb(255 255 255);
 }
 
-.desktop{
-  display: none;
-}
-
 .titlecart{
   background-color: var(--cultured);
   width: auto;
@@ -1340,7 +1336,6 @@
   color: var(--eerie-black);
   font-size: 0.9rem;
   font-weight: 600;
-  margin-left: 31.5rem;
 }
 
 .desc{
@@ -1350,7 +1345,44 @@
 }
 
 .info{
-  border-bottom: 8px solid var(--cultured);
+  border-bottom: 5px solid var(--cultured);
   width: auto;
   font-size: 0.9rem;
+}
+
+.speccod{
+  font-size: 0.75rem;
+  color: var(--sonic-silver);
+  margin-top: 2rem;
+}
+
+.specenv{
+  font-size: 0.75rem;
+  color: var(--sonic-silver);
+  margin-top: 5rem;
+}
+
+.price{
+  color: var(--sonic-silver);
+  font-size: 0.9rem;
+}
+
+.procedesc{
+  margin-left: 2.45rem;
+  color: var(--dylans-Blue);
+}
+
+.pricev{
+  margin-left: 1rem;
+  color: var(--dylans-Blue);
+}
+
+.bi-trash3{
+  position:relative;
+  left:3.5rem ;
+  bottom: 1.75rem;
+}
+
+.desktop{
+  display: none;
 }

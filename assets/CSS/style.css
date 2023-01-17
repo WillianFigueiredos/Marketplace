@@ -3116,3 +3116,11 @@ html {
 
   /*----------- END MEDIA QUERIES -------------*/
 }
+
+
+#carouseltag .slider{
+  display:flex;
+  justify-content: center;
+  overflow: hidden;
+  gap: 5rem;
+}

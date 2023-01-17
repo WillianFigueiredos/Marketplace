@@ -1310,22 +1310,14 @@
 
 
 
-.product-details {
-  padding: 10px;
-  
-}
 
 .cart {
   background: rgb(255 255 255);
 }
 
-.titlecart{
-  background-color: var(--cultured);
-  width: auto;
-}
 .qtd{
   color: var(--eerie-black);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
@@ -1333,9 +1325,20 @@
 }
 
 .price{
-  color: var(--eerie-black);
-  font-size: 0.9rem;
-  font-weight: 600;
+  color: var(--sonic-silver);
+  font-size: 0.87rem;
+}
+
+.procedesc{
+  margin-left: 2.45rem;
+  color: var(--dylans-Blue);
+  font-size: 0.87rem;
+}
+
+.pricev{
+  margin-left: 1rem;
+  color: var(--dylans-Blue);
+  font-size: 0.87rem;
 }
 
 .desc{
@@ -1362,21 +1365,6 @@
   margin-top: 5rem;
 }
 
-.price{
-  color: var(--sonic-silver);
-  font-size: 0.9rem;
-}
-
-.procedesc{
-  margin-left: 2.45rem;
-  color: var(--dylans-Blue);
-}
-
-.pricev{
-  margin-left: 1rem;
-  color: var(--dylans-Blue);
-}
-
 .bi-trash3{
   position:relative;
   left:3.5rem ;
@@ -1385,4 +1373,84 @@
 
 .desktop{
   display: none;
+}
+.zipcode{
+  display:flex;
+  flex-direction: column;
+  border-bottom: 5px solid var(--cultured); 
+}
+
+#zipcodebtn{
+  position: relative;
+  left: 1rem;
+  width: 55px;
+  HEIGHT: 55px;
+  left: 9.2rem;
+  bottom: 3.42rem;
+  border-right: 5px;
+}
+
+.zipcodeform{
+  border-radius: 0;
+  border: 1px solid var(--sonic-silver);
+  border-radius: 0px;
+}
+
+.envcheckout {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.total-checkout{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.total-checkout span{
+  margin-right: 1rem;
+}
+
+.total-checkout-value, .total-checkout-desc{
+  color: var(--dylans-Blue);
+}
+
+.condipricetotal{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: var(--sonic-silver);
+  margin-bottom: 5rem;
+}
+
+.paymentcard{
+  position: relative;
+  top: 5.1rem;
+  left: 1rem;
+}
+
+.btncheckoutpayment{
+  background-color: var(--kelly-green);
+  color: var(--white);
+  border-color: var(--kelly-green);
+  border-radius: 0.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0rem;
+  top: 3rem;
+  width: 23rem;
+  right: 0.4rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  
+}
+
+.titlecheckout{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--eerie-black);
+  padding-bottom: 0;
+  padding-top: 1rem;
 }

@@ -513,9 +513,10 @@ html {
   background-color: var(--kelly-green);
   color: var(--white);
   border-color: var(--kelly-green);
-  opacity: 0.8;
   border-radius: 0.2rem;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
 
 .loginclient{

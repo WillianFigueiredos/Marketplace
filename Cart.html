@@ -354,7 +354,7 @@
       <div class="col-md-8">
         <div class="product-details ">
           <div class="d-flex flex-row align-items-center">
-            <span class="ml-2">Sacola</span>
+            <span class="ml-2 titlecheckout">Carrinho</span>
           </div>
           <br>
         </div>
@@ -380,15 +380,14 @@
           <div class="d-flex justify-content-between align-items-center mt-3 pb-3  info ">
             <div class="flex-row">
               <span>Quantidade</span>
-              <input id="form8" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;"/>
+              <input id="form5" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" style="width: 50px;"/>
               <i class="bi bi-trash3"></i>
             </div>    
             
             <div class="flex-row ">
               <span class="d-block price"> <s> de R$ 2.900,00 por </s></span>
-              <span class="d-block ms- procedesc"> R$ 699,00 ou</span>
+              <span class="d-block procedesc"> R$ 699,00 ou</span>
               <span class="d-block pricev"> R$ 500,00 a vista</span>
-              <i class="fa fa-trash-o ml-3"></i>
             </div>
           </div>
 
@@ -406,7 +405,7 @@
           <div class="d-flex justify-content-between align-items-center mt-3 pb-3  info ">
             <div class="flex-row">
               <span>Quantidade</span>
-              <input id="form8" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;"/>
+              <input id="form6" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;"/>
               <i class="bi bi-trash3"></i>
             </div>  
             <div class="flex-row ">
@@ -431,7 +430,7 @@
           <div class="d-flex justify-content-between align-items-center mt-3 pb-3  info ">
             <div class="flex-row">
               <span>Quantidade</span>
-              <input id="form8" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;"/>
+              <input id="form7" min="0" name="quantity" value="2" type="number" class="form-control form-control-sm" style="width: 50px;"/>
               <i class="bi bi-trash3"></i>
             </div>     
             
@@ -472,15 +471,32 @@
       </div>
     </div>
     
-    <div class="col-md-6">
-      <div class="payment-login">
-        <button class="btn btn-primary d-flex justify-content-between mt-3" type="button">
-          <span>Comprar <i class="fa fa-long-arrow-right ml-1"></i></span>
-        </button>
+    <div class="col-md-6 ps-3 zipcode ">
+        <span class="envcheckout pb-3">Frete</span>
+        <input class="zipcodeform" maxlength="9" name="CEP" placeholder="00000-00" style="width: 150px; height: 54px;"/>
+        <button type="button" class="btn btn-primary" id="zipcodebtn">OK</button>
+    </div>
+    
+    <div class="total">
+      <div class="payment-total ps-3">
+        <span class="title-total">Subtotal (4 itens)</span>
+        <img class="paymentcard" src="assets/IMG/IMG/Icons/elo.svg" alt="">
+        <img class="paymentcard" src="assets/IMG/IMG/Icons/master.svg" alt="">
+        <div class="total-checkout">
+          <span class="total-checkout-value">R$ 2.796,00 ou</span>
+          <span class="total-checkout-desc">R$ 1.796,00 a vista</span>
+          <span class="condipricetotal">
+            <div>(Em até 12x de R$ 233,00</div>  <div>sem juros no cartão .On Shop )</div>
+            <a class="btn btn-primary align-items-center btncheckoutpayment" href="#" role="button">Continuar</a>
+          </span>
+        </div>
+        
       </div>
     </div>
-<!-- Chaeckout Mobile -->
-    
+
+
+
+    <!-- Chaeckout Mobile -->
     
     <!--INICIO FOOTER-->
     <footer>

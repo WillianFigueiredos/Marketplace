@@ -67,12 +67,12 @@ document.addEventListener('DOMContentLoaded', function () {
   new Splide('#carouseltag', {
     type   : 'loop',
     drag   : 'free',
-    perPage: 6,
+    perPage: 4,
     arrows: false,
     pagination: false,
     pauseOnHover: true,
     wheel: true,
-    gap: "6rem",
+    gap: "4rem",
     autoScroll: {
       speed: 1,
     },

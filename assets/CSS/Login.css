@@ -359,7 +359,7 @@ html {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  background-color: var(--white);
+  background-color: rgb(0, 0, 0);
 }
 
 #navbar1.fixed {
@@ -422,7 +422,7 @@ html {
 }
 
 #Fonesdown, #departamentosdown,#Smartphonesown,#Iphonesdown{
-  color: var(--orange);
+  color: var(--white);
   margin-left: 0.4rem;
 }
 
@@ -434,11 +434,11 @@ html {
 
 .menu-category  {
   margin: 0.1rem;
-  color: var(--orange);
+  color: var(--white);
 }
 
 .menu-category:hover a {
-  color: var(--orange);
+  color: var(--white);
 }
 
 .dropdown-list {
@@ -470,7 +470,7 @@ html {
 
 .menu-title  {
   text-decoration: none;
-  color: var(--orange);
+  color: var(--white);
   cursor: pointer;
   list-style:none;
   font-weight: 400;

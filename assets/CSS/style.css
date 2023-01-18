@@ -3122,5 +3122,13 @@ html {
   display:flex;
   justify-content: center;
   overflow: hidden;
-  gap: 5rem;
+  width: 100%;
+}
+
+#carouseltag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

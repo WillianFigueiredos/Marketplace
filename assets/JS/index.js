@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function()
   }, 2000); 
 });
 
+
 //SplideJs
 const splide = new Splide(".splide", {
   type: "loop",
@@ -60,6 +61,23 @@ const splidemobile = new Splide("#image-carousel", {
   wheel: true,
 }).mount();
 
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('#carouseltag', {
+    type   : 'loop',
+    drag   : 'free',
+    perPage: 6,
+    arrows: false,
+    pagination: false,
+    pauseOnHover: true,
+    wheel: true,
+    gap: "6rem",
+    autoScroll: {
+      speed: 1,
+    },
+  }).mount( window.splide.Extensions );
+});
 
 
 //Menu-Modal-Dropdown

@@ -304,6 +304,11 @@ body{
   color: var(--white);
 }
 
+.text-icon{
+  padding-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
+
 #iconsoutline{
   align-items: center;
   display: flex;
@@ -524,19 +529,16 @@ body{
   justify-content: center;
   padding: 0 1rem;
 }
-
 .category-item-title{   
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .category-item-icon{
   align-items: center;
   display: flex;
   margin-right: 1rem;
 }
-
 .category-item-icon{
   font-size: 3rem;
   color: var(--denim-blue)
@@ -550,7 +552,6 @@ body{
   overflow: hidden;
   box-sizing: border-box;
 }
-
 .col-4{
   width: auto;
   height: auto;
@@ -558,21 +559,17 @@ body{
   padding-left: 0rem;
   padding-right: 0rem;
 }
-
 .flexslider ul li {
   border-radius: 1rem;
 }
-
 .slides img {
   width: 95%;
   border-radius: 5px;
   box-sizing: border-box;
 }
-
 .col-4{
   padding-top: 0rem;
 }
-
 #image-carousel{
   display: none;
 }
@@ -584,33 +581,30 @@ body{
   display: flex;
   justify-content: center;
 }
-
 .category-item-tittle {
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .category-item-tittle span {
   font-size: 1.2rem;
   color: var(--onyx);
   font-weight: 500;
 }
-
 .category-content-flex-tittle a {
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--eerie-black);
   font-weight: 500;
 }
-
 .category-content-flex-tittle h3::after {
   content: "";
   display: block;
-  width: 33.7%;
+  width: 102%;
   height: 0.3rem;
   margin-top: 0.4rem;
-  background-color: var(--denim-blue);
+  background-color: var(--orange);
   border-radius: 1rem;
 }
-
 .category-item-title-title {
   color: var(--eerie-black);
   font-size: 1.5rem;
@@ -626,7 +620,7 @@ body{
   justify-content: center;
   list-style: none;
   margin: 0 auto;
-  padding-left: 9rem;
+  padding-left: 9.8rem;
   padding-right: 8rem;
 }
 
@@ -683,7 +677,6 @@ body{
   border-radius: 5px;
   font-weight: 400;
 }
-
 .product-card .card-badge-full {
   position: absolute;
   top: 0;
@@ -694,8 +687,6 @@ body{
   border-radius: 5px;
   font-weight: 400;
 }
-
-
 .title-text{
   text-decoration: none;
   color: var(--eerie-black);
@@ -703,8 +694,6 @@ body{
   font-weight: 400;
   cursor: pointer;
 }
-
-
 .star {
   color: var(--sprint-yellow);
   margin: 5px 0px;
@@ -712,11 +701,9 @@ body{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-
 .star span {
   color: var(--sonic-silver);
 }
-
 .card-price data {
   font-weight: 600;
   cursor: pointer;
@@ -724,45 +711,37 @@ body{
   line-height: 0.8;
 
 }
-
 .conditions-price {
   font-size: 0.79rem;
   cursor: pointer;
   margin-top: 0.35rem;
 }
-
 .conditions-price a {
   text-decoration: none;
   color: var(--eerie-black);
   cursor: pointer;
 }
-
 .conditions-price span {
   text-decoration: none;
   color: var(--kelly-green);
   cursor: pointer;
 }
-
 .conditions-payment {
   font-size: 0.79rem;
   cursor: pointer;
 }
-
 .conditions-price p { 
   margin-bottom:0.35rem;
   cursor: pointer;
 }
-
 .card-banner img {
   cursor: pointer;
 }
-
 .product-card .card-price {
   color: var(--eerie-black);
   font-size: 22px;
   cursor: pointer;
 }
-
 .product-card .card-price data:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
@@ -779,9 +758,21 @@ body{
   list-style: none;
 }
 .category-item-banner img{
+  margin-top: 3.5rem;
+  padding-bottom: 0;
   border-radius: 1rem;
 }
 
+.category-item-banner{
+  margin-top: 0rem;
+  padding-bottom: 0;
+}
+.category-list-banner{
+  margin-top: 0rem!important;
+  padding-bottom: 0!important;
+  padding-left: 0rem !important;
+  margin-bottom: 0rem!important;
+}
 .counter {
   display: flex;
   position: relative;
@@ -790,7 +781,6 @@ body{
   font-size: 36px;
   font-weight: 500;
 }
-
 .days, .hours, .minutes, .seconds {
   color: var(--white);
   opacity: 0.7;
@@ -799,25 +789,22 @@ body{
   height: 85px;
   width: 85px;
 }
-
 .ping{
   color: rgb(255 255 255);
 }
-
 .counter div {
   margin: 1px 3px;
 }
-
 .days,.hours, .minutes, .seconds {
   background-color: var(--onyx);
   justify-content: center;
   text-align: center;
 }
-
 .day, .hr, .min, .seg {
   font-size: 0.9rem;
   color: var(--white);
 }
+
 /*--------------- FIM BANNER- CONTATDOR ------------------*/
 
 
@@ -1130,8 +1117,8 @@ body{
     margin-top: 0.5rem !important;
   }
 
-  .category-item {
-    padding-bottom: 1rem;
+  #contdiv {
+    margin-bottom: 0.5rem !important;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -1435,8 +1422,8 @@ body{
     margin-top: 0.5rem !important;
   }
 
-  .category-item {
-    padding-bottom: 1rem;
+  #contdiv {
+    margin-bottom: 0.5rem !important;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -1741,9 +1728,8 @@ body{
   .mt-4{
     margin-top: 0.5rem !important;
   }
-
-  .category-item {
-    padding-bottom: 1rem;
+  #contdiv {
+    margin-bottom: 0.5rem !important;
   }
   /*----------- END NAV-ITENS-------------*/
   
@@ -2202,6 +2188,11 @@ body{
   .shop-bag{
     font-size: 2.8rem;
   }
+
+  .notification {
+    top: 0.6rem;
+    right: 1.4rem;
+  }
   /*----------- END NAVBAR HEADER --------------*/
 
 
@@ -2657,6 +2648,11 @@ body{
     .shop-bag{
       font-size: 2.8rem;
     }
+
+    .notification {
+      top: 0.6rem;
+      right: 4.5rem;
+    }
     /*----------- END NAVBAR HEADER --------------*/
     
     
@@ -2923,12 +2919,10 @@ body{
   /*--------------- END TITLE-SECTION------------------*/
 
   /*--------------- START PRODUCT ------------------*/
-
   .product-list {
     padding-left: 5.5rem;
     padding-right: 2rem;
   }
-
 
   .w-auto {
     width: 100% !important;

@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function()
 
 
 //SplideJs
+document.addEventListener('DOMContentLoaded', function () {
 const splide = new Splide(".splide", {
   type: "loop",
   padding: { y: 10 },
@@ -41,8 +42,10 @@ const splide = new Splide(".splide", {
   wheel: true,
 });
 splide.mount();
+});
 
 //SplideJsmobile
+document.addEventListener('DOMContentLoaded', function () {
 const splidemobile = new Splide("#image-carousel", {
   type: "loop",
   padding: { y: 10 },
@@ -60,7 +63,7 @@ const splidemobile = new Splide("#image-carousel", {
   pauseOnHover: true,
   wheel: true,
 }).mount();
-
+});
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -78,6 +81,10 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   }).mount( window.splide.Extensions );
 });
+
+
+
+
 
 
 //Menu-Modal-Dropdown

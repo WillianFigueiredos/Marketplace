@@ -626,13 +626,16 @@ body{
   justify-content: center;
   list-style: none;
   margin: 0 auto;
-  padding-left: 0rem;
-  width: auto;
+  padding-left: 9rem;
+  padding-right: 8rem;
 }
 
 .product-card .card-banner {
   position: relative;
   margin-top: 3rem;
+}
+.product-card{
+  margin: 0.5rem;
 }
 
 .product-list li{
@@ -642,6 +645,23 @@ body{
 .title-text:hover{
   color: var(--eerie-black);
 }
+
+.heartcard-filled {
+  color: var(--red);
+}
+
+.card-banner img:hover {
+  transform: scale(1.02);
+}
+
+.heartcard{
+  position: relative;
+  color: var(--red);
+}
+
+.card-body{
+  line-height: 1.28;
+} 
 
 .product-card .card-badge {
   position: absolute;
@@ -675,45 +695,40 @@ body{
   font-weight: 400;
 }
 
-.card-content{
-  position: relative;
-  margin-left: 1.8rem;
-  padding-bottom: 1rem;
-}
-
-
-.product-card .card-title a {
-  margin-bottom: 1px;
-  color: var(--eerie-black);
-  font-size: 1.1rem;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.star {
-  color: var(--sprint-yellow);
-  margin: 5px 0px;
-  font-size: 0.8rem;
-}
 
 .title-text{
   text-decoration: none;
   color: var(--eerie-black);
+  font-size: 0.96rem;
+  font-weight: 400;
   cursor: pointer;
+}
+
+
+.star {
+  color: var(--sprint-yellow);
+  margin: 5px 0px;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .star span {
-  color: var(--eerie-black);
+  color: var(--sonic-silver);
 }
 
 .card-price data {
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
+  opacity: 0.9;
+  line-height: 0.8;
+
 }
 
 .conditions-price {
-  font-size: 0.9rem;
+  font-size: 0.79rem;
   cursor: pointer;
+  margin-top: 0.35rem;
 }
 
 .conditions-price a {
@@ -729,12 +744,12 @@ body{
 }
 
 .conditions-payment {
-  font-size: 0.9rem;
+  font-size: 0.79rem;
   cursor: pointer;
 }
 
 .conditions-price p { 
-  margin-bottom:0rem;
+  margin-bottom:0.35rem;
   cursor: pointer;
 }
 
@@ -744,7 +759,7 @@ body{
 
 .product-card .card-price {
   color: var(--eerie-black);
-  font-size: 1.35rem;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -753,7 +768,7 @@ body{
   flex-wrap: wrap;
   color: var(--sonic-silver);
   margin-left: 0px;
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-decoration: line-through;
 }
 /*--------------- END PRODUCT ------------------*/
@@ -1152,6 +1167,9 @@ body{
     display: none;
   }
 
+  .category-item-tittle a{
+    font-size: 1.3rem;
+  }
   
   .category-item-tittle {
     padding-top: 1rem;
@@ -1167,15 +1185,12 @@ body{
 
   /*--------------- START PRODUCT ------------------*/
   .col-3 {
-    width: 48%;
+    width: 50%;
   }
   
   .product-list {
-    padding-left: 0rem;
-  }
-
-  .w-auto {
-    width: 100% !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .product-card .card-banner {
@@ -1187,16 +1202,12 @@ body{
     margin-right: 0rem;
   }
 
-  .product-card .card-title a {
-    font-size: 1rem;
-  }
-
-  .product-card  {
-    margin: 0 5px!important;
+  .title-text {
+    font-size: 0.88rem;
   }
 
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.1rem;
   }
 
   .product-card .card-price data:not(:last-child) {
@@ -1204,46 +1215,30 @@ body{
   }
 
   .conditions-price {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .conditions-payment {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .star {
-    font-size: 0.8rem;
-  }
-
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-
-  .card-content a {
-    justify-content: center;
+    font-size: 0.6rem;
   }
 
   .product-card .card-badge-red {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge-full {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -1485,15 +1480,12 @@ body{
 
   /*--------------- START PRODUCT ------------------*/
   .col-3 {
-    width: 48%;
+    width: 50%;
   }
-
+  
   .product-list {
-    padding-left: 0rem;
-  }
-
-  .w-auto {
-    width: 100% !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .product-card .card-banner {
@@ -1501,20 +1493,16 @@ body{
     margin-bottom: 0px;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   }
 
-  .product-card .card-title a {
-    font-size: 1rem;
-  }
-
-  .product-card  {
-    margin: 0 5px!important;
+  .title-text {
+    font-size: 0.9rem;
   }
 
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.1rem;
   }
 
   .product-card .card-price data:not(:last-child) {
@@ -1522,48 +1510,33 @@ body{
   }
 
   .conditions-price {
-    font-size: 0.8rem;
+    font-size: 0.79rem;
   }
 
   .conditions-payment {
-    font-size: 0.8rem;
+    font-size: 0.79rem;
   }
 
   .star {
-    font-size: 0.8rem;
-  }
-
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-
-  .card-content a {
-    justify-content: center;
+    font-size: 0.7rem;
   }
 
   .product-card .card-badge-red {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge-full {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
   /*--------------- END PRODUCT ------------------*/
+
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
   .picturebannermobile{
@@ -1814,15 +1787,12 @@ body{
 
   /*--------------- START PRODUCT ------------------*/
   .col-3 {
-    width: 48%;
+    width: 50%;
   }
   
   .product-list {
-    padding-left: 0rem;
-  }
-
-  .w-auto {
-    width: 100% !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .product-card .card-banner {
@@ -1830,21 +1800,16 @@ body{
     margin-bottom: 0px;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   }
 
-  .product-card .card-title a {
-    font-size: 1rem;
+  .title-text {
+    font-size: 0.96rem;
   }
-
-  .product-card  {
-    margin: 0 5px!important;
-  }
-
 
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.1rem;
   }
 
   .product-card .card-price data:not(:last-child) {
@@ -1852,46 +1817,30 @@ body{
   }
 
   .conditions-price {
-    font-size: 0.8rem;
+    font-size: 0.79rem;
   }
 
   .conditions-payment {
-    font-size: 0.8rem;
+    font-size: 0.79rem;
   }
 
   .star {
-    font-size: 0.8rem;
-  }
-
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-
-  .card-content a {
-    justify-content: center;
+    font-size: 0.7rem;
   }
 
   .product-card .card-badge-red {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
 
   .product-card .card-badge-full {
-    padding: 3px 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 500;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -2116,55 +2065,25 @@ body{
   }
 
   .product-list {
-    padding-left: 0rem;
-  }
-
-  .w-auto {
-    width: 100% !important;
-  }
-
-  .product-card .card-banner {
-    position: relative;
-    margin-bottom: 0px;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0.5rem;
-    margin-right: 0rem;
-  }
-
-  .product-card .card-title a {
-    font-size: 1rem;
+    margin: 0 auto;
   }
 
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.2rem;
   }
 
   .product-card .card-price data:not(:last-child) {
-    font-size:0.75rem;
+    font-size:0.85rem;
   }
 
   .conditions-price, .conditions-payment, .star {
     font-size: 0.8rem;
   }
 
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-
-  .card-content a {
-    justify-content: center;
-  }
-
   .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
     padding: 3px 10px;
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 500;
   }   
   /*--------------- END PRODUCT ------------------*/
 
@@ -2364,55 +2283,26 @@ body{
   /*--------------- START PRODUCT ------------------*/
   
   .product-list {
-    padding-left: 0rem;
-  }
-
-  .w-auto {
-    width: 100% !important;
-  }
-
-  .product-card .card-banner {
-    position: relative;
-    margin-bottom: 0px;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0.5rem;
-    margin-right: 0rem;
-  }
-
-  .product-card .card-title a {
-    font-size: 1rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
   }
 
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.2rem;
   }
 
   .product-card .card-price data:not(:last-child) {
-    font-size:0.75rem;
+    font-size:0.85rem;
   }
 
   .conditions-price, .conditions-payment, .star {
     font-size: 0.8rem;
   }
 
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-
-  .card-content a {
-    justify-content: center;
-  }
-
   .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
     padding: 3px 10px;
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 500;
   }   
   /*--------------- END PRODUCT ------------------*/
 
@@ -2617,58 +2507,29 @@ body{
   /*--------------- END TITLE-SECTION------------------*/
   
   /*--------------- START PRODUCT ------------------*/
-    
-    .product-list {
-      padding-left: 0rem;
-    }
   
-    .w-auto {
-      width: 100% !important;
-    }
-  
-    .product-card .card-banner {
-      position: relative;
-      margin-bottom: 0px;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
-      margin-left: 0.5rem;
-      margin-right: 0rem;
-    }
-  
-    .product-card .card-title a {
-      font-size: 1rem;
-    }
-  
-    .product-card .card-price {
-      font-size: 1.19rem;
-    }
-  
-    .product-card .card-price data:not(:last-child) {
-      font-size:0.75rem;
-    }
-  
-    .conditions-price, .conditions-payment, .star {
-      font-size: 0.8rem;
-    }
-  
-    .card-content {
-      padding-bottom: 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-left: 0.2rem;
-    }
-  
-    .card-content a {
-      justify-content: center;
-    }
-  
-    .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
-      padding: 3px 10px;
-      font-size: 0.7rem;
-      font-weight: 600;
-    }   
+  .product-list {
+    padding-left: 3rem;
+    padding-right: 1rem;
+  }
+
+  .product-card .card-price {
+    font-size: 1.2rem;
+  }
+
+  .product-card .card-price data:not(:last-child) {
+    font-size:0.85rem;
+  }
+
+  .conditions-price, .conditions-payment, .star {
+    font-size: 0.8rem;
+  }
+
+  .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }   
   /*--------------- END PRODUCT ------------------*/
   
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
@@ -2864,56 +2725,28 @@ body{
 
   
   /*--------------- START PRODUCT ------------------*/
+
   .product-list {
-    padding-left: 0rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
   }
-  
-  .w-auto {
-    width: 100% !important;
-  }
-  
-  .product-card .card-banner {
-    position: relative;
-    margin-bottom: 0px;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0.5rem;
-    margin-right: 0rem;
-  }
-    
-  .product-card .card-title a {
-    font-size: 1rem;
-  }
-    
+
   .product-card .card-price {
-    font-size: 1.19rem;
+    font-size: 1.2rem;
   }
-    
+
   .product-card .card-price data:not(:last-child) {
-    font-size:0.75rem;
+    font-size:0.85rem;
   }
-    
+
   .conditions-price, .conditions-payment, .star {
     font-size: 0.8rem;
   }
-    
-  .card-content {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.2rem;
-  }
-    
-  .card-content a {
-    justify-content: center;
-  }
-    
+
   .product-card .card-badge, .product-card .card-badge-full, .product-card .card-badge-red {
     padding: 3px 10px;
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 500;
   }   
   /*--------------- END PRODUCT ------------------*/
 
@@ -3092,8 +2925,10 @@ body{
   /*--------------- START PRODUCT ------------------*/
 
   .product-list {
-    padding-left: 0rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
   }
+
 
   .w-auto {
     width: 100% !important;

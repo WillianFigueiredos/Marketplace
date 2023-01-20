@@ -750,6 +750,9 @@ body{
   font-size: 0.85rem;
   text-decoration: line-through;
 }
+.endheart{
+  padding-right: 4rem !important;
+}
 /*--------------- END PRODUCT ------------------*/
 
 
@@ -1176,7 +1179,7 @@ body{
   }
   
   .product-list {
-    padding-left: 1.4rem;
+    padding-left: 1rem;
     padding-right: 0.5rem;
   }
 
@@ -1226,6 +1229,10 @@ body{
   .product-card .card-badge-full {
     font-size: 0.65rem;
     font-weight: 500;
+  }
+
+  .endheart{
+    padding-right: 1rem !important;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -1471,7 +1478,7 @@ body{
   }
   
   .product-list {
-    padding-left: 1.4rem;
+    padding-left: 1rem;
     padding-right: 0.5rem;
   }
 
@@ -1521,6 +1528,10 @@ body{
   .product-card .card-badge-full {
     font-size: 0.65rem;
     font-weight: 500;
+  }
+
+  .endheart{
+    padding-right: 1rem !important;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -1777,7 +1788,7 @@ body{
   }
   
   .product-list {
-    padding-left: 1.4rem;
+    padding-left: 1rem;
     padding-right: 0.5rem;
   }
 
@@ -1827,6 +1838,10 @@ body{
   .product-card .card-badge-full {
     font-size: 0.65rem;
     font-weight: 500;
+  }
+
+  .endheart{
+    padding-right: 1rem !important;
   }
   /*--------------- END PRODUCT ------------------*/
 
@@ -2295,6 +2310,10 @@ body{
     font-size: 0.7rem;
     font-weight: 500;
   }   
+
+  .endheart{
+    padding-right: 1rem !important;
+  }
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
@@ -2521,6 +2540,10 @@ body{
     font-size: 0.7rem;
     font-weight: 500;
   }   
+
+  .endheart{
+    padding-right: 1rem !important;
+  }
   /*--------------- END PRODUCT ------------------*/
   
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
@@ -2743,7 +2766,11 @@ body{
     padding: 3px 10px;
     font-size: 0.7rem;
     font-weight: 500;
-  }   
+  }
+  
+  .endheart{
+    padding-right: 1rem !important;
+  }
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
@@ -2971,6 +2998,10 @@ body{
     font-size: 0.7rem;
     font-weight: 600;
   }   
+
+  .endheart{
+    padding-right: 2rem !important;
+  }
   /*--------------- END PRODUCT ------------------*/
 
   /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/

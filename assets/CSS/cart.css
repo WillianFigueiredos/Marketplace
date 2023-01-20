@@ -554,6 +554,10 @@
       left:-5.8rem;
     }
 
+    .total-checkout span {
+      margin-right: 0rem;
+    }
+
     /*----------- END CART --------------*/
   
     /*--------------- INICIO FOOTER ------------------*/
@@ -676,6 +680,10 @@
         position: relative;
         top: 5.1rem;
         left: -4rem;
+      }
+
+      .total-checkout span {
+        margin-right: 0rem;
       }
     /*----------- END CART --------------*/
 
@@ -812,6 +820,10 @@
         position: relative;
         top: 5.1rem;
         left: 2rem;
+      }
+
+      .total-checkout span {
+        margin-right: 0rem;
       }
     /*----------- END CART --------------*/
 
@@ -1079,7 +1091,11 @@
       top: 5.1rem;
       left: 22rem;
     }
-  /*----------- END CART --------------*/
+
+    .total-checkout span {
+      margin-right: 0rem;
+    }
+    /*----------- END CART --------------*/
   
   
   }
@@ -1166,6 +1182,10 @@
         position: relative;
         top: 5.1rem;
         left: 26rem;
+      }
+
+      .total-checkout span {
+        margin-right: 0rem;
       }
     /*----------- END CART --------------*/
     

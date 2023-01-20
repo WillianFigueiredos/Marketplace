@@ -233,7 +233,7 @@ body{
 
 .modal-content{
   width: auto;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .text{
@@ -248,7 +248,7 @@ body{
 .text a{
   text-decoration: none;
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-left: 0.5rem;
 }
@@ -268,7 +268,7 @@ body{
 .modal-line a{
   text-decoration: none;
   color: var(--eerie-black);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 400;
 }
 
@@ -277,13 +277,13 @@ body{
 }
 
 #titlesub-menu-modal a{
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: var(--davys-gray);
 }
 
 #whatsmodal{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--kelly-green);
 }
 
@@ -301,6 +301,10 @@ body{
   color: var(--white);
 }
 
+.text-icon{
+  padding-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
 
 #iconsoutline{
   align-items: center;
@@ -325,10 +329,25 @@ body{
   display: flex;
   color: var(--white);
   font-size: 1rem;
+  cursor: pointer;
 }
 
-.text-icon{
-  margin-left: .5rem;
+.notification {
+  position: absolute;
+  top: 0.5rem;
+  right:2rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-number {
+  color: white;
+  font-size: 0.8rem;
 }
 
 #formbusca {

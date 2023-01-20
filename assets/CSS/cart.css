@@ -81,160 +81,178 @@
     cursor: pointer;
   }
   
-  .modal{
-    width: auto;
-  }
-  
-  .modal-header .btn-close{
-    margin-right: 0.8rem;
-    border: 1px solid var(--white);
-    border-radius: 50%;
-    background-color: var(--white);
-  }
-  
-  .modal.fade .modal-dialog {
-    transition: transform .4s ease-out !important;
-  }
-  
-  .slide-in-right {
-    animation: slide-in-right 0.8s forwards;
-  }
-  
-  @keyframes slide-in-right {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
-  
-  .modal-header{
-    padding: 0;
-    background-color:rgb(10 10 10);
-  }
-  
-  .modal-content{
-    width: auto;
-    font-size: 1rem;
-  }
-  
-  .text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgba(255, 255, 255, 0.521);
-    font-weight: 300;
-    padding-bottom: 0.7rem;
-  }
-  
-  .text a{
-    text-decoration: none;
-    color: var(--white);
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-left: 0.5rem;
-  }
-  
-  .msg{
-    margin-left: 0.5rem;
-  }
-  
-  .account-login{
-    display: flex;
-    font-size: 4.5rem;
-    color: var(--white);
-    margin-right: 0.rem;
-    margin-left: 1.5rem;
-  }
-  
-  .modal-line a{
-    text-decoration: none;
-    color: var(--eerie-black);
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
-  
-  .modal-line {
-    margin: 1.5rem 0rem;
-  }
-  
-  #titlesub-menu-modal a{
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: var(--davys-gray);
-  }
-  
-  #whatsmodal{
-    font-size: 1.5rem;
-    color: var(--kelly-green);
-  }
-  
-  .sidebar-dropdown-item {
-    padding: 0.8rem 1rem;
-  }
-  
-  .sidebar-dropdown-menu{
-    padding-left: 0;
-    list-style: none;
-  }
-  
-  .shop-bag{
-    font-size: 3rem;
-    color: var(--white);
-  }
-  
-  
-  #iconsoutline{
-    align-items: center;
-    display: flex;
-    color: var(--white);
-    font-size: 1rem;
-    margin-right: 4rem;
-  }
-  
-  #iconsperson{
-    align-items: center;
-    display: flex;
-    color: var(--white);
-    font-size: 1rem;
-    font-weight: 300;
-    margin-right: 2.2rem;
-    cursor: pointer;
-  }
-  
-  #iconscart {
-    align-items: center;
-    display: flex;
-    color: var(--white);
-    font-size: 1rem;
-  }
-  
-  .text-icon{
-    margin-left: .5rem;
-  }
-  
-  #formbusca {
-    color: var(--davys-gray);
-    opacity: 0.8;
-    position: relative;
-    right: 1.5rem;
-    top: 35%;
-    transform: translateY(-50%);
-  }
-  
-  .me-2 {
-    margin-right: 0rem!important;
-  }
-  
-  .busca{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  /*----------- END NAVBAR HEADER -------------*/
+.modal{
+  width: auto;
+}
 
+.modal-header .btn-close{
+  margin-right: 0.8rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.modal.fade .modal-dialog {
+  transition: transform .4s ease-out !important;
+}
+
+.slide-in-right {
+  animation: slide-in-right 0.8s forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.modal-header{
+  padding: 0;
+  background-color:rgb(10 10 10);
+}
+
+.modal-content{
+  width: auto;
+  font-size: 0.9rem;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.521);
+  font-weight: 300;
+  padding-bottom: 0.7rem;
+}
+
+.text a{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.msg{
+  margin-left: 0.5rem;
+}
+
+.account-login{
+  display: flex;
+  font-size: 4.5rem;
+  color: var(--white);
+  margin-right: 0.rem;
+  margin-left: 1.5rem;
+}
+
+.modal-line a{
+  text-decoration: none;
+  color: var(--eerie-black);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.modal-line {
+  margin: 1.5rem 0rem;
+}
+
+#titlesub-menu-modal a{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--davys-gray);
+}
+
+#whatsmodal{
+  font-size: 1.1rem;
+  color: var(--kelly-green);
+}
+
+.sidebar-dropdown-item {
+  padding: 0.8rem 1rem;
+}
+
+.sidebar-dropdown-menu{
+  padding-left: 0;
+  list-style: none;
+}
+
+.shop-bag{
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.text-icon{
+  padding-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+#iconsoutline{
+  align-items: center;
+  display: flex;
+  color: var(--white);
+  font-size: 1rem;
+  margin-right: 4rem;
+}
+
+#iconsperson{
+  align-items: center;
+  display: flex;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 2.2rem;
+  cursor: pointer;
+}
+
+#iconscart {
+  align-items: center;
+  display: flex;
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  top: 0.5rem;
+  right:2rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-number {
+  color: white;
+  font-size: 0.8rem;
+}
+
+#formbusca {
+  color: var(--davys-gray);
+  opacity: 0.8;
+  position: relative;
+  right: 1.5rem;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.me-2 {
+  margin-right: 0rem!important;
+}
+
+.busca{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+/*----------- END NAVBAR HEADER -------------*/
   /*----------- START CART--------------*/
   .cart {
     background: rgb(255 255 255);

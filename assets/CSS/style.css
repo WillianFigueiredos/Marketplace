@@ -236,7 +236,7 @@ body{
 
 .modal-content{
   width: auto;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .text{
@@ -251,7 +251,7 @@ body{
 .text a{
   text-decoration: none;
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-left: 0.5rem;
 }
@@ -271,7 +271,7 @@ body{
 .modal-line a{
   text-decoration: none;
   color: var(--eerie-black);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 400;
 }
 
@@ -280,13 +280,13 @@ body{
 }
 
 #titlesub-menu-modal a{
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: var(--davys-gray);
 }
 
 #whatsmodal{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--kelly-green);
 }
 

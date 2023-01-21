@@ -318,6 +318,10 @@
     display: none;
   }
 
+  .zipcodeform {
+    padding-left: 1rem;
+  }
+
   #mobiletitlecart{
     display: none;
   }
@@ -401,6 +405,89 @@
     padding-bottom: 0;
     padding-top: 1rem;
   }
+
+  .totaldesktopaymentcard{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color: var(--sonic-silver);
+  }
+  .cardconditions{
+    justify-content: end;
+  }
+
+  .Titledesktopsac{
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .product-details{
+    background-color: var(--cultured);
+  }
+
+  .qtdstart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--eerie-black);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .pricestart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--eerie-black);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .infoproduto{
+    border-bottom: 1.5px solid var(--cultured);
+  }
+
+  .coddesktop{
+    font-size: 0.8rem;
+    color: var(--sonic-silver);
+  }
+
+  .entrega{
+    font-size: 0.8rem;
+    color: var(--sonic-silver);
+  }
+
+  .destoptotal{
+    background-color: var(--cultured);
+    border-bottom: 3px solid var(--orange);
+  }
+
+  .titledesktop{
+    font-size: 1rem;
+  }
+
+  .total{
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dylans-Blue);
+    opacity: 0.9;
+  }
+
+  .btndesktop{
+    background-color: var(--kelly-green);
+    color: var(--white);
+    border-color: var(--kelly-green);
+    border-radius: 0.2rem;
+    font-weight: 500;
+    right: 0rem;
+    top: 3rem;
+    border-radius: 0.4rem;
+  }
+
+  .okdesk{
+    border-radius: 0;
+    height: 2.51rem;
+  }
   /*----------- END CART --------------*/
   
   /*-------------- START FOOTER ------------------*/
@@ -420,13 +507,13 @@
   .list-unstyled a{
     text-decoration: none;
     color: var(--white);
-    font-size: 1rem;
+    font-size: 0.9rem;
     opacity: 0.5;
   }
   
   .text-uppercase{
     color: var(--white);
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: 0.5;
   }
   

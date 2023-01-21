@@ -189,7 +189,7 @@ window.onscroll = function () {
 };
 
 //Contador Desktop
-const countDownDate = new Date("Jan 20, 2023 19:00:00").getTime();
+const countDownDate = new Date("Jan 30, 2023 19:00:00").getTime();
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
@@ -226,7 +226,7 @@ const x = setInterval(function () {
 console.log(countDownDate);
 
 //Contador Mobile
-const countDownDatemobile = new Date("Jan 20, 2023 19:00:00").getTime();
+const countDownDatemobile = new Date("Jan 30, 2023 19:00:00").getTime();
 
 const daysMobileElement = document.getElementById("days-mobile");
 const hoursMobileElement = document.getElementById("hours-mobile");

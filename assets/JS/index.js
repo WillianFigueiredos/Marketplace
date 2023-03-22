@@ -209,7 +209,7 @@ const x = setInterval(function () {
 console.log(countDownDate);
 
 //Contador Mobile
-const countDownDatemobile = new Date("Jan 30, 2023 19:00:00").getTime();
+const countDownDatemobile = new Date("Jun 28, 2023 23:00:00").getTime();
 
 const daysMobileElement = document.getElementById("days-mobile");
 const hoursMobileElement = document.getElementById("hours-mobile");

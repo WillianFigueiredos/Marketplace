@@ -12,11 +12,14 @@ Responsive e-commerce built using HTML, CSS, JavaScript and Bootstrap
 
 
 ### Home page
-<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/Home.jpg" alt="exemplo imagem">
-
+<img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/mobile%20(4).jpg" alt="exemplo imagem">
+<br>
 <div> 
 <img src="https://github.com/WillianFigueiredos/Marketplace/blob/main/assets/Project/mobile%20(1).jpg" alt="exemplo imagem">
 </div>
+
+
+
 
 
 

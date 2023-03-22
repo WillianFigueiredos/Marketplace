@@ -172,7 +172,7 @@ window.onscroll = function () {
 };
 
 //Contador Desktop
-const countDownDate = new Date("Jun 28, 2023 23:00:00").getTime();
+const countDownDate = new Date("Jun 29, 2023 23:00:00").getTime();
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");

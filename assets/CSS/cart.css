@@ -1,91 +1,91 @@
-
 /*--------COLORS---------------*/
 *:root {
-    --eerie-black: hsl(0, 0%, 13%);
-    --onyx: hsl(0, 0%, 27%);
-    --davys-gray: hsl(0, 0%, 33%);
-    --sonic-silver: hsl(0, 0%, 47%);
-    --spanish-gray: hsl(0, 0%, 60%);
-    --white: hsl(0, 100%, 100%);
-    --cultured: hsl(0, 0%, 93%);
-    --dylans-Blue: hsl(230, 81%, 43%);
-    --sprint-yellow: hsl(52, 100%, 50%);
-    --kelly-green: hsl(103, 62%, 47%);
-    --imperial-blue: hsl(247, 80%, 20%);
-    --denim-blue: hsl(234, 93%, 18%);
-    --red: hsl(0, 100%, 50%);
-    --orange: rgb(255, 84, 46);
-  }
-  
-  body{
-    font-family: 'Inter', sans-serif !important;
-  }
-  
-  .body {
-    background: rgb(255 255 255);
-  }
-  
-  /*-----------RESET--------------*/
-  
-  /* Barra de Rolagem */
-  ::-webkit-scrollbar-track {
-    background-color: #232C3B;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 3px;
-    background: #F4F4F4;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #FE4719;
-    border-radius: 2px;
-  }
-  
-  .spinner-wrapper{
-    background: rgb(255 255 255);
-    opacity: 0.9;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
-  }
-  
-  
-  /*----------- START ALERT TOP BAR --------------*/
-  .alert-primary{
-    background-color: var(--white);
-    font-weight: 600;
-    color: var(--eerie-black);
-    margin: 0;
-    border-radius:0;
-    border: 0;
-    text-align: center;
-    padding: 7px;
-  }
-  /*----------- END ALERT TOP BAR --------------*/
-  
-  
-  /*----------- START NAVBAR HEADER --------------*/
-  .navbar{
-    background-color:rgb(10 10 10);
-    margin-bottom: 1px;
-  }
-  
-  .navbar img {
-    margin-left: 5.5rem;
-    cursor: pointer;
-  }
-  
-.modal{
+  --eerie-black: hsl(0, 0%, 13%);
+  --onyx: hsl(0, 0%, 27%);
+  --davys-gray: hsl(0, 0%, 33%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  --spanish-gray: hsl(0, 0%, 60%);
+  --white: hsl(0, 100%, 100%);
+  --cultured: hsl(0, 0%, 93%);
+  --dylans-Blue: hsl(230, 81%, 43%);
+  --sprint-yellow: hsl(52, 100%, 50%);
+  --kelly-green: hsl(103, 62%, 47%);
+  --imperial-blue: hsl(247, 80%, 20%);
+  --denim-blue: hsl(234, 93%, 18%);
+  --red: hsl(0, 100%, 50%);
+  --orange: rgb(255, 84, 46);
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.body {
+  background: rgb(255 255 255);
+}
+
+/*-----------RESET--------------*/
+
+/* Barra de Rolagem */
+::-webkit-scrollbar-track {
+  background-color: #232C3B;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FE4719;
+  border-radius: 2px;
+}
+
+.spinner-wrapper {
+  background: rgb(255 255 255);
+  opacity: 0.9;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+
+/*----------- START ALERT TOP BAR --------------*/
+.alert-primary {
+  background-color: var(--white);
+  font-weight: 600;
+  color: var(--eerie-black);
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  text-align: center;
+  padding: 7px;
+}
+
+/*----------- END ALERT TOP BAR --------------*/
+
+
+/*----------- START NAVBAR HEADER --------------*/
+.navbar {
+  background-color: rgb(10 10 10);
+  margin-bottom: 1px;
+}
+
+.navbar img {
+  margin-left: 5.5rem;
+  cursor: pointer;
+}
+
+.modal {
   width: auto;
 }
 
-.modal-header .btn-close{
+.modal-header .btn-close {
   margin-right: 0.8rem;
   border: 1px solid var(--white);
   border-radius: 50%;
@@ -104,22 +104,23 @@
   from {
     transform: translateX(-100%);
   }
+
   to {
     transform: translateX(0);
   }
 }
 
-.modal-header{
+.modal-header {
   padding: 0;
-  background-color:rgb(10 10 10);
+  background-color: rgb(10 10 10);
 }
 
-.modal-content{
+.modal-content {
   width: auto;
   font-size: 0.9rem;
 }
 
-.text{
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,7 +129,7 @@
   padding-bottom: 0.7rem;
 }
 
-.text a{
+.text a {
   text-decoration: none;
   color: var(--white);
   font-size: 1rem;
@@ -136,11 +137,11 @@
   margin-left: 0.5rem;
 }
 
-.msg{
+.msg {
   margin-left: 0.5rem;
 }
 
-.account-login{
+.account-login {
   display: flex;
   font-size: 4.5rem;
   color: var(--white);
@@ -148,7 +149,7 @@
   margin-left: 1.5rem;
 }
 
-.modal-line a{
+.modal-line a {
   text-decoration: none;
   color: var(--eerie-black);
   font-size: 0.95rem;
@@ -159,13 +160,13 @@
   margin: 1.5rem 0rem;
 }
 
-#titlesub-menu-modal a{
+#titlesub-menu-modal a {
   font-size: 1.1rem;
   font-weight: 400;
   color: var(--davys-gray);
 }
 
-#whatsmodal{
+#whatsmodal {
   font-size: 1.1rem;
   color: var(--kelly-green);
 }
@@ -174,22 +175,22 @@
   padding: 0.8rem 1rem;
 }
 
-.sidebar-dropdown-menu{
+.sidebar-dropdown-menu {
   padding-left: 0;
   list-style: none;
 }
 
-.shop-bag{
+.shop-bag {
   font-size: 3rem;
   color: var(--white);
 }
 
-.text-icon{
+.text-icon {
   padding-bottom: 0.5rem;
   padding-left: 0.3rem;
 }
 
-#iconsoutline{
+#iconsoutline {
   align-items: center;
   display: flex;
   color: var(--white);
@@ -197,7 +198,7 @@
   margin-right: 4rem;
 }
 
-#iconsperson{
+#iconsperson {
   align-items: center;
   display: flex;
   color: var(--white);
@@ -218,7 +219,7 @@
 .notification {
   position: absolute;
   top: 0.5rem;
-  right:2rem;
+  right: 2rem;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -243,1231 +244,1284 @@
 }
 
 .me-2 {
-  margin-right: 0rem!important;
+  margin-right: 0rem !important;
 }
 
-.busca{
+.busca {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
+
 /*----------- END NAVBAR HEADER -------------*/
-  /*----------- START CART--------------*/
-  .cart {
-    background: rgb(255 255 255);
-  }
-  
-  .qtd{
-    color: var(--eerie-black);
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    margin-right: 5rem;
-  }
-  
-  .price{
-    color: var(--sonic-silver);
-    font-size: 0.87rem;
-  }
-  
-  .procedesc{
-    margin-left: 2.45rem;
-    color: var(--dylans-Blue);
-    font-size: 0.87rem;
-  }
-  
-  .pricev{
-    margin-left: 1rem;
-    color: var(--dylans-Blue);
-    font-size: 0.87rem;
-  }
-  
-  .desc{
-    position: relative;
-    left: 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .info{
-    border-bottom: 5px solid var(--cultured);
-    width: auto;
-    font-size: 0.9rem;
-  }
-  
-  .speccod{
-    font-size: 0.75rem;
-    color: var(--sonic-silver);
-    margin-top: 2rem;
-  }
-  
-  .specenv{
-    font-size: 0.75rem;
-    color: var(--sonic-silver);
-    margin-top: 5rem;
-  }
-  
-  .bi-trash3{
-    position:relative;
-    left:3.5rem ;
-    bottom: 1.75rem;
-  }
-  
-  .mobile{
-    display: none;
+/*----------- START CART--------------*/
+.cart {
+  background: rgb(255 255 255);
+}
+
+.qtd {
+  color: var(--eerie-black);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 5rem;
+}
+
+.price {
+  color: var(--sonic-silver);
+  font-size: 0.87rem;
+}
+
+.procedesc {
+  margin-left: 2.45rem;
+  color: var(--dylans-Blue);
+  font-size: 0.87rem;
+}
+
+.pricev {
+  margin-left: 1rem;
+  color: var(--dylans-Blue);
+  font-size: 0.87rem;
+}
+
+.desc {
+  position: relative;
+  left: 1rem;
+  font-size: 0.9rem;
+}
+
+.info {
+  border-bottom: 5px solid var(--cultured);
+  width: auto;
+  font-size: 0.9rem;
+}
+
+.speccod {
+  font-size: 0.75rem;
+  color: var(--sonic-silver);
+  margin-top: 2rem;
+}
+
+.specenv {
+  font-size: 0.75rem;
+  color: var(--sonic-silver);
+  margin-top: 5rem;
+}
+
+.bi-trash3 {
+  position: relative;
+  left: 3.5rem;
+  bottom: 1.75rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.zipcodeform {
+  padding-left: 1rem;
+}
+
+#mobiletitlecart {
+  display: none;
+}
+
+.zipcode {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 5px solid var(--cultured);
+}
+
+#zipcodebtn {
+  position: relative;
+  left: 1rem;
+  width: 55px;
+  HEIGHT: 55px;
+  left: 9.2rem;
+  bottom: 3.42rem;
+  border-radius: 0;
+}
+
+.zipcodeform {
+  border-radius: 0;
+  border: 1px solid var(--sonic-silver);
+  border-radius: 0px;
+}
+
+.envcheckout {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.total-checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.total-checkout span {
+  margin-right: 1rem;
+}
+
+.total-checkout-value,
+.total-checkout-desc {
+  color: var(--dylans-Blue);
+}
+
+.condipricetotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: var(--sonic-silver);
+  margin-bottom: 5rem;
+}
+
+.paymentcard {
+  position: relative;
+  top: 5.1rem;
+  left: 1rem;
+}
+
+.btncheckoutpayment {
+  background-color: var(--kelly-green);
+  color: var(--white);
+  border-color: var(--kelly-green);
+  border-radius: 0.2rem;
+  font-weight: 500;
+  position: relative;
+  right: 0rem;
+  top: 3rem;
+  width: 23rem;
+  right: 0.4rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+}
+
+.titlecheckout {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--eerie-black);
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+
+.totaldesktopaymentcard {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: var(--sonic-silver);
+}
+
+.cardconditions {
+  justify-content: end;
+}
+
+.Titledesktopsac {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.product-details {
+  background-color: var(--cultured);
+}
+
+.qtdstart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--eerie-black);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pricestart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--eerie-black);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.infoproduto {
+  border-bottom: 1.5px solid var(--cultured);
+}
+
+.coddesktop {
+  font-size: 0.8rem;
+  color: var(--sonic-silver);
+}
+
+.entrega {
+  font-size: 0.8rem;
+  color: var(--sonic-silver);
+}
+
+.destoptotal {
+  background-color: var(--cultured);
+  border-bottom: 3px solid var(--orange);
+}
+
+.titledesktop {
+  font-size: 1rem;
+}
+
+.total {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--dylans-Blue);
+  opacity: 0.9;
+}
+
+.btndesktop {
+  background-color: var(--kelly-green);
+  color: var(--white);
+  border-color: var(--kelly-green);
+  border-radius: 0.2rem;
+  font-weight: 500;
+  right: 0rem;
+  top: 3rem;
+  border-radius: 0.4rem;
+}
+
+.okdesk {
+  border-radius: 0;
+  height: 2.51rem;
+}
+
+/*----------- END CART --------------*/
+
+/*-------------- START FOOTER ------------------*/
+#footerb {
+  background-color: rgba(10 10 10);
+}
+
+.my-alert {
+  background-color: rgba(10 10 10);
+  color: var(--white);
+  font-size: 1rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+
+.text-uppercase {
+  color: var(--white);
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+#form2 button {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.payment a {
+  gap: 5px;
+  opacity: 0.5;
+}
+
+#selos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.media-icons a {
+  margin-top: 1rem;
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.policy_terms a {
+  text-decoration: none;
+  color: var(--white);
+  opacity: 0.5;
+}
+
+/*--------------- END FOOTER ------------------*/
+
+
+
+/*----------- HOME MEDIA QUERIES -------------*/
+
+@media screen and (max-width: 320px) {
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    --bs-navbar-toggler-padding-y: 0rem !important;
   }
 
-  .zipcodeform {
-    padding-left: 1rem;
+  .navbar-toggler {
+    border: none;
+    color: transparent;
   }
 
-  #mobiletitlecart{
-    display: none;
+  .navbar-toggler-icon {
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white) !important;
   }
 
-  .zipcode{
-    display:flex;
-    flex-direction: column;
-    border-bottom: 5px solid var(--cultured); 
-  }
-  
-  #zipcodebtn{
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
     position: relative;
-    left: 1rem;
-    width: 55px;
-    HEIGHT: 55px;
-    left: 9.2rem;
-    bottom: 3.42rem;
-    border-radius: 0;
-  }
-  
-  .zipcodeform{
-    border-radius: 0;
-    border: 1px solid var(--sonic-silver);
-    border-radius: 0px;
-  }
-  
-  .envcheckout {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  .total-checkout{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .total-checkout span{
-    margin-right: 1rem;
-  }
-  
-  .total-checkout-value, .total-checkout-desc{
-    color: var(--dylans-Blue);
-  }
-  
-  .condipricetotal{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-size: 0.8rem;
-    color: var(--sonic-silver);
-    margin-bottom: 5rem;
-  }
-  
-  .paymentcard{
-    position: relative;
-    top: 5.1rem;
-    left: 1rem;
-  }
-  
-  .btncheckoutpayment{
-    background-color: var(--kelly-green);
+    bottom: 3.5rem !important;
+    left: 0.1rem !important;
     color: var(--white);
-    border-color: var(--kelly-green);
-    border-radius: 0.2rem;
-    font-weight: 500;
+  }
+
+  .shop-bag {
+    display: none;
+  }
+
+  #cart {
+    display: flex !important;
+    width: auto !important;
+    position: relative !important;
+    bottom: 7.9rem;
+    right: -16.8rem !important;
+    font-size: 2.3rem;
+  }
+
+  .navbar img {
+    margin-left: 4.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #mobile {
+    display: flex !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  #iconscart {
+
+    position: absolute;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  #main {
+    position: absolute;
+  }
+
+  .translate-middle {
+    transform: translate(4%, -100%) !important;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    display: none;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
     position: relative;
     right: 0rem;
     top: 3rem;
-    width: 23rem;
+    width: 17rem;
     right: 0.4rem;
     height: 3rem;
-    border-radius: 0.4rem;
-  }
-  
-  .titlecheckout{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--eerie-black);
-    padding-bottom: 0;
-    padding-top: 1rem;
   }
 
-  .totaldesktopaymentcard{
-    display: flex;
-    flex-direction: column;
-    font-size: 0.8rem;
-    color: var(--sonic-silver);
-  }
-  .cardconditions{
-    justify-content: end;
+  .desktop {
+    display: none;
   }
 
-  .Titledesktopsac{
-    font-size: 1.4rem;
-    font-weight: 500;
+  #mobiletitlecart {
+    display: block;
   }
 
-  .product-details{
-    background-color: var(--cultured);
+  .mobile {
+    display: block;
   }
 
-  .qtdstart{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--eerie-black);
-    font-size: 1rem;
-    font-weight: 600;
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: -5.8rem;
   }
 
-  .pricestart{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--eerie-black);
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  
-  .infoproduto{
-    border-bottom: 1.5px solid var(--cultured);
+  .total-checkout span {
+    margin-right: 0rem;
   }
 
-  .coddesktop{
-    font-size: 0.8rem;
-    color: var(--sonic-silver);
-  }
-
-  .entrega{
-    font-size: 0.8rem;
-    color: var(--sonic-silver);
-  }
-
-  .destoptotal{
-    background-color: var(--cultured);
-    border-bottom: 3px solid var(--orange);
-  }
-
-  .titledesktop{
-    font-size: 1rem;
-  }
-
-  .total{
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--dylans-Blue);
-    opacity: 0.9;
-  }
-
-  .btndesktop{
-    background-color: var(--kelly-green);
-    color: var(--white);
-    border-color: var(--kelly-green);
-    border-radius: 0.2rem;
-    font-weight: 500;
-    right: 0rem;
-    top: 3rem;
-    border-radius: 0.4rem;
-  }
-
-  .okdesk{
-    border-radius: 0;
-    height: 2.51rem;
-  }
   /*----------- END CART --------------*/
-  
-  /*-------------- START FOOTER ------------------*/
-  #footerb{
-    background-color:rgba(10 10 10 );
-  }
-  
-  .my-alert{
-    background-color:rgba(10 10 10 );
-    color: var(--white);
-    font-size: 1rem;
-    border: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .list-unstyled a{
-    text-decoration: none;
-    color: var(--white);
-    font-size: 0.9rem;
-    opacity: 0.5;
-  }
-  
-  .text-uppercase{
-    color: var(--white);
-    font-size: 1rem;
-    opacity: 0.5;
-  }
-  
-  #form2 button{
-    color: var(--white);
-    opacity: 0.5;
-  }
-  
-  .payment a{
-    gap: 5px;
-    opacity: 0.5;
-  }
-  
-  #selos{
+
+  /*--------------- INICIO FOOTER ------------------*/
+  #selos {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 1.5rem;
+    margin-left: 4.5rem;
   }
-  
-  .media-icons a{
-    margin-top: 1rem;
+
+  /*--------------- FIM FOOTER ------------------*/
+
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  /*----------- EDN ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    --bs-navbar-toggler-padding-y: 0rem !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white) !important;
+  }
+
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
+    position: relative;
+    bottom: 3.5rem !important;
+    left: 0.4rem !important;
     color: var(--white);
-    opacity: 0.5;
   }
-  
-  .policy_terms a{
-    text-decoration: none;
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .shop-bag {
+    display: none;
+  }
+
+  #cart {
+    display: flex !important;
+    width: auto !important;
+    position: inherit !important;
+    bottom: 6.9rem;
+    left: 19.3rem !important;
+    font-size: 2.3rem;
+  }
+
+  .navbar img {
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #mobile {
+    display: flex !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  #iconscart {
+
+    position: absolute;
+  }
+
+  #main {
+    position: absolute;
+  }
+
+  .translate-middle {
+    transform: translate(4%, -100%) !important;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 1.2rem;
+    height: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  #mobiletitlecart {
+    display: block;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: -4rem;
+  }
+
+  .total-checkout span {
+    margin-right: 0rem;
+  }
+
+  /*----------- END CART --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    display: none;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+  /*--------------- INICIO FOOTER ------------------*/
+  #selos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5.8rem;
+  }
+
+  /*--------------- FIM FOOTER ------------------*/
+
+
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 430px) {
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    --bs-navbar-toggler-padding-y: 0rem !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white) !important;
+  }
+
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
+    position: relative;
+    bottom: 3.5rem !important;
+    left: 0.5rem !important;
     color: var(--white);
-    opacity: 0.5;
   }
-  /*--------------- END FOOTER ------------------*/
-  
-  
-  
-  /*----------- HOME MEDIA QUERIES -------------*/
-  
-  @media screen and (max-width: 320px){
-    
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar{
-      --bs-navbar-padding-y:0rem !important;
-      --bs-navbar-toggler-padding-y:0rem !important;
-    }
-    
-    .navbar-toggler{
-      border: none;
-      color: transparent;
-    }
-  
-    .navbar-toggler-icon{
-      background-image: none;
-      background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-      color: var(--white)!important;
-    }
-  
-    .navbar-toggler-icon ion-icon {
-      font-size: 2.3rem;
-      position:relative;
-      bottom:3.5rem !important;
-      left: 0.1rem !important;
-      color: var(--white);
-    }
-  
-    .shop-bag{
-      display: none;
-    }
-  
-    #cart{
-      display: flex !important;
-      width:auto !important;
-      position: relative !important;
-      bottom:7.9rem;
-      right: -16.8rem !important; 
-      font-size: 2.3rem;
-    }
-  
-    .navbar img {
-      margin-left: 4.2rem;
-      margin-top: 0.5rem;
-    }
-  
-    .text-icon{
-      display: none;
-    }
-  
-    #mobile{
-      display: flex!important;
-      margin-left: 1.5rem!important;
-      margin-top: 1rem!important;
-      margin-bottom: 1rem!important;
-    }
-    #iconscart{
-  
-      position: absolute;
-    }
-  
-    .w-75{
-      width: 100% !important;
-    }
-  
-    #main{
-      position: absolute;
-    }
-  
-    .translate-middle{
-      transform: translate(4%, -100%) !important;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
-  
-    /*----------- START MENU TOP NAVIGATION --------------*/
-    .menu-category-list {
-      display: none;
-    } /*----------- END MENU TOP NAVIGATION --------------*/
-  
 
-    /*----------- START CART --------------*/
-    .btncheckoutpayment{
-      position: relative;
-      right: 0rem;
-      top: 3rem;
-      width: 17rem;
-      right: 0.4rem;
-      height: 3rem;
-    }
- 
-    .desktop{
-      display: none;
-    }
-
-    #mobiletitlecart{
-      display: block;
-    }
-  
-    .mobile{
-      display: block;
-    }
-
-    .paymentcard{
-      position: relative;
-      top: 5.1rem;
-      left:-5.8rem;
-    }
-
-    .total-checkout span {
-      margin-right: 0rem;
-    }
-
-    /*----------- END CART --------------*/
-  
-    /*--------------- INICIO FOOTER ------------------*/
-    #selos{
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 4.5rem;
-    }
-    /*--------------- FIM FOOTER ------------------*/
-  
+  .w-75 {
+    width: 100% !important;
   }
-  
-  
-  
-  @media screen and (min-width: 321px ) and (max-width: 375px){
-  
-    /*----------- START ALERT TOP BAR --------------*/
-    .alert {
-      font-size: 0.8rem;
-      margin: 0;
-    }
-    /*----------- EDN ALERT TOP BAR --------------*/
-  
-    
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar{
-      --bs-navbar-padding-y:0rem !important;
-      --bs-navbar-toggler-padding-y:0rem !important;
-    }
-    
-    .navbar-toggler{
-      border: none;
-      color: transparent;
-    }
-  
-    .navbar-toggler-icon{
-      background-image: none;
-      background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-      color: var(--white)!important;
-    }
-  
-    .navbar-toggler-icon ion-icon {
-      font-size: 2.3rem;
-      position:relative;
-      bottom:3.5rem !important;
-      left: 0.4rem !important;
-      color: var(--white);
-    }
-  
-    .w-75{
-      width: 100% !important;
-    }
-  
-    .shop-bag{
-      display: none;
-    }
-  
-    #cart{
-      display: flex !important;
-      width:auto !important;
-      position: inherit !important;
-      bottom:6.9rem;
-      left: 19.3rem !important; 
-      font-size: 2.3rem;
-    }
-  
-    .navbar img {
-      margin-left: 6rem;
-      margin-top: 0.5rem;
-    }
-  
-    .text-icon{
-      display: none;
-    }
-  
-    #mobile{
-      display: flex!important;
-      margin-left: 1.5rem!important;
-      margin-top: 1rem!important;
-      margin-bottom: 1rem!important;
-    }
-    #iconscart{
-  
-      position: absolute;
-    }
-  
-    #main{
-      position: absolute;
-    }
-  
-    .translate-middle{
-      transform: translate(4%, -100%) !important;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
-  
-    /*----------- START CART --------------*/
-      .btncheckoutpayment{
-        position: relative;
-        right: 0rem;
-        top: 3rem;
-        width: 17rem;
-        right: 1.2rem;
-        height: 3rem;
-      }
 
-      .desktop{
-        display: none;
-      }
-  
-      #mobiletitlecart{
-        display: block;
-      }
-    
-      .mobile{
-        display: block;
-      }  
-    
-      .paymentcard{
-        position: relative;
-        top: 5.1rem;
-        left: -4rem;
-      }
-
-      .total-checkout span {
-        margin-right: 0rem;
-      }
-    /*----------- END CART --------------*/
-
-    /*----------- START MENU TOP NAVIGATION --------------*/
-    .menu-category-list {
-      display: none;
-    }
-    /*----------- END MENU TOP NAVIGATION --------------*/
-  
-  
-    /*--------------- INICIO FOOTER ------------------*/
-    #selos{
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 5.8rem;
-    }
-    /*--------------- FIM FOOTER ------------------*/
-  
-  
+  .shop-bag {
+    display: none;
   }
-  
-  
-  @media screen and (min-width: 376px ) and (max-width: 430px) {
-  
-  
-    /*----------- START ALERT TOP BAR --------------*/
-    .alert {
-      font-size: 0.8rem;
-      margin: 0;
-    }
-    /*----------- END ALERT TOP BAR --------------*/
-  
-  
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar{
-      --bs-navbar-padding-y:0rem !important;
-      --bs-navbar-toggler-padding-y:0rem !important;
-    }
-    
-    .navbar-toggler{
-      border: none;
-      color: transparent;
-    }
-  
-    .navbar-toggler-icon{
-      background-image: none;
-      background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-      color: var(--white)!important;
-    }
-  
-    .navbar-toggler-icon ion-icon {
-      font-size: 2.3rem;
-      position:relative;
-      bottom:3.5rem !important;
-      left: 0.5rem !important;
-      color: var(--white);
-    }
-  
-    .w-75{
-      width: 100% !important;
-    }
-  
-    .shop-bag{
-      display: none;
-    }
-  
-    #cart{
-      display: flex !important;
-      width:auto !important;
-      position: inherit !important;
-      bottom:6.9rem;
-      left: 21.5rem !important; 
-      font-size: 2.3rem;
-    }
-  
-    .navbar img {
-      margin-left: 7rem;
-      margin-top: 0.5rem;
-    }
-  
-    .text-icon{
-      display: none;
-    }
-  
-    #mobile{
-      display: flex!important;
-      margin-left: 1.5rem!important;
-      margin-top: 1rem!important;
-      margin-bottom: 1rem!important;
-    }
-  
-    #iconscart{
-      position: absolute;
-    }
-  
-  
-    #main{
-      position: absolute;
-    }
-  
-    .translate-middle{
-      transform: translate(4%, -100%) !important;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
-    /*----------- START MENU TOP NAVIGATION --------------*/
-      .menu-category-list {
-        display: none;
-      }
-    /*----------- END MENU TOP NAVIGATION --------------*/
 
-    /*----------- START CART --------------*/
-      .btncheckoutpayment{
-        position: relative;
-        right: 0rem;
-        top: 3rem;
-        width: 17rem;
-        right: 3rem;
-        height: 3rem;
-      }
-      .desktop{
-        display: none;
-      }
-  
-      .mobile{
-        display: block;
-      }  
-
-      #mobiletitlecart{
-        display: block;
-      }
-    
-      .paymentcard{
-        position: relative;
-        top: 5.1rem;
-        left: 2rem;
-      }
-
-      .total-checkout span {
-        margin-right: 0rem;
-      }
-    /*----------- END CART --------------*/
-
-  
-    /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
-    .picturebannermobile{
-      overflow: hidden;
-    }
-  
-    #bannerdesktop{
-      display: none;
-    }
-  
-    .counter-mobile {
-      left: 2.5rem;
-      width: 80%;
-      display: block;
-      display: flex;
-    }
-  
-    #mobilebanner{
-      display: block;
-      list-style: none;
-    }
-    /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
-  
-    /*--------------- INICIO BANNER CONTADTOR ------------------*/
-    #bannerdesktop{
-      display: none;
-    }
-    /*--------------- FIM BANNER CONTADTOR ------------------*/
-  
-    /*--------------- INICIO FOOTER ------------------*/
-    #selos{
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 7rem;
-    }
-    /*--------------- FIM FOOTER ------------------*/
-  
+  #cart {
+    display: flex !important;
+    width: auto !important;
+    position: inherit !important;
+    bottom: 6.9rem;
+    left: 21.5rem !important;
+    font-size: 2.3rem;
   }
-  
-  
-  
-  @media screen and (min-width: 431px ) and (max-width: 600px){
-  
-  
-    /*----------- START ALERT TOP BAR --------------*/
-    .alert {
-      font-size: 0.95rem;
-      margin: 0;
-    }
-    /*----------- END ALERT TOP BAR --------------*/
-  
-  
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar{
-      --bs-navbar-padding-y:0rem !important;
-      --bs-navbar-toggler-padding-y:0rem !important;
-    }
-  
-    .navbar-toggler{
-      border: none;
-      color: transparent;
-    }
-  
-    .navbar-toggler-icon{
-      background-image: none;
-      background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
-      color: var(--white)!important;
-    }
-  
-    .navbar-toggler-icon ion-icon {
-      font-size: 2.3rem;
-      position:relative;
-      bottom:3.5rem !important;
-      left: 0.5rem !important;
-      color: var(--white);
-    }
-  
-    .w-75{
-      width: 100% !important;
-    }
-  
-    .shop-bag{
-      display: none;
-    }
-  
-    #cart{
-      display: flex !important;
-      width:auto !important;
-      position: inherit !important;
-      bottom:6.9rem;
-      left: 34rem !important; 
-      font-size: 2.3rem;
-    }
-  
-    .navbar img {
-      margin-left: 13.5rem;
-      margin-top: 0.5rem;
-    }
-  
-    .text-icon{
-      display: none;
-    }
-  
-    #mobile{
-      display: flex!important;
-      margin-left: 1.5rem!important;
-      margin-top: 1rem!important;
-      margin-bottom: 1rem!important;
-    }
-  
-    #iconscart{
-      position: absolute;
-    }
-  
-    #main{
-      position: absolute;
-    }
-  
-    .translate-middle{
-      transform: translate(4%, -100%) !important;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
-    /*----------- START MENU TOP NAVIGATION --------------*/
-    .menu-category-list {
-      display: none;
-    }
-    /*----------- END MENU TOP NAVIGATION --------------*/
 
-    /*----------- START CART --------------*/
-      .btncheckoutpayment{
-        position: relative;
-        right: 0rem;
-        top: 3rem;
-        width: 17rem;
-        right: 2.5rem;
-        height: 3rem;
-      }
-      .desktop{
-        display: none;
-      }
-
-      #mobiletitlecart{
-        display: block;
-      }
-
-      .mobile{
-        display: block;
-      }  
-      .paymentcard{
-        position: relative;
-        top: 5.1rem;
-        left: -4rem;
-      }
-    /*----------- END CART --------------*/
-  
-  
+  .navbar img {
+    margin-left: 7rem;
+    margin-top: 0.5rem;
   }
-  
-  @media screen and (min-width: 601px ) and (max-width: 769px){
-  
-  
-    /*----------- START ALERT TOP BAR --------------*/
-    .alert {
-      font-size: 0.95rem;
-      margin: 0;
-    }
-    /*----------- END ALERT TOP BAR --------------*/
-  
-  
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar-toggler-icon{
-      display: none;        
-    }
-  
-    .busca{
-      width: 100%;
-      top: 0.3rem;
-      position: relative;
-      left: 1.8rem;
-    }
-  
-    #formbusca {
-      transform: translateY(-0);
-    }
-    
-    .navbar{
-      flex-wrap: nowrap!important;
-    }
-  
-    .navbar img {
-      margin-left: 1rem;
-    }
-  
-    .text-icon {
-      display: none;
-    }	
-  
-    #iconsoutline {
-      font-size: 0.4rem;
-      margin-right: 0.8rem; 
-    }
-  
-    #iconsperson{
-      margin-right: 0.5rem; 
-      font-size: 0.4rem;
-      
-    }
-    .shop-bag{
-      font-size: 2.8rem;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
-    /*----------- START MENU TOP NAVIGATION --------------*/
-    #Celulares, #Ofertas,#Iphone{
-      display: none;
-    }
-  
-    .menu-category-list {
-      gap: 1.9rem; 
-      padding-left: 0rem;
-    }
-  
-    .navigation-menu {
-      justify-content: space-evenly;
-    }
-  
-    .dropdown-list {
-      z-index: 300;
-    }
-  
-    .menu-category-list .menu-category:hover>.dropdown-list {
-      transform: translateY(9%);
-    }
-    /*----------- END MENU TOP NAVIGATION --------------*/
-  
-    
-    /*----------- START CART --------------*/
-    .btncheckoutpayment{
-      position: relative;
-      right: 0rem;
-      top: 3rem;
-      width: 17rem;
-      right: 2.5rem;
-      height: 3rem;
-    }
 
-    .desktop{
-      display: none;
-    }
-
-    #mobiletitlecart{
-      display: block;
-    }
-
-    .mobile{
-      display: block;
-    }  
-      
-    .paymentcard{
-      position: relative;
-      top: 5.1rem;
-      left: 22rem;
-    }
-
-    .total-checkout span {
-      margin-right: 0rem;
-    }
-    /*----------- END CART --------------*/
-  
-  
+  .text-icon {
+    display: none;
   }
-  
-  @media screen and (min-width: 770px ) and (max-width: 890px) {
-  
-  
-    
-    /*----------- START ALERT TOP BAR --------------*/
-      .alert {
-        font-size: 0.95rem;
-        margin: 0;
-      }
-    /*----------- END ALERT TOP BAR --------------*/
-    
-    
-    /*----------- START NAVBAR HEADER --------------*/
-      .navbar-toggler-icon{
-        display: none;        
-      }
-    
-      .busca{
-        width: 100%;
-        top: 0.3rem;
-        position: relative;
-        left: 1.8rem;
-      }
-    
-      #formbusca {
-        transform: translateY(-0);
-      }
-      
-      .navbar{
-        padding: 0.5rem 0.5rem;
-        flex-wrap: nowrap!important;
-      }
-    
-      .navbar img {
-        margin-left: 1rem;
-      }
-    
-      .text-icon {
-        display: none;
-      }	
-    
-      #iconsoutline {
-        font-size: 0.4rem;
-        margin-right: 0.8rem; 
-      }
-    
-      #iconsperson{
-        margin-right: 0.5rem; 
-        font-size: 0.4rem;
-        
-      }
-      .shop-bag{
-        font-size: 2.8rem;
-      }
-    /*----------- END NAVBAR HEADER --------------*/
-    
-      /*----------- START CART --------------*/
-      .btncheckoutpayment{
-        position: relative;
-        right: 0rem;
-        top: 3rem;
-        width: 17rem;
-        right: 2.5rem;
-        height: 3rem;
-      }
 
-      .desktop{
-        display: none;
-      }
-
-      #mobiletitlecart{
-        display: block;
-      }
-  
-      .mobile{
-        display: block;
-      }  
-
-      .paymentcard{
-        position: relative;
-        top: 5.1rem;
-        left: 26rem;
-      }
-
-      .total-checkout span {
-        margin-right: 0rem;
-      }
-    /*----------- END CART --------------*/
-    
-    /*----------- START MENU TOP NAVIGATION --------------*/
-      #Celulares, #Ofertas,#Iphone{
-        display: none;
-      }
-      .menu-category-list {
-        gap: 1.9rem; 
-        padding-left: 0rem;
-      }
-  
-      .dropdown-list {
-        z-index: 300;
-      }
-    
-      .menu-category-list .menu-category:hover>.dropdown-list {
-        transform: translateY(8%);
-      }
-    /*----------- END MENU TOP NAVIGATION --------------*/
-    
-    
+  #mobile {
+    display: flex !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
-  
-  
-  @media screen and (min-width: 891px ) and (max-width: 1114px)  {
-  
-  
-    /*----------- START ALERT TOP BAR --------------*/
-      .alert {
-        font-size: 0.95rem;
-        margin: 0;
-      }
-    /*----------- END ALERT TOP BAR --------------*/
-  
-  
-    /*----------- START NAVBAR HEADER --------------*/
-      .navbar-toggler-icon{
-        display: none;        
-      }
-      
-      .busca{
-        width: 100%;
-        top: 0.3rem;
-        position: relative;
-        left: 1.8rem;
-      }
-      
-      #formbusca {
-        transform: translateY(-0);
-      }
-        
-      .navbar{
-        padding: 0.5rem 0.5rem;
-        flex-wrap: nowrap!important;
-      }
-      
-      .navbar img {
-        margin-left: 1rem;
-      }
-      
-      .text-icon {
-        display: none;
-      }	
-      
-      #iconsoutline {
-        font-size: 0.4rem;
-        margin-right: 0.8rem; 
-      }
-      
-      #iconsperson{
-        margin-right: 0.5rem; 
-        font-size: 0.4rem;
-      }
-  
-      .shop-bag{
-        font-size: 2.8rem;
-      }
-      /*----------- END NAVBAR HEADER --------------*/
-      
-      
-      
-      /*----------- START CART --------------*/
-        .btncheckoutpayment{
-          position: relative;
-          right: 0rem;
-          top: 3rem;
-          width: 17rem;
-          right: 2.5rem;
-          height: 3rem;
-        }
-  
-        .paymentcard{
-          position: relative;
-          top: 5.1rem;
-          left: 45rem;
-        }
-      /*----------- END CART --------------*/
 
-      /*----------- START MENU TOP NAVIGATION --------------*/
-      #Celulares{
-        display: none;
-      }
-        
-      .menu-category-list {
-        gap: 1.7rem; 
-        padding-left: 0rem;
-      }
-      /*----------- END MENU TOP NAVIGATION --------------*/
-      
+  #iconscart {
+    position: absolute;
   }
-  
+
+
+  #main {
+    position: absolute;
+  }
+
+  .translate-middle {
+    transform: translate(4%, -100%) !important;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    display: none;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 3rem;
+    height: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  #mobiletitlecart {
+    display: block;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: 2rem;
+  }
+
+  .total-checkout span {
+    margin-right: 0rem;
+  }
+
+  /*----------- END CART --------------*/
+
+
+  /*--------------- INICIO BANNER CONTADTOR MOBILE ------------------*/
+  .picturebannermobile {
+    overflow: hidden;
+  }
+
+  #bannerdesktop {
+    display: none;
+  }
+
+  .counter-mobile {
+    left: 2.5rem;
+    width: 80%;
+    display: block;
+    display: flex;
+  }
+
+  #mobilebanner {
+    display: block;
+    list-style: none;
+  }
+
   /*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
-  @media screen and (min-width: 1115px ) and (max-width: 1280px) {
-  
-    /*----------- START ALERT TOP BAR --------------*/
-    .alert {
-      font-size: 0.95rem;
-      margin: 0;
-    }
-    /*----------- END ALERT TOP BAR --------------*/
-  
-  
-    /*----------- START NAVBAR HEADER --------------*/
-    .navbar-toggler-icon{
-      display: none;        
-    }
-    
-    .busca{
-      width: 100%;
-      top: 0.3rem;
-      position: relative;
-      left: 1.8rem;
-    }
-    
-    #formbusca {
-      transform: translateY(-0);
-    }
-    
-    .navbar{
-      padding: 0.5rem 0.5rem;
-      flex-wrap: nowrap!important;
-    }
-  
-    .navbar img {
-      margin-left: 1rem;
-    }
-  
-    .text-icon {
-      display: none;
-    }	
-  
-    #iconsoutline {
-      font-size: 0.4rem;
-      margin-right: 0.8rem; 
-    }
-  
-    #iconsperson{
-      margin-right: 0.5rem; 
-      font-size: 0.4rem;
-    }
-    .shop-bag{
-      font-size: 2.8rem;
-    }
-    /*----------- END NAVBAR HEADER --------------*/
-  
 
-    /*----------- START MENU TOP NAVIGATION --------------*/
-    .menu-category-list {
-      gap: 1.9rem; 
-      padding-left: 0rem;
-    }
-    /*----------- END MENU TOP NAVIGATION --------------*/
-  
-    
- 
+  /*--------------- INICIO BANNER CONTADTOR ------------------*/
+  #bannerdesktop {
+    display: none;
   }
 
-  /*----------- END MEDIA QUERIES -------------*/
+  /*--------------- FIM BANNER CONTADTOR ------------------*/
 
+  /*--------------- INICIO FOOTER ------------------*/
+  #selos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7rem;
+  }
+
+  /*--------------- FIM FOOTER ------------------*/
+
+}
+
+
+
+@media screen and (min-width: 431px) and (max-width: 600px) {
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    --bs-navbar-toggler-padding-y: 0rem !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none;
+    background-image: image(ion-icon name="menu-outline" class="menu-outline-btn" size="");
+    color: var(--white) !important;
+  }
+
+  .navbar-toggler-icon ion-icon {
+    font-size: 2.3rem;
+    position: relative;
+    bottom: 3.5rem !important;
+    left: 0.5rem !important;
+    color: var(--white);
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .shop-bag {
+    display: none;
+  }
+
+  #cart {
+    display: flex !important;
+    width: auto !important;
+    position: inherit !important;
+    bottom: 6.9rem;
+    left: 34rem !important;
+    font-size: 2.3rem;
+  }
+
+  .navbar img {
+    margin-left: 13.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #mobile {
+    display: flex !important;
+    margin-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  #iconscart {
+    position: absolute;
+  }
+
+  #main {
+    position: absolute;
+  }
+
+  .translate-middle {
+    transform: translate(4%, -100%) !important;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    display: none;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 2.5rem;
+    height: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  #mobiletitlecart {
+    display: block;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: -4rem;
+  }
+
+  /*----------- END CART --------------*/
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 769px) {
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar-toggler-icon {
+    display: none;
+  }
+
+  .busca {
+    width: 100%;
+    top: 0.3rem;
+    position: relative;
+    left: 1.8rem;
+  }
+
+  #formbusca {
+    transform: translateY(-0);
+  }
+
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar img {
+    margin-left: 1rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #iconsoutline {
+    font-size: 0.4rem;
+    margin-right: 0.8rem;
+  }
+
+  #iconsperson {
+    margin-right: 0.5rem;
+    font-size: 0.4rem;
+
+  }
+
+  .shop-bag {
+    font-size: 2.8rem;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  #Celulares,
+  #Ofertas,
+  #Iphone {
+    display: none;
+  }
+
+  .menu-category-list {
+    gap: 1.9rem;
+    padding-left: 0rem;
+  }
+
+  .navigation-menu {
+    justify-content: space-evenly;
+  }
+
+  .dropdown-list {
+    z-index: 300;
+  }
+
+  .menu-category-list .menu-category:hover>.dropdown-list {
+    transform: translateY(9%);
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 2.5rem;
+    height: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  #mobiletitlecart {
+    display: block;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: 22rem;
+  }
+
+  .total-checkout span {
+    margin-right: 0rem;
+  }
+
+  /*----------- END CART --------------*/
+
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 890px) {
+
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar-toggler-icon {
+    display: none;
+  }
+
+  .busca {
+    width: 100%;
+    top: 0.3rem;
+    position: relative;
+    left: 1.8rem;
+  }
+
+  #formbusca {
+    transform: translateY(-0);
+  }
+
+  .navbar {
+    padding: 0.5rem 0.5rem;
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar img {
+    margin-left: 1rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #iconsoutline {
+    font-size: 0.4rem;
+    margin-right: 0.8rem;
+  }
+
+  #iconsperson {
+    margin-right: 0.5rem;
+    font-size: 0.4rem;
+
+  }
+
+  .shop-bag {
+    font-size: 2.8rem;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 2.5rem;
+    height: 3rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  #mobiletitlecart {
+    display: block;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: 26rem;
+  }
+
+  .total-checkout span {
+    margin-right: 0rem;
+  }
+
+  /*----------- END CART --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  #Celulares,
+  #Ofertas,
+  #Iphone {
+    display: none;
+  }
+
+  .menu-category-list {
+    gap: 1.9rem;
+    padding-left: 0rem;
+  }
+
+  .dropdown-list {
+    z-index: 300;
+  }
+
+  .menu-category-list .menu-category:hover>.dropdown-list {
+    transform: translateY(8%);
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+}
+
+
+@media screen and (min-width: 891px) and (max-width: 1114px) {
+
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar-toggler-icon {
+    display: none;
+  }
+
+  .busca {
+    width: 100%;
+    top: 0.3rem;
+    position: relative;
+    left: 1.8rem;
+  }
+
+  #formbusca {
+    transform: translateY(-0);
+  }
+
+  .navbar {
+    padding: 0.5rem 0.5rem;
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar img {
+    margin-left: 1rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #iconsoutline {
+    font-size: 0.4rem;
+    margin-right: 0.8rem;
+  }
+
+  #iconsperson {
+    margin-right: 0.5rem;
+    font-size: 0.4rem;
+  }
+
+  .shop-bag {
+    font-size: 2.8rem;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+
+
+  /*----------- START CART --------------*/
+  .btncheckoutpayment {
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+    width: 17rem;
+    right: 2.5rem;
+    height: 3rem;
+  }
+
+  .paymentcard {
+    position: relative;
+    top: 5.1rem;
+    left: 45rem;
+  }
+
+  /*----------- END CART --------------*/
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  #Celulares {
+    display: none;
+  }
+
+  .menu-category-list {
+    gap: 1.7rem;
+    padding-left: 0rem;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+}
+
+/*--------------- FIM BANNER CONTADTOR MOBILE ------------------*/
+@media screen and (min-width: 1115px) and (max-width: 1280px) {
+
+  /*----------- START ALERT TOP BAR --------------*/
+  .alert {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /*----------- END ALERT TOP BAR --------------*/
+
+
+  /*----------- START NAVBAR HEADER --------------*/
+  .navbar-toggler-icon {
+    display: none;
+  }
+
+  .busca {
+    width: 100%;
+    top: 0.3rem;
+    position: relative;
+    left: 1.8rem;
+  }
+
+  #formbusca {
+    transform: translateY(-0);
+  }
+
+  .navbar {
+    padding: 0.5rem 0.5rem;
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar img {
+    margin-left: 1rem;
+  }
+
+  .text-icon {
+    display: none;
+  }
+
+  #iconsoutline {
+    font-size: 0.4rem;
+    margin-right: 0.8rem;
+  }
+
+  #iconsperson {
+    margin-right: 0.5rem;
+    font-size: 0.4rem;
+  }
+
+  .shop-bag {
+    font-size: 2.8rem;
+  }
+
+  /*----------- END NAVBAR HEADER --------------*/
+
+
+  /*----------- START MENU TOP NAVIGATION --------------*/
+  .menu-category-list {
+    gap: 1.9rem;
+    padding-left: 0rem;
+  }
+
+  /*----------- END MENU TOP NAVIGATION --------------*/
+
+
+
+}
+
+/*----------- END MEDIA QUERIES -------------*/

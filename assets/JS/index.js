@@ -1,15 +1,3 @@
-/*
-//Bootstrap Carousel
-function startCarousel() {
-  const carousel = document.getElementById("carouselExampleCaptions");
-  const nextButton = carousel.querySelector(".carousel-control-next");
-
-  setInterval(function () {
-    nextButton.dispatchEvent(new Event("click"));
-  }, 5000);
-}
-startCarousel();
-*/
 
 
 
@@ -81,11 +69,6 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   }).mount( window.splide.Extensions );
 });
-
-
-
-
-
 
 //Menu-Modal-Dropdown
 function toggleDropdownMenu() {
@@ -189,7 +172,7 @@ window.onscroll = function () {
 };
 
 //Contador Desktop
-const countDownDate = new Date("Jan 30, 2023 19:00:00").getTime();
+const countDownDate = new Date("jun 28, 2023 23:00:00").getTime();
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
